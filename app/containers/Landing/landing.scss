@@ -1,0 +1,27 @@
+#landing-page {
+	.line-up {
+		top: 12px;
+	}
+	.hero {
+		font-size: 38px;
+		line-height: 1.5;
+		margin-top: 100px;
+		margin-bottom: 150px;
+		letter-spacing: 0.5px;
+		font-weight: 300;
+		b {
+			color: #bc834e;
+			font-weight: 500;
+		}
+	}
+	.block {
+		&:first-of-type {
+			margin-bottom: 45px;
+		}
+	}
+	.products {
+		h2 {
+			margin-top: 65px;
+		}
+	}
+}

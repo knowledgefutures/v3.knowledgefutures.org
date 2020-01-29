@@ -1,0 +1,41 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 20px 0px 100px;
+	width: 100%;
+	.left {
+		margin-right: 80px;
+		position: relative;
+		max-width: 240px;
+		flex: 0 1 auto;
+		img {
+			width: 100%;
+			margin-top: -21px;
+		}
+	}
+	.right {
+		text-align: right;
+		flex: 1 1 auto;
+		a {
+			color: #000;
+			padding: 5px;
+			position: relative;
+			text-decoration: none;
+			&:hover {
+				border-bottom: 3px solid #777;
+			}
+			&.active {
+				border-bottom: 3px solid #000;
+			}
+			&:not(:last-of-type) {
+				&:after {
+					content: '·';
+					position: absolute;
+					right: -1.5em;
+					top: 5px;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}

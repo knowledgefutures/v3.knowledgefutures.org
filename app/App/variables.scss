@@ -1,0 +1,7 @@
+$navBackground: white;
+$navColor: black;
+$background: #fff;
+
+@mixin for-mobile {
+  @media (max-width: 768px) { @content; }
+}

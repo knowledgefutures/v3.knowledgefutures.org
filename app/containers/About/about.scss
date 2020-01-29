@@ -1,0 +1,23 @@
+@import '../../App/variables.scss';
+
+#about {
+	.values-wrapper {
+		margin-top: 100px;
+		margin-bottom: 75px;
+	}
+	.values {
+		display: flex;
+		line-height: 20px;
+		justify-content: space-between;
+		@include for-mobile {
+			display: block;
+		}
+		.value {
+			max-width: 28%;
+			@include for-mobile {
+				max-width: 100%;
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
