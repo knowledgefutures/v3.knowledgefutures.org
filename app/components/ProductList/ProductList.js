@@ -24,7 +24,7 @@ const ProjectRow = function() {
 		},
 		{
 			title: 'The Commonplace',
-			link: 'https://commonplace.pubpub.org',
+			link: 'https://commonplace.knowledgefutures.org',
 			color: '#00BFB4',
 			description:
 				'The Commonplace is a publication of the Knowledge Futures Group. It serves as a conversation and idea hub for mission-aligned individuals and organizations working to make knowledge open for the public good.',
