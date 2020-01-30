@@ -16,13 +16,13 @@ const Footer = function() {
 			text: 'Product and team updates',
 			image: '/images/newsletter.png',
 		},
-		{
-			name: 'Donate',
-			link:
-				'https://www.paypal.com/donate/?token=lA0gFzquMe0DV9PJaWsd8ZH7IoSp65luATWnr6nVzsg33w5yxCoo4XCU4pSyuqcFAmzzIm&country.x=US&locale.x=',
-			text: 'Through our 501(c)3 fiscal sponsor',
-			image: '/images/dollar.png',
-		},
+		// {
+		// 	name: 'Donate',
+		// 	link:
+		// 		'https://www.paypal.com/donate/?token=lA0gFzquMe0DV9PJaWsd8ZH7IoSp65luATWnr6nVzsg33w5yxCoo4XCU4pSyuqcFAmzzIm&country.x=US&locale.x=',
+		// 	text: 'Through our 501(c)3 fiscal sponsor',
+		// 	image: '/images/dollar.png',
+		// },
 		{
 			name: 'Jobs',
 			link: '/jobs',
