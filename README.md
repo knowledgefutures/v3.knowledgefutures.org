@@ -1,6 +1,6 @@
 # Knowledge Futures Group site
 
-Auto-deployed from Master to demo at: [https://www.knowledgefutures.org](https://www.knowledgefutures.org)
+Auto-deployed from `master` to: [https://www.knowledgefutures.org](https://www.knowledgefutures.org)
 
 ## To Install
 
