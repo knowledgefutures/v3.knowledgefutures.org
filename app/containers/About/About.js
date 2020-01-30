@@ -39,7 +39,7 @@ const About = function() {
 					</div>
 					<div className="value">
 						<h3 className="section-title" style={{ color: '#F5841C' }}>
-							Bottom-up
+							Community Driven
 						</h3>
 						<p>
 							We believe that bringing researchers and institutions closer to the
