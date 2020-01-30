@@ -20,7 +20,11 @@ const App = function(props) {
 		<div className="app">
 			<Helmet>
 				<title>Knowledge Futures Group</title>
-				<meta name="description" content="Ensuring Public Knowledge is a Public Good" />
+				<meta
+					name="description"
+					content="The KFG builds technology for the production,
+					curation, and preservation of knowledge in service of the public good."
+				/>
 			</Helmet>
 
 			<Nav location={location} />

@@ -26,6 +26,10 @@
 		.title {
 			font-size: 14px;
 			line-height: 16px;
+			&.external {
+				
+				opacity: 0.5;
+			}
 		}
 	}
 }
