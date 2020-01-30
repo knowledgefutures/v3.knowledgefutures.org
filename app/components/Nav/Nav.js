@@ -19,7 +19,7 @@ const NavBar = function(props) {
 		<nav className="navbar">
 			<div className="left">
 				<Link to="/">
-					<img src="/logoText.png" alt="KFG Logo" />
+					<img src="/logoText.svg" alt="KFG Logo" />
 				</Link>
 			</div>
 			<div className="right">
