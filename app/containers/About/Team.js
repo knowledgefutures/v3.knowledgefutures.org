@@ -39,7 +39,7 @@ const Team = () => {
 		},
 		{
 			name: 'SJ Klein',
-			title: ['Board Member'],
+			title: ['Underlayer', 'Board Member'],
 			image: '/people/sj.jpg',
 		},
 		{
