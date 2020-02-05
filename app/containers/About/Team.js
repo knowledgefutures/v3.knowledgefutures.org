@@ -13,7 +13,7 @@ const defaultProps = {
 	useAlumni: false,
 };
 
-const Team = () => {
+const Team = (props) => {
 	const team = [
 		{
 			name: 'Catherine Ahearn',
@@ -99,6 +99,12 @@ const Team = () => {
 
 	const contributors = [
 		{
+			name: 'Thomas Renkert',
+			title: [''],
+			external: ['Heidelberg University'],
+			image: '/people/thomas.jpg',
+		},
+		{
 			name: 'Sarah Schwettmann',
 			title: [''],
 			external: ['MIT Brain & Cognitive Sciences'],
@@ -107,23 +113,16 @@ const Team = () => {
 		{
 			name: 'James Weis',
 			title: [''],
-			external: ['MIT Media Lab']
+			external: ['MIT Media Lab'],
 			image: '/people/jamesWeis.jpg',
 		},
-		{
-			name: 'Thomas Renkert',
-			title: [''],
-			external: ['Heidelberg University']
-			image: '/people/thomas.jpg',
-		},
-		
 	];
 
 	const alumni = [
 		{
-			name: 'Jabari King',
+			name: 'Travis Cohen',
 			title: [''],
-			image: '/people/jabariKing.jpg',
+			image: '/people/travisCohen.jpg',
 		},
 		{
 			name: 'Sarah Kearns',
@@ -131,10 +130,11 @@ const Team = () => {
 			image: '/people/sarahKearns.jpg',
 		},
 		{
-			name: 'Travis Cohen',
+			name: 'Jabari King',
 			title: [''],
-			image: '/people/travisCohen.jpg',
+			image: '/people/jabariKing.jpg',
 		},
+		
 	];
 
 	let people = team;
