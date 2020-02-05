@@ -79,6 +79,10 @@ const About = function() {
 				<Team />
 				<h2 className="section-title">Partners</h2>
 				<Partners />
+				<h2 className="section-title">Contributors</h2>
+				<Team useContributors />
+				<h2 className="section-title">Alumni</h2>
+				<Team useAlumni />
 			</section>
 			<Footer />
 		</div>

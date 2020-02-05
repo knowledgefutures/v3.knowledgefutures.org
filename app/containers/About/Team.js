@@ -1,6 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 require('./team.scss');
+
+const propTypes = {
+	useContributors: PropTypes.boolean,
+	useAlumni: PropTypes.boolean,
+};
+
+const defaultProps = {
+	useContributors: false,
+	useAlumni: false,
+};
 
 const Team = () => {
 	const team = [
@@ -14,6 +25,11 @@ const Team = () => {
 			title: ['Board Chair'],
 			external: ['MIT Press, Director'],
 			image: '/people/amy.jpg',
+		},
+		{
+			name: 'Quincy Childs',
+			title: ['Editorial Assistant'],
+			image: '/people/quincy.jpg',
 		},
 		{
 			name: 'Terry Ehling',
@@ -81,9 +97,56 @@ const Team = () => {
 		},
 	];
 
+	const contributors = [
+		{
+			name: 'Sarah Schwettmann',
+			title: [''],
+			external: ['MIT Brain & Cognitive Sciences'],
+			image: '/people/sarahSchwettmann.jpg',
+		},
+		{
+			name: 'James Weis',
+			title: [''],
+			external: ['MIT Media Lab']
+			image: '/people/jamesWeis.jpg',
+		},
+		{
+			name: 'Thomas Renkert',
+			title: [''],
+			external: ['Heidelberg University']
+			image: '/people/thomas.jpg',
+		},
+		
+	];
+
+	const alumni = [
+		{
+			name: 'Jabari King',
+			title: [''],
+			image: '/people/jabariKing.jpg',
+		},
+		{
+			name: 'Sarah Kearns',
+			title: [''],
+			image: '/people/sarahKearns.jpg',
+		},
+		{
+			name: 'Travis Cohen',
+			title: [''],
+			image: '/people/travisCohen.jpg',
+		},
+	];
+
+	let people = team;
+	if (props.useContributors) {
+		people = contributors;
+	}
+	if (props.useAlumni) {
+		people = alumni;
+	}
 	return (
 		<div className="team">
-			{team.map((person) => {
+			{people.map((person) => {
 				const { name, image, title, external } = person;
 				return (
 					<div className="person" key={name}>
@@ -102,4 +165,6 @@ const Team = () => {
 	);
 };
 
+Team.propTypes = propTypes;
+Team.defaultProps = defaultProps;
 export default Team;
