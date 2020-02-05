@@ -77,7 +77,7 @@ const About = function() {
 					the public.
 				</p>
 				<Team />
-				<h2 className="section-title">Partners</h2>
+				<h2 className="section-title">Partners and Funders</h2>
 				<Partners />
 				<h2 className="section-title">Contributors</h2>
 				<Team useContributors />
