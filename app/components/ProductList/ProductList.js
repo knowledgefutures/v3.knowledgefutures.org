@@ -11,7 +11,7 @@ const ProjectRow = function() {
 			description:
 				'PubPub is an open authoring and publishing platform. It socializes the process of knowledge creation by integrating conversation, annotation, and versioning into short and long-form digital publication.',
 			image: '/images/projects/pubpub.png',
-			partners: 'MIT Press',
+			partners: 'The MIT Press',
 		},
 		{
 			title: 'Underlay',
