@@ -38,11 +38,6 @@ const Team = (props) => {
 			image: '/people/terry.jpg',
 		},
 		{
-			name: 'Deepak Jagdish',
-			title: ['Design Lead'],
-			image: '/people/deepak.jpg',
-		},
-		{
 			name: 'Joel Gustafson',
 			title: ['Software Engineer'],
 			external: ['Protocol Labs, Independent Researcher'],
@@ -54,9 +49,9 @@ const Team = (props) => {
 			image: '/people/danny.jpg',
 		},
 		{
-			name: 'SJ Klein',
-			title: ['Underlayer', 'Board Member'],
-			image: '/people/sj.jpg',
+			name: 'Deepak Jagdish',
+			title: ['Design Lead'],
+			image: '/people/deepak.jpg',
 		},
 		{
 			name: 'Peter Kaufman',
@@ -65,20 +60,15 @@ const Team = (props) => {
 			image: '/people/peter.jpg',
 		},
 		{
+			name: 'SJ Klein',
+			title: ['Underlayer', 'Board Member'],
+			image: '/people/sj.jpg',
+		},
+		{
 			name: 'Jessica Polka',
 			title: ['Affiliate'],
 			external: ['ASAPBio, Executive Director'],
 			image: '/people/jessica.jpg',
-		},
-		{
-			name: 'Heather Staines',
-			title: ['Head of Partnerships'],
-			image: '/people/heather.jpg',
-		},
-		{
-			name: 'Gabe Stein',
-			title: ['Head of Operations', 'Board Member'],
-			image: '/people/gabe.jpg',
 		},
 		{
 			name: 'Ian Reynolds',
@@ -89,6 +79,16 @@ const Team = (props) => {
 			name: 'Travis Rich',
 			title: ['Executive Director', 'Board Member'],
 			image: '/people/travis.jpg',
+		},
+		{
+			name: 'Heather Staines',
+			title: ['Head of Partnerships'],
+			image: '/people/heather.jpg',
+		},
+		{
+			name: 'Gabe Stein',
+			title: ['Head of Operations', 'Board Member'],
+			image: '/people/gabe.jpg',
 		},
 		{
 			name: 'Zach Verdin',
