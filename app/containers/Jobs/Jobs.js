@@ -28,7 +28,8 @@ const Jobs = function() {
 				</p>
 				<hr />
 				<ol>
-					<li>Senior Developer</li>
+					<li><a href="https://notes.knowledgefutures.org/pub/rh7vxl1u"><strong>Senior Software Engineer, PubPub</strong> • Full-Time • Cambridge, MA or Remote</a></li>
+					<li><a href="https://notes.knowledgefutures.org/pub/8ybcdqbn"><strong>Junior Software Engineer, PubPub</strong> • Full-Time • Cambridge, MA or Remote</a></li>
 				</ol>
 			</section>
 		</div>
