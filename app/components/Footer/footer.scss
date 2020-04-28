@@ -23,6 +23,20 @@
 			display: block;
 		}
 	}
+	p.thanks {
+		width: 100%;
+		text-align: center;
+		a.thanks-netlify {
+			width: 100%;
+			font-size: 0.7em;
+			text-align: right;
+			color: #666;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 	.join-item {
 		@include for-mobile {
 			width: calc(100% );

@@ -49,6 +49,9 @@ const Footer = function() {
 							</a>
 						);
 					})}
+					<p className="thanks">
+						<a className="thanks-netlify" href="https://netlify.com">This site is powered by Netlify</a>
+					</p>
 				</div>
 			</section>
 		</div>
