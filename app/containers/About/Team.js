@@ -14,6 +14,7 @@ const defaultProps = {
 };
 
 const Team = (props) => {
+	const { useContributors, useAlumni } = props;
 	const team = [
 		{
 			name: 'Catherine Ahearn',
@@ -134,14 +135,13 @@ const Team = (props) => {
 			title: [''],
 			image: '/people/jabariKing.jpg',
 		},
-		
 	];
 
 	let people = team;
-	if (props.useContributors) {
+	if (useContributors) {
 		people = contributors;
 	}
-	if (props.useAlumni) {
+	if (useAlumni) {
 		people = alumni;
 	}
 	return (
@@ -155,9 +155,10 @@ const Team = (props) => {
 						{title.map((item) => {
 							return <div className="title">{item}</div>;
 						})}
-						{external && external.map((item) => {
-							return <div className="title external">{item}</div>;
-						})}
+						{external &&
+							external.map((item) => {
+								return <div className="title external">{item}</div>;
+							})}
 					</div>
 				);
 			})}

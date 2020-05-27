@@ -20,4 +20,9 @@
 			}
 		}
 	}
+	.team-wrapper {
+		.section-title:not(first-of-type) {
+			margin-top: 50px;
+		}
+	}
 }

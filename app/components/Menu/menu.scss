@@ -1,0 +1,19 @@
+.menu {
+	list-style: none;
+	padding-left: 0px;
+	li {
+		&:hover {
+			background-color: rgba(167, 182, 194, 0.3);
+			cursor: pointer;
+		}
+		&:active {
+			background-color: rgba(115, 134, 148, 0.3);
+		}
+		a {
+			display: block;
+			padding: 7px;
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+}

@@ -40,7 +40,7 @@ const Footer = function() {
 				<div className="join-blocks">
 					{joins.map((item) => {
 						return (
-							<a className="join-item" href={item.link}>
+							<a className="join-item" href={item.link} key={item.link}>
 								<img src={item.image} alt="imge" />
 								<div>
 									<div className="name">{item.name}</div>

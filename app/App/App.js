@@ -5,6 +5,8 @@ import { Route, withRouter, Switch } from 'react-router-dom';
 import Landing from 'containers/Landing/Landing';
 import About from 'containers/About/About';
 import Jobs from 'containers/Jobs/Jobs';
+import Events from 'containers/Events/Events';
+import News from 'containers/News/News';
 import NoMatch from 'containers/NoMatch/NoMatch';
 import Nav from 'components/Nav/Nav';
 
@@ -33,6 +35,8 @@ const App = function(props) {
 				<Route exact path="/" component={Landing} />
 				<Route exact path="/about" component={About} />
 				<Route exact path="/jobs" component={Jobs} />
+				<Route exact path="/news" component={News} />
+				<Route exact path="/events" component={Events} />
 				<Route path="/404.html" component={NoMatch} />
 				<Route path="/*" component={NoMatch} />
 			</Switch>

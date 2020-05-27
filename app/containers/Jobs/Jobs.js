@@ -1,5 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { Menu, MenuItem } from 'components/Menu/Menu';
+import jobs from '../../data/jobs';
 
 const Jobs = function() {
 	return (
@@ -27,11 +29,22 @@ const Jobs = function() {
 					We’re open to creating roles for the right people.{' '}
 				</p>
 				<hr />
-				<ol>
-					<li><a href="https://notes.knowledgefutures.org/pub/rh7vxl1u"><strong>Software Engineer, PubPub</strong> • Full-Time • Cambridge, MA or Remote</a></li>
-					<li><a href="https://notes.knowledgefutures.org/pub/8ybcdqbn"><strong>Junior Software Engineer, PubPub</strong> • Full-Time • Cambridge, MA or Remote</a></li>
-					<li><a href="https://notes.knowledgefutures.org/pub/si1okbw9"><strong>Software Engineer, the Underlay Project</strong> • Full-Time • Cambridge, MA or Remote</a></li>
-				</ol>
+				<Menu>
+					{jobs.map((job) => {
+						const { link, title, commitment, location } = job;
+						return (
+							<MenuItem
+								key={title}
+								link={link}
+								content={
+									<React.Fragment>
+										<strong>{title}</strong> • {commitment} • {location}
+									</React.Fragment>
+								}
+							/>
+						);
+					})}
+				</Menu>
 			</section>
 		</div>
 	);
