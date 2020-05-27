@@ -32,6 +32,10 @@ body {
 		cursor: pointer;
 	}
 }
+.preload {
+	position: fixed;
+	top: -9999px;
+}
 section {
 	position: relative;
 	&.grey-bg {
