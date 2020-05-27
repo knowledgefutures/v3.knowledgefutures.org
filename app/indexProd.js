@@ -22,7 +22,7 @@ export default function(locals) {
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" type="image/png" sizes="192x192" href="/icon.png">
 		<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/icon.png">
-		<link href="/main.css" rel="stylesheet" />
+		<link href="/main.css" rel="stylesheet">
 		${helmet.title.toString().replace(regexp, '')}
 		${helmet.meta.toString().replace(regexp, '')}
 		${helmet.link.toString().replace(regexp, '')}

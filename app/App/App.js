@@ -40,8 +40,6 @@ const App = function(props) {
 				<Route path="/404.html" component={NoMatch} />
 				<Route path="/*" component={NoMatch} />
 			</Switch>
-
-			<img className="preload" alt="preloaded" src="/images/morsevert.png" />
 		</div>
 	);
 };
