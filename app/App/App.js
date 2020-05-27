@@ -27,6 +27,7 @@ const App = function(props) {
 					content="The KFG builds technology for the production,
 					curation, and preservation of knowledge in service of the public good."
 				/>
+				<link rel="preload" href="/images/morsevert.png" as="image" />
 			</Helmet>
 
 			<Nav location={location} />
