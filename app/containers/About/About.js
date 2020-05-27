@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Partners from 'components/Partners/Partners';
 import Footer from 'components/Footer/Footer';
 import Team from './Team';
-import Partners from './Partners';
+
 
 require('./about.scss');
 
