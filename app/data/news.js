@@ -1,14 +1,20 @@
 export default [
 	{
-		date: '2020-05-12',
-		title: 'A first event',
-		link: 'https://www.somelink.com',
-		programs: ['Community Publishing'],
-	},
-	{
 		date: '2020-04-23',
 		title: 'Knowledge Futures Group and AfricArXiv launch audio/visual preprint repository on PubPub',
 		link: 'https://notes.knowledgefutures.org/pub/69mrnclf/release/1',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-03-02',
+		title: 'PubPub and the American Astronomical Society Launch Revitalized Bulletin of the AAS in New Partnership',
+		link: 'https://notes.knowledgefutures.org/pub/baas/release/1',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-01-30',
+		title: 'PubPub and the American Psychological Association Announce APA Open for OA Journals',
+		link: 'https://notes.knowledgefutures.org/pub/apaopen/release/1',
 		programs: ['Community Publishing'],
 	},
 ];
