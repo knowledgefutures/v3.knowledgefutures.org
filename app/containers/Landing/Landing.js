@@ -28,7 +28,7 @@ const Landing = function() {
 						build upon knowledge is controlled by researchers, journalists, libraries,
 						publishers, museums, and other organizations that serve the public's
 						interest. The KFG is building this future through our programs by developing
-						core pieces of infrastructure, advocating through writing and events, and
+						core infrastructure, advocating through writing and events, and
 						providing opportunities for research and sustainable development.
 					</p>
 				</div>
