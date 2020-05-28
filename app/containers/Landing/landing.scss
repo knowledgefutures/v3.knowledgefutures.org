@@ -7,13 +7,17 @@
 		font-weight: 400;
 		font-size: 38px;
 		line-height: 1.5;
-		margin-top: 100px;
+		margin-top: 50px;
 		margin-bottom: 150px;
 		letter-spacing: 0.5px;
-		
 		b {
 			color: #dc7c22;
 			font-weight: 500;
+		}
+		@include for-mobile {
+			font-size: 28px;
+			margin-top: 0px;
+			margin-bottom: 75px;
 		}
 	}
 	.products {
