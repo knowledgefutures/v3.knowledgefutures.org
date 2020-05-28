@@ -27,6 +27,6 @@ export default [
 		date: '2018-09-27',
 		title: 'MIT Press, Media Lab launch Knowledge Futures Group',
 		link: 'http://news.mit.edu/2018/mit-press-mit-media-lab-launch-knowledge-futures-group-0927',
-		programs: ['Community Publishing'],
+		programs: [],
 	},
 ];
