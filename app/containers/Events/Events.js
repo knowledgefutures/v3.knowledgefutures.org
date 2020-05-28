@@ -28,7 +28,9 @@ const Events = function() {
 
 				<hr />
 				<Menu>
-					{events.map((event) => {
+					{events.sort((foo, bar) => {
+						return new Date(foo.date) < new Date(bar.date);
+					}).map((event) => {
 						const { date, title, link } = event;
 						return (
 							<MenuItem
@@ -36,7 +38,7 @@ const Events = function() {
 								link={link}
 								content={
 									<React.Fragment>
-										<strong>{dateFormat(Date(date), 'mmm dd, yyyy')}</strong> •{' '}
+										<strong>{dateFormat(new Date(date), 'mmm dd, yyyy')}</strong> •{' '}
 										{title}
 									</React.Fragment>
 								}

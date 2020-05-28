@@ -22,7 +22,9 @@ const News = function() {
 				</p>
 				<hr />
 				<Menu>
-					{news.map((newsItem) => {
+					{news.sort((foo, bar) => {
+						return new Date(foo.date) < new Date(bar.date);
+					}).map((newsItem) => {
 						const { date, title, link } = newsItem;
 						return (
 							<MenuItem
@@ -30,7 +32,7 @@ const News = function() {
 								link={link}
 								content={
 									<React.Fragment>
-										<strong>{dateFormat(Date(date), 'mmm dd, yyyy')}</strong> •{' '}
+										<strong>{dateFormat(new Date(date), 'mmm dd, yyyy')}</strong> •{' '}
 										{title}
 									</React.Fragment>
 								}
