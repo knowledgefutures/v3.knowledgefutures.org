@@ -19,7 +19,7 @@ const Landing = function() {
 					curation, and preservation of knowledge in service of the public good.
 				</p>
 			</section>
-			<section className="blocks grey-bg">
+			<section className="blocks dark-bg">
 				<div className="block">
 					<h2 className="section-title">Programs</h2>
 					<p>
@@ -40,7 +40,7 @@ const Landing = function() {
 								<div className="program-title">{program.title}</div>
 								<div className="program-description">{program.description}</div>
 								<div className="program-focus">
-									<b>Focus Areas: </b>
+									<div><b>Focus Areas: </b></div>
 									{program.focusAreas.map((focus, index, array) => {
 										return (
 											<span className="focus" key={focus}>

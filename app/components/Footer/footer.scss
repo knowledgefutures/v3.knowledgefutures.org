@@ -46,7 +46,7 @@
 		color: inherit;
 		display: flex;
 		align-items: center;
-		font-size: 12px;
+		font-size: 14px;
 		border: 1px solid #d4d4d4;
 		width: 31%;
 		background: white;
@@ -60,7 +60,8 @@
 			opacity: 0.35;
 		}
 		.name {
-			font-weight: 600;
+			font-family: upgrade, sans-serif;
+			font-weight: 400;
 		}
 	}
 }

@@ -6,8 +6,10 @@ body {
 	padding: 0;
 	width: 100vw;
 	background-color: $background;
-	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-		'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: upgrade-lights, sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 1.5;
 	position: relative;
 	z-index: -2;
 }
@@ -22,8 +24,6 @@ body {
 	max-width: 850px;
 	margin: 0 auto;
 	padding: 0px 2%;
-	font-size: 16px;
-	line-height: 1.5;
 }
 .hoverline {
 	text-decoration: none;
@@ -47,12 +47,27 @@ section {
 			z-index: -1;
 		}
 	}
+	&.dark-bg {
+		padding: 35px 0px;
+		color: white;
+		&:before {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: calc(50% - 50vw);
+			width: 100vw;
+			background-color: #282828;
+			content: '';
+			z-index: -1;
+		}
+	}
 }
 .section-title {
 	text-transform: uppercase;
 	font-size: 16px;
 	letter-spacing: 1.5px;
-	font-weight: 500;
+	font-family: upgrade, sans-serif;
+	font-weight: 400;
 	margin: 0px;
 	margin-bottom: 20px;
 }
