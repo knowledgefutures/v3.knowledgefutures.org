@@ -2,7 +2,7 @@ export default [
 	{
 		title: 'Knowledge Ecosystems',
 		description: 'We examine how knowledge ecosystems exist today, develop playbooks for how to improve them, and facilitate new knowledge life cycles accelerated through multi-institution collaboration.',
-		focusAreas: ['Education', 'Neoliberalism', 'Justice', 'Inclusion'],
+		focusAreas: ['Education', 'Economics', 'Justice', 'Inclusion'],
 	},
 	{
 		title: 'Community Publishing',
