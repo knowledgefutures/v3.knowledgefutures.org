@@ -22,6 +22,7 @@
 				font-size: 24px;
 				line-height: 24px;
 				margin-bottom: 18px;
+				font-family: upgrade, sans-serif;
 			}
 			.partners {
 				margin-top: 18px;
@@ -33,7 +34,7 @@
 				text-decoration: none;
 				max-width: 250px;
 				width: calc(100% - 48px);
-				font-size: 14px;
+				font-size: 17px;
 				padding: 12px 24px;
 				margin-top: 20px;
 				position: relative;
@@ -42,9 +43,10 @@
 					background: url('/images/arrow.png') no-repeat center center/contain;
 					position: absolute;
 					color: white;
-					right: 14px;
+					right: 24px;
 					height: 16px;
 					width: 16px;
+					top: 18px;
 				}
 				&:hover {
 					text-decoration: underline;
