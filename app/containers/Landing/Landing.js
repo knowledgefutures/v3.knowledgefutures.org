@@ -66,8 +66,8 @@ const Landing = function() {
 				<h2 className="section-title">Partners and Funders</h2>
 				<p>
 					The Knowledge Futures Group, founded as a partnership between the MIT Press and
-					the MIT Media Lab, is a not-for-profit powered by academic, industry, and
-					advocacy organizations. Together we build and support products to make knowledge
+					the MIT Media Lab, is a not-for-profit organization powered by academic, industry, and
+					advocacy groups. Together we build and support products to make knowledge
 					open and accessible to all.
 				</p>
 				<Partners />
