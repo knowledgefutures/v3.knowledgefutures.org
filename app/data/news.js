@@ -18,7 +18,7 @@ export default [
 		programs: ['Community Publishing'],
 	},
 	{
-		date: '2020-05-15',
+		date: '2020-02-29',
 		title: 'Visual Exploration of Scaling Science Analytics',
 		link: 'https://scaling-science-explore.firebaseapp.com/?authors__in=&venue__in=&affiliations__in=&keyword=&sort=citation&group=paper&size_per_request=10',
 		programs: ['Universal Data'],
