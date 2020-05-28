@@ -17,4 +17,10 @@ export default [
 		link: 'https://notes.knowledgefutures.org/pub/apaopen/release/1',
 		programs: ['Community Publishing'],
 	},
+	{
+		date: '2020-05-15',
+		title: 'Visual Exploration of Scaling Science Analytics',
+		link: 'https://scaling-science-explore.firebaseapp.com/?authors__in=&venue__in=&affiliations__in=&keyword=&sort=citation&group=paper&size_per_request=10',
+		programs: ['Universal Data'],
+	}
 ];
