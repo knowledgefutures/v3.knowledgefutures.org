@@ -22,5 +22,11 @@ export default [
 		title: 'Visual Exploration of Scaling Science Analytics',
 		link: 'https://scaling-science-explore.firebaseapp.com/?authors__in=&venue__in=&affiliations__in=&keyword=&sort=citation&group=paper&size_per_request=10',
 		programs: ['Universal Data'],
-	}
+	},
+	{
+		date: '2019-12-06',
+		title: 'Launch of the Innovation Information Initiative (I3) data collaborative.',
+		link: 'https://iii.pubpub.org/',
+		programs: ['Universal Data'],
+	},
 ];
