@@ -56,7 +56,7 @@ const ProjectRow = function() {
 							<div className="item-text">
 								<div className="description">{description}</div>
 								{partners && (
-									<div className="partners">
+									<div className="partner-list">
 										Primary Partner: {partners}
 									</div>
 								)}
