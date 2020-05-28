@@ -23,4 +23,10 @@ export default [
 		link: 'https://scaling-science-explore.firebaseapp.com/?authors__in=&venue__in=&affiliations__in=&keyword=&sort=citation&group=paper&size_per_request=10',
 		programs: ['Universal Data'],
 	}
+	{
+		date: '2018-09-27',
+		title: 'MIT Press, Media Lab launch Knowledge Futures Group',
+		link: 'http://news.mit.edu/2018/mit-press-mit-media-lab-launch-knowledge-futures-group-0927',
+		programs: ['Community Publishing'],
+	},
 ];
