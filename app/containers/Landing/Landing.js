@@ -27,10 +27,9 @@ const Landing = function() {
 						We imagine a future where the infrastructure to create, access, curate, and
 						build upon knowledge is controlled by researchers, journalists, libraries,
 						publishers, museums, and other organizations that serve the public's
-						interest. The KFG works to build this future through our programs which
-						developing core pieces of infrastructure, advocate through writing and
-						events, and providing opportunities for research and sustainable
-						development.
+						interest. The KFG is building this future through our programs by developing
+						core pieces of infrastructure, advocating through writing and events, and
+						providing opportunities for research and sustainable development.
 					</p>
 				</div>
 				<div className="programs">
@@ -40,7 +39,9 @@ const Landing = function() {
 								<div className="program-title">{program.title}</div>
 								<div className="program-description">{program.description}</div>
 								<div className="program-focus">
-									<div><b>Focus Areas: </b></div>
+									<div>
+										<b>Focus Areas: </b>
+									</div>
 									{program.focusAreas.map((focus, index, array) => {
 										return (
 											<span className="focus" key={focus}>
