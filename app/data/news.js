@@ -1,20 +1,50 @@
 export default [
 	{
+		date: '2020-05-08',
+		title: 'In pursuit of open science, open access is not enough',
+		link: 'https://science.sciencemag.org/content/368/6491/574',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-03-15',
+		title: 'In Response to the OSTP Request for Information',
+		link: 'https://notes.knowledgefutures.org/pub/ostp',
+		programs: ['Community Publishing'],
+	},
+	{
 		date: '2020-04-23',
 		title: 'Knowledge Futures Group and AfricArXiv launch audio/visual preprint repository on PubPub',
-		link: 'https://notes.knowledgefutures.org/pub/69mrnclf/release/1',
+		link: 'https://notes.knowledgefutures.org/pub/69mrnclf',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2019-07-02',
+		title: 'The Harvard Data Science Initiative and The MIT Press launch the HARVARD DATA SCIENCE REVIEW to publicly promote the latest research, educational resources, and commentary from the leading minds in data science',
+		link: 'https://mitpress.mit.edu/blog/harvard-data-science-initiative-and-mit-press-launch-harvard-data-science-review-publicly',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2019-02-05',
+		title: 'New collaboration sparks global connections to art through artificial intelligence',
+		link: 'https://news.mit.edu/2019/mit-collaboration-sparks-global-connections-art-artificial-intelligence-0205',
+		programs: ['Universal Data'],
+	},
+	{
+		date: '2020-05-21',
+		title: 'Special Issue of the Open Access HARVARD DATA SCIENCE REVIEW Analyzes COVID-19 through the Lens of Data Science ',
+		link: 'https://mitpress.mit.edu/blog/special-issue-open-access-harvard-data-science-review-analyzes-covid-19-through-lens-data',
 		programs: ['Community Publishing'],
 	},
 	{
 		date: '2020-03-02',
 		title: 'PubPub and the American Astronomical Society Launch Revitalized Bulletin of the AAS in New Partnership',
-		link: 'https://notes.knowledgefutures.org/pub/baas/release/1',
+		link: 'https://notes.knowledgefutures.org/pub/baas',
 		programs: ['Community Publishing'],
 	},
 	{
 		date: '2020-01-30',
 		title: 'PubPub and the American Psychological Association Announce APA Open for OA Journals',
-		link: 'https://notes.knowledgefutures.org/pub/apaopen/release/1',
+		link: 'https://notes.knowledgefutures.org/pub/apaopen',
 		programs: ['Community Publishing'],
 	},
 	{
@@ -29,4 +59,11 @@ export default [
 		link: 'https://iii.pubpub.org/',
 		programs: ['Universal Data'],
 	},
+	{
+		date: '2018-09-25',
+		title: 'The MIT Press and the MIT Media Lab Launch the Knowledge Futures Group ',
+		link: 'https://mitpress.mit.edu/blog/mit-press-and-mit-media-lab-launch-knowledge-futures-group',
+		programs: [],
+	},
+	
 ];

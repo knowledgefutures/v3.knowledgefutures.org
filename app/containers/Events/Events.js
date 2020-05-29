@@ -28,23 +28,27 @@ const Events = function() {
 
 				<hr />
 				<Menu>
-					{events.sort((foo, bar) => {
-						return new Date(foo.date) < new Date(bar.date);
-					}).map((event) => {
-						const { date, title, link } = event;
-						return (
-							<MenuItem
-								key={title}
-								link={link}
-								content={
-									<React.Fragment>
-										<strong>{dateFormat(new Date(date), 'mmm dd, yyyy')}</strong> •{' '}
-										{title}
-									</React.Fragment>
-								}
-							/>
-						);
-					})}
+					{events
+						.sort((foo, bar) => {
+							return new Date(foo.date) < new Date(bar.date);
+						})
+						.map((event) => {
+							const { date, title, link } = event;
+							return (
+								<MenuItem
+									key={title}
+									link={link}
+									content={
+										<React.Fragment>
+											<div className="title">
+												{dateFormat(new Date(date), 'mmm dd, yyyy')}
+											</div>
+											{title}
+										</React.Fragment>
+									}
+								/>
+							);
+						})}
 				</Menu>
 			</section>
 		</div>

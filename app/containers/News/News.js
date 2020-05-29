@@ -22,23 +22,27 @@ const News = function() {
 				</p>
 				<hr />
 				<Menu>
-					{news.sort((foo, bar) => {
-						return new Date(foo.date) < new Date(bar.date);
-					}).map((newsItem) => {
-						const { date, title, link } = newsItem;
-						return (
-							<MenuItem
-								key={title}
-								link={link}
-								content={
-									<React.Fragment>
-										<strong>{dateFormat(new Date(date), 'mmm dd, yyyy')}</strong> •{' '}
-										{title}
-									</React.Fragment>
-								}
-							/>
-						);
-					})}
+					{news
+						.sort((foo, bar) => {
+							return new Date(foo.date) < new Date(bar.date);
+						})
+						.map((newsItem) => {
+							const { date, title, link } = newsItem;
+							return (
+								<MenuItem
+									key={title}
+									link={link}
+									content={
+										<React.Fragment>
+											<div className="title">
+												{dateFormat(new Date(date), 'mmm dd, yyyy')}
+											</div>
+											{title}
+										</React.Fragment>
+									}
+								/>
+							);
+						})}
 				</Menu>
 			</section>
 		</div>

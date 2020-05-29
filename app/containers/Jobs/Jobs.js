@@ -38,7 +38,8 @@ const Jobs = function() {
 								link={link}
 								content={
 									<React.Fragment>
-										<strong>{title}</strong> • {commitment} • {location}
+										<div className="title">{title}</div>
+										{commitment} • {location}
 									</React.Fragment>
 								}
 							/>
