@@ -11,7 +11,7 @@ export default [
 	},
 	{
 		title: 'Universal Data',
-		description: 'We support the ongoing research and development of tools for discovery, provenance, and interoperability of data, building a future where data is shared in service of the public good and universal access to knowledge.',
+		description: 'We research and develop tools for discovery, provenance, and interoperability of data, in service of ensuring transparent and universal access to public knowledge.',
 		focusAreas: ['Health', 'Disinformation', 'Democracy'],
 	},
 	{
