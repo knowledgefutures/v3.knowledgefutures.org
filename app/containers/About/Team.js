@@ -57,8 +57,14 @@ const Team = (props) => {
 		{
 			name: 'Peter Kaufman',
 			title: ['Strategic Development'],
-			external: ['MIT'],
+			external: ['MIT Open Learning, Strategic Initiatives'],
 			image: '/people/peter.jpg',
+		},
+		{
+			name: 'Sarah Kember',
+			title: [],
+			external: ['Goldsmiths Press, Director'],
+			image: '/people/sarahKember.jpg',
 		},
 		{
 			name: 'SJ Klein',
@@ -67,7 +73,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Jessica Polka',
-			title: ['Affiliate'],
+			title: [],
 			external: ['ASAPBio, Executive Director'],
 			image: '/people/jessica.jpg',
 		},
