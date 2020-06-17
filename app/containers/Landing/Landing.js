@@ -3,6 +3,7 @@ import ProductList from 'components/ProductList/ProductList';
 import Footer from 'components/Footer/Footer';
 import Partners from 'components/Partners/Partners';
 import programs from '../../data/programs';
+import { slugifyString } from '../../utils';
 
 require('./landing.scss');
 
@@ -35,7 +36,7 @@ const Landing = function() {
 				<div className="programs">
 					{programs.map((program) => {
 						return (
-							<div key={program.title} className="program-block">
+							<a key={program.title} className="program-block" href={`/programs/${slugifyString(program.title)}`}>
 								<div className="program-title">{program.title}</div>
 								<div className="program-description">{program.description}</div>
 								<div className="program-focus">
@@ -51,7 +52,7 @@ const Landing = function() {
 										);
 									})}
 								</div>
-							</div>
+							</a>
 						);
 					})}
 				</div>

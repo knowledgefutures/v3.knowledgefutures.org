@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import { Route, withRouter, Switch } from 'react-router-dom';
 import Landing from 'containers/Landing/Landing';
 import About from 'containers/About/About';
+import Program from 'containers/Program/Program';
 import Jobs from 'containers/Jobs/Jobs';
 import Events from 'containers/Events/Events';
 import News from 'containers/News/News';
@@ -33,6 +34,7 @@ const App = function(props) {
 
 			<Switch>
 				<Route exact path="/" component={Landing} />
+				<Route exact path="/programs/:programSlug" component={Program} />
 				<Route exact path="/about" component={About} />
 				<Route exact path="/jobs" component={Jobs} />
 				<Route exact path="/news" component={News} />

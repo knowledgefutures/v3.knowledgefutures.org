@@ -19,6 +19,7 @@
 		"comma-dangle": 0,
 		"func-names": 0,
 		"import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+		"no-console": [1, { "allow": ["warn", "error", "info"] }],
 		"no-tabs": 0,
 		"react/forbid-prop-types": 0,
 		"react/jsx-filename-extension": [2, { "extensions": [".js"] }],
