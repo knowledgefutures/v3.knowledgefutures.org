@@ -29,7 +29,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Quincy Childs',
-			title: ['Editorial Assistant'],
+			title: ['Marketing Fellow'],
 			image: '/people/quincy.jpg',
 		},
 		{
@@ -99,7 +99,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Allison Vanouse',
-			title: ['Editorial Assistant'],
+			title: ['Editorial Fellow'],
 			image: '/people/allisonV.jpg',
 		},
 		{
@@ -145,6 +145,11 @@ const Team = (props) => {
 			name: 'Jabari King',
 			title: [''],
 			image: '/people/jabariKing.jpg',
+		},
+		{
+			name: 'Tim Holdsworth',
+			title: [''],
+			image: '/people/timH.jpg',
 		},
 	];
 
