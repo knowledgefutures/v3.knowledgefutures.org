@@ -98,6 +98,11 @@ const Team = (props) => {
 			image: '/people/gabe.jpg',
 		},
 		{
+			name: 'Allison Vanouse',
+			title: ['Editorial Assistant'],
+			image: '/people/allisonV.jpg',
+		},
+		{
 			name: 'Zach Verdin',
 			title: ['Strategic Development Manager'],
 			image: '/people/zach.jpg',
