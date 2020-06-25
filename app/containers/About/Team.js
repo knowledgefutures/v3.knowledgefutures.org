@@ -72,6 +72,11 @@ const Team = (props) => {
 			image: '/people/sj.jpg',
 		},
 		{
+			name: 'Eric McDaniel',
+			title: ['Senior Software Engineer'],
+			image: '/people/eric.jpg',
+		},
+		{
 			name: 'Jessica Polka',
 			title: [],
 			external: ['ASAPBio, Executive Director'],
@@ -79,7 +84,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Ian Reynolds',
-			title: ['Software Engineer'],
+			title: ['Senior Software Engineer'],
 			image: '/people/ian.jpg',
 		},
 		{
@@ -89,7 +94,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Heather Staines',
-			title: ['Head of Partnerships'],
+			title: ['Director of Strategic Partnerships'],
 			image: '/people/heather.jpg',
 		},
 		{
@@ -104,7 +109,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Zach Verdin',
-			title: ['Strategic Development Manager'],
+			title: ['Director of Strategic Programs'],
 			image: '/people/zach.jpg',
 		},
 	];
