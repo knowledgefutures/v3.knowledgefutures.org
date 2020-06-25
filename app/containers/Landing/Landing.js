@@ -36,7 +36,7 @@ const Landing = function() {
 				<div className="programs">
 					{programs.map((program) => {
 						return (
-							<a key={program.title} className="program-block" href={`/programs/${slugifyString(program.title)}`}>
+							<a key={program.title} className={`program-block ${slugifyString(program.title)}`} href={`/programs/${slugifyString(program.title)}`}>
 								<div className="program-title">{program.title}</div>
 								<div className="program-description">{program.description}</div>
 								<div className="program-focus">

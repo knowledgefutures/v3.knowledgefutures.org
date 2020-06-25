@@ -46,28 +46,28 @@
 		@include for-mobile {
 			width: calc(100% - 2em);
 		}
-		&:nth-of-type(4) {
-			border-color: #DB6510;
+		&.measuring-knowledge {
+			border-color: $mkColor;
 			.program-title {
-				color: #DB6510;
+				color: $mkColor;
 			}
 		}
-		&:nth-of-type(3) {
-			border-color: #DDBC10;
+		&.universal-data {
+			border-color: $udColor;
 			.program-title {
-				color: #DDBC10;
+				color: $udColor;
 			}
 		}
-		&:nth-of-type(1) {
-			border-color: #58C3FF;
+		&.knowledge-ecosystems {
+			border-color: $keColor;
 			.program-title {
-				color: #58C3FF;
+				color: $keColor;
 			}
 		}
-		&:nth-of-type(2) {
-			border-color: #20BC8D;
+		&.community-publishing {
+			border-color: $cdColor;
 			.program-title {
-				color: #20BC8D;
+				color: $cdColor;
 			}
 		}
 		.program-title {

@@ -30,62 +30,79 @@ const About = function(props) {
 			</Helmet>
 			<section>
 				<h2 className="section-title">{activeProgram.title}</h2>
-				<p>{activeProgram.description}</p>
+				<div className={`line ${slugifyString(activeProgram.title)}`} />
+				<p>{activeProgram.longDescription}</p>
 			</section>
 
-			<section>
-				<h2 className="section-title">Program News</h2>
-				<Menu>
-					{activeNews
-						.sort((foo, bar) => {
-							return new Date(foo.date) < new Date(bar.date);
-						})
-						.map((newsItem) => {
-							const { date, title, link } = newsItem;
-							return (
-								<MenuItem
-									key={title}
-									link={link}
-									content={
-										<React.Fragment>
-											<div className="title">
-												{dateFormat(new Date(date), 'mmm dd, yyyy')}
-											</div>
-											{title}
-										</React.Fragment>
-									}
-								/>
-							);
-						})}
-				</Menu>
-			</section>
+			<div className="program-blocks">
+				<section>
+					{!!activeNews.length && (
+						<React.Fragment>
+							<h2 className="section-title">Program News</h2>
+							<Menu>
+								{activeNews
+									.sort((foo, bar) => {
+										return new Date(foo.date) < new Date(bar.date);
+									})
+									.map((newsItem) => {
+										const { date, title, link } = newsItem;
+										return (
+											<MenuItem
+												key={title}
+												link={link}
+												content={
+													<React.Fragment>
+														<span className="title">
+															{dateFormat(
+																new Date(date),
+																'mmm dd, yyyy',
+															)}
+														</span>
+														{title}
+													</React.Fragment>
+												}
+											/>
+										);
+									})}
+							</Menu>
+						</React.Fragment>
+					)}
+				</section>
 
-			<section>
-				<h2 className="section-title">Program Events</h2>
-				<Menu>
-					{activeEvents
-						.sort((foo, bar) => {
-							return new Date(foo.date) < new Date(bar.date);
-						})
-						.map((event) => {
-							const { date, title, link } = event;
-							return (
-								<MenuItem
-									key={title}
-									link={link}
-									content={
-										<React.Fragment>
-											<div className="title">
-												{dateFormat(new Date(date), 'mmm dd, yyyy')}
-											</div>
-											{title}
-										</React.Fragment>
-									}
-								/>
-							);
-						})}
-				</Menu>
-			</section>
+				<section>
+					{!!activeEvents.length && (
+						<React.Fragment>
+							<h2 className="section-title">Program Events</h2>
+							<Menu>
+								{activeEvents
+									.sort((foo, bar) => {
+										return new Date(foo.date) < new Date(bar.date);
+									})
+									.map((event) => {
+										const { date, title, link } = event;
+										return (
+											<MenuItem
+												key={title}
+												link={link}
+												content={
+													<React.Fragment>
+														<span className="title">
+															{dateFormat(
+																new Date(date),
+																'mmm dd, yyyy',
+															)}
+														</span>
+														{title}
+													</React.Fragment>
+												}
+											/>
+										);
+									})}
+							</Menu>
+						</React.Fragment>
+					)}
+				</section>
+			</div>
 
 			<Footer />
 		</div>
