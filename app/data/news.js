@@ -1,5 +1,11 @@
 export default [
 	{
+		date: '2020-06-25',
+		title: 'KFG Announces Four New Programs',
+		link: 'https://notes.knowledgefutures.org/pub/7z3dmyse/release/1',
+		programs: [],
+	},
+	{
 		date: '2020-05-08',
 		title: 'In pursuit of open science, open access is not enough',
 		link: 'https://science.sciencemag.org/content/368/6491/574',
