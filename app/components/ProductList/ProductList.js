@@ -31,15 +31,6 @@ const ProjectRow = function() {
 			image: '/images/projects/underlay.png',
 			partners: '',
 		},
-		{
-			title: 'KFG Convening',
-			link: 'https://2019.knowledgefutures.org',
-			color: '#FFA048',
-			description:
-				'The KFG convening is our annual gathering of mission-aligned groups and individuals. The convening provides a space to share project updates, work through sustainability models, foster further collaboration, and align the KFG\'s strategy for the year to come. ',
-			image: '/images/projects/underlay.png',
-			partners: '',
-		},
 	];
 
 	return (
