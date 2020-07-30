@@ -94,7 +94,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Heather Staines',
-			title: ['Director of Strategic Partnerships'],
+			title: ['Head of Scholarly Communications Partnerships'],
 			image: '/people/heather.jpg',
 		},
 		{
@@ -109,7 +109,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Zach Verdin',
-			title: ['Director of Strategic Programs'],
+			title: ['Head of Strategic Programs'],
 			image: '/people/zach.jpg',
 		},
 	];
