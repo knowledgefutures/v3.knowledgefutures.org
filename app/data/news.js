@@ -1,6 +1,18 @@
 export default [
 	{
 		date: '2020-06-25',
+		title: 'Knowledge Futures Group Annual Report, 2020',
+		link: 'https://notes.knowledgefutures.org/pub/7z3dmyse/release/1',
+		programs: ['Measuring Knowledge'],
+	},
+	{
+		date: '2020-08-27',
+		title: 'Knowledge Futures, ASAPbio, and TU Graz to develop Doc Maps: a community-endorsed framework for editorial research events',
+		link: 'https://notes.knowledgefutures.org/pub/6txl8xve/release/1',
+		programs: [],
+	},
+	{
+		date: '2020-08-05',
 		title: 'KFG Announces Four New Programs',
 		link: 'https://notes.knowledgefutures.org/pub/7z3dmyse/release/1',
 		programs: [],
