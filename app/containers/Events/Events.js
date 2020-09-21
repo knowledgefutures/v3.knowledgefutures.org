@@ -30,7 +30,15 @@ const Events = function() {
 				<Menu>
 					{events
 						.sort((foo, bar) => {
-							return new Date(foo.date) < new Date(bar.date);
+							const fooDate = new Date(foo.date);
+							const barDate = new Date(bar.date);
+							if (fooDate < barDate) {
+								return 1;
+							}
+							if (fooDate > barDate) {
+								return -1;
+							}
+							return 0;
 						})
 						.map((event) => {
 							const { date, title, link } = event;
