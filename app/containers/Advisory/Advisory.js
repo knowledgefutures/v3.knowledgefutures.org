@@ -1,17 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 require('./advisory.scss');
 
-const propTypes = {
-	location: PropTypes.object.isRequired,
-};
-
-const Advisory = function(props) {
-	const { location } = props;
-	const primaryContact =
-		typeof window !== 'undefined' ? atob(location.search.replace('?inv=', '')) : '';
+const Advisory = function() {
 	return (
 		<div id="advisory">
 			<Helmet>
@@ -104,15 +96,10 @@ const Advisory = function(props) {
 					City hp field
 					<input name="city" />
 				</label>
-				<label className="hp" htmlFor="primaryContact">
-					Primary Contact
-					<input name="primaryContact" readOnly value={primaryContact} />
-				</label>
 				<button type="submit">Send</button>
 			</form>
 		</div>
 	);
 };
 
-Advisory.propTypes = propTypes;
 export default Advisory;
