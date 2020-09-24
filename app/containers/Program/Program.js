@@ -16,7 +16,7 @@ const propTypes = {
 	match: PropTypes.object.isRequired,
 };
 
-const About = function(props) {
+const Program = function(props) {
 	const { match } = props;
 	const { programSlug } = match.params;
 	const activeProgram = programs.find((prog) => slugifyString(prog.title) === programSlug);
@@ -109,5 +109,5 @@ const About = function(props) {
 	);
 };
 
-About.propTypes = propTypes;
-export default About;
+Program.propTypes = propTypes;
+export default Program;

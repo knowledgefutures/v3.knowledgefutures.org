@@ -8,6 +8,7 @@ import Program from 'containers/Program/Program';
 import Jobs from 'containers/Jobs/Jobs';
 import Events from 'containers/Events/Events';
 import News from 'containers/News/News';
+import Advisory from 'containers/Advisory/Advisory';
 import NoMatch from 'containers/NoMatch/NoMatch';
 import Nav from 'components/Nav/Nav';
 
@@ -39,6 +40,7 @@ const App = function(props) {
 				<Route exact path="/jobs" component={Jobs} />
 				<Route exact path="/news" component={News} />
 				<Route exact path="/events" component={Events} />
+				<Route exact path="/advisory-council" component={Advisory} />
 				<Route path="/404.html" component={NoMatch} />
 				<Route path="/*" component={NoMatch} />
 			</Switch>
