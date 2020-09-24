@@ -41,13 +41,13 @@ const Advisory = function() {
 			</p>
 			<ul>
 				<li>
-					Providing strategic advice based on review of the previous year’s annual report
+					Provide strategic advice based on review of the previous year’s annual report
 				</li>
 				<li>
-					Providing contribution and critique as we draft the current year’s annual report
+					Provide contribution and critique as we draft the current year’s annual report
 				</li>
 				<li>Brainstorm & catch-up calls with members of the KFG team</li>
-				<li>Participation in the KFG Advisory Council mailing list</li>
+				<li>Participate in the KFG Advisory Council mailing list</li>
 			</ul>
 			<h2>Documents</h2>
 			<ul>
