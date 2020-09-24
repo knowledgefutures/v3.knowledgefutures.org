@@ -8,6 +8,6 @@ module.exports = [
 	'/programs/universal-data',
 	'/programs/community-publishing',
 	'/programs/measuring-knowledge',
-	'/advisory-council/invite',
+	'/advisory-council',
 	'/404.html'
 ];
