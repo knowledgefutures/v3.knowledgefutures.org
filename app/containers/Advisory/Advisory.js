@@ -10,8 +10,8 @@ const propTypes = {
 
 const Advisory = function(props) {
 	const { location } = props;
-	const primaryContact = atob(location.search.replace('?inv=', ''));
-	console.log(primaryContact);
+	const primaryContact =
+		typeof window !== 'undefined' ? atob(location.search.replace('?inv=', '')) : '';
 	return (
 		<div id="advisory">
 			<Helmet>
@@ -94,7 +94,10 @@ const Advisory = function(props) {
 					<input type="checkbox" name="emailList" value="emailList" />
 				</label>
 				<label htmlFor="publicName">
-					We're proud of who we work with!<br />Opt-in to have your participation publicly listed (e.g. on website, annual report)
+					We're proud of who we work with!
+					<br />
+					Opt-in to have your participation publicly listed (e.g. on website, annual
+					report)
 					<input type="checkbox" name="publicName" value="publicName" />
 				</label>
 				<label className="hp" htmlFor="city">
