@@ -83,14 +83,14 @@ const Advisory = function() {
 				</label>
 				<label htmlFor="emailList">
 					Join KFG Advisory Council email list
-					<input type="checkbox" name="emailList" value="emailList" />
+					<input type="checkbox" name="emailList" value="true" />
 				</label>
 				<label htmlFor="publicName">
 					We're proud of who we work with!
 					<br />
 					Opt-in to have your participation publicly listed (e.g. on website, annual
 					report)
-					<input type="checkbox" name="publicName" value="publicName" />
+					<input type="checkbox" name="publicName" value="true" />
 				</label>
 				<label className="hp" htmlFor="city">
 					City hp field
