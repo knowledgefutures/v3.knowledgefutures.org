@@ -7,7 +7,10 @@ $white: #fff;
 $accent: #dc7c22;
 
 #advisory {
-	padding-bottom: 50px;
+	padding-bottom: 200px;
+	h2 {
+		margin-top: 50px;
+	}
 	a {
 		color: inherit;
 		font-size: 18px;
@@ -16,6 +19,7 @@ $accent: #dc7c22;
 		opacity: 0.25;
 	}
 	form {
+		margin: 0 auto;
 		label {
 			display: block;
 			margin-bottom: 1.5em;
@@ -25,6 +29,9 @@ $accent: #dc7c22;
 		}
 		input {
 			margin-top: 5px;
+		}
+		.title {
+			font-weight: 600;
 		}
 		input:not([type='checkbox']) {
 			display: block;
@@ -83,7 +90,8 @@ $accent: #dc7c22;
 		button {
 			border-width: 0px;
 			border-radius: 3px;
-			font-weight: 500;
+			font-weight: 600;
+			border: 1px solid #bbb;
 			width: 200px;
 			transition: background 0.1s ease-out 0s;
 			background: rgba(9, 30, 66, 0.14) none repeat scroll 0% 0%;

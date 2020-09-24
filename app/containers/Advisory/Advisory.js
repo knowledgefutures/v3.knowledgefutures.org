@@ -11,15 +11,15 @@ const Advisory = function() {
 			</Helmet>
 			<h1>Advisory Council</h1>
 			<p>
-				Thank you for agreeing to join the KFG Advisory Council! As we continue to
-				develop into a more diversified and complex organization that serves an
-				ever-broadening audience, we will be looking to the Council for assistance and
-				guidance in assuring the continued fulfillment of our core mission.
+				Thank you for agreeing to join the KFG Advisory Council! In order to develop into a
+				more diverse and impactful organization, and to follow through with our mission to
+				build public alternatives to private knowledge infrastructure, we will need
+				assistance and guidance from the Council and people like yourself.
 			</p>
 			<p>
-				We are seeking to build a Council with a diversity of skills, experience and
+				We are building a Council of people with a broad set of skills, experience, and
 				perspectives who are committed to working creatively and collegially in furtherance
-				of the KFG’s mission. We could not be more delighted to have you join us in this
+				of the KFG's mission. We could not be more delighted to have you join us in this
 				endeavor, and are grateful for your willingness to contribute your time, expertise,
 				and support.
 			</p>
@@ -40,13 +40,9 @@ const Advisory = function() {
 				greatly appreciated!
 			</p>
 			<ul>
-				<li>
-					Provide strategic advice based on review of the previous year’s annual report
-				</li>
-				<li>
-					Provide contribution and critique as we draft the current year’s annual report
-				</li>
-				<li>Brainstorm & catch-up calls with members of the KFG team</li>
+				<li>Provide strategic advice based on the FY20 annual report</li>
+				<li>Provide contribution and critique as we draft the FY21 annual report</li>
+				<li>Engage in brainstorms & check-ins with members of the KFG team</li>
 				<li>Participate in the KFG Advisory Council mailing list</li>
 			</ul>
 			<h2>Documents</h2>
@@ -63,22 +59,28 @@ const Advisory = function() {
 			</ul>
 
 			<h2>Join</h2>
+
 			<p>
-				To formally signal your willingness to participate, please complete
-				and submit the following form.
+				Participation on the advisory council is expected only for the current fiscal year
+				(July 1, 2020 to June 30, 2021), but can be extended for additional years if we both
+				find the collaboration fruitful.
 			</p>
 			<p>
-				Participation on the advisory council is only expected for the current fiscal year
-				(July 1, 2020 to June 30, 2021), but can be extended for additional years if we both
-				find the collaboration fruitful!
+				To formally signal your willingness to participate, please complete and submit the
+				following form.
 			</p>
 			<form name="advisory-council" method="POST" data-netlify="true" netlify-honeypot="city">
 				<label htmlFor="name">
-					Name
+					<span className="title">Name</span>
 					<input type="text" name="name" required placeholder="Name" />
 				</label>
+				<label htmlFor="title">
+					<span className="title">Title</span> · How we'll introduce you to the team and
+					other advisors
+					<input type="text" name="title" required placeholder="Title" />
+				</label>
 				<label htmlFor="email">
-					Email
+					<span className="title">Email</span>
 					<input type="email" name="email" required placeholder="Email" />
 				</label>
 				<label htmlFor="publicName">
