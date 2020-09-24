@@ -81,10 +81,6 @@ const Advisory = function() {
 					Email
 					<input type="email" name="email" required placeholder="Email" />
 				</label>
-				<label htmlFor="emailList">
-					Join KFG Advisory Council email list
-					<input type="checkbox" name="emailList" value="true" />
-				</label>
 				<label htmlFor="publicName">
 					We're proud of who we work with!
 					<br />
