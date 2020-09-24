@@ -11,7 +11,7 @@ const Advisory = function() {
 			</Helmet>
 			<h1>Advisory Council</h1>
 			<p>
-				Thank you for your interest in joining the KFG Advisory Council! As we continue to
+				Thank you for agreeing to join the KFG Advisory Council! As we continue to
 				develop into a more diversified and complex organization that serves an
 				ever-broadening audience, we will be looking to the Council for assistance and
 				guidance in assuring the continued fulfillment of our core mission.
@@ -36,7 +36,7 @@ const Advisory = function() {
 			</p>
 			<p>
 				While we encourage and welcome as much involvement as you’d like, we appreciate the
-				value and limit of your time. Any or all of the following modes of contribution are
+				value and limit of your time – any or all of the following modes of contribution are
 				greatly appreciated!
 			</p>
 			<ul>
@@ -64,7 +64,7 @@ const Advisory = function() {
 
 			<h2>Join</h2>
 			<p>
-				To formally signal your enthusiasm and willingness to participate, please complete
+				To formally signal your willingness to participate, please complete
 				and submit the following form.
 			</p>
 			<p>
@@ -92,7 +92,7 @@ const Advisory = function() {
 					City hp field
 					<input name="city" />
 				</label>
-				<button type="submit">Send</button>
+				<button type="submit">Submit</button>
 			</form>
 		</div>
 	);
