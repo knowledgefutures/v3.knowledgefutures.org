@@ -93,14 +93,14 @@ const Team = (props) => {
 			image: '/people/travis.jpg',
 		},
 		{
-			name: 'Heather Staines',
-			title: ['Head of Scholarly Communications Partnerships'],
-			image: '/people/heather.jpg',
-		},
-		{
 			name: 'Gabe Stein',
 			title: ['Head of Operations', 'Board Member'],
 			image: '/people/gabe.jpg',
+		},
+		{
+			name: 'Dawit Tegbaru',
+			title: ['Editorial Manager'],
+			image: '/people/dawit.jpg',
 		},
 		{
 			name: 'Allison Vanouse',
