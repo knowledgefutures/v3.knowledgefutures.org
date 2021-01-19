@@ -72,11 +72,6 @@ const Team = (props) => {
 			image: '/people/sj.jpg',
 		},
 		{
-			name: 'Eric McDaniel',
-			title: ['Senior Software Engineer'],
-			image: '/people/eric.jpg',
-		},
-		{
 			name: 'Jessica Polka',
 			title: [],
 			external: ['ASAPBio, Executive Director'],
