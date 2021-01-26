@@ -11,7 +11,7 @@ export default [
 	// 	commitment: 'Full-time',
 	// 	link: 'https://notes.knowledgefutures.org/pub/rh7vxl1u',
 	// },
-	// {
+	{
 	 	title: 'Software Engineer, PubPub',
 	 	location: 'Cambridge, MA or Remote',
 	 	commitment: 'Full-time',
