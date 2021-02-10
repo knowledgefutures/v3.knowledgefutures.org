@@ -62,7 +62,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Sarah Kearns',
-			title: ['Commonplace Fellow'],
+			title: ['Content Fellow'],
 			image: '/people/sarahKearns.jpg',
 		},
 		{
