@@ -61,6 +61,11 @@ const Team = (props) => {
 			image: '/people/peter.jpg',
 		},
 		{
+			name: 'Sarah Kearns',
+			title: ['Commonplace Fellow'],
+			image: '/people/sarahKearns.jpg',
+		},
+		{
 			name: 'Sarah Kember',
 			title: [],
 			external: ['Goldsmiths Press, Director'],
@@ -135,11 +140,6 @@ const Team = (props) => {
 			name: 'Travis Cohen',
 			title: [''],
 			image: '/people/travisCohen.jpg',
-		},
-		{
-			name: 'Sarah Kearns',
-			title: [''],
-			image: '/people/sarahKearns.jpg',
 		},
 		{
 			name: 'Jabari King',
