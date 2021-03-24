@@ -116,7 +116,8 @@ const Kickoff = function() {
 			<h2>Contact</h2>
 			<ul>
 				<li>
-					<a href="mailto:hello@knowledgefutures.org">hello@knowledgefutures.org</a>
+					<a href="mailto:hello@knowledgefutures.org">hello@knowledgefutures.org</a> or individually at [<a href="mailto:travis@knowledgefutures.org">travis</a>, <a href="mailto:catherine@knowledgefutures.org">catherine</a>, <a href="mailto:gabe@knowledgefutures.org">gabe</a>, <a href="mailto:zach@knowledgefutures.org">zach</a>]@knowledgefutures.org
+
 				</li>
 				<li>
 					<a href="https://twitter.com/kfutures">@kfutures</a>
