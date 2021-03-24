@@ -1,3 +1,4 @@
+/* I think this events list is deprecated in favor of a single 'News' page */
 export default [
 	{
 		date: '2020-05-19',
@@ -29,5 +30,4 @@ export default [
 		link: 'https://opf.pubpub.org/pub/fu3woruy/release/1',
 		programs: ['Community Publishing'],
 	},
-	
 ];

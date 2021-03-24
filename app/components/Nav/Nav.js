@@ -24,7 +24,7 @@ const NavBar = function(props) {
 			</div>
 			<div className="right">
 				<Link to="/news" className={activeMatch('/news')}>News</Link>
-				<Link to="/events" className={activeMatch('/events')}>Events</Link>
+				{/* <Link to="/events" className={activeMatch('/events')}>Events</Link> */}
 				<Link to="/jobs" className={activeMatch('/jobs')}>Jobs</Link>
 				<Link to="/about" className={activeMatch('/about')}>About</Link>
 			</div>

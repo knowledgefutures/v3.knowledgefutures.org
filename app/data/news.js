@@ -1,5 +1,29 @@
 export default [
 	{
+		date: '2021-03-24',
+		title: 'Ben Howe joins the Knowledge Futures Group',
+		link: 'https://notes.knowledgefutures.org/pub/cfcieq2l/release/1',
+		programs: [],
+	},
+	{
+		date: '2021-03-23',
+		title: 'The MIT Press launches MIT Open Publishing Services ',
+		link: 'https://mitpress.mit.edu/blog/mit-press-launches-mit-open-publishing-services',
+		programs: [],
+	},
+	{
+		date: '2021-02-01',
+		title: 'Three PubPub Communities Acknowledged by 2021 PROSE Awards',
+		link: 'https://notes.knowledgefutures.org/pub/u9lfii22/release/2',
+		programs: [],
+	},
+	{
+		date: '2020-10-02',
+		title: 'Dawit Tegbaru joins the Knowledge Futures Group',
+		link: 'https://notes.knowledgefutures.org/pub/vdvch3kp/release/1',
+		programs: [],
+	},
+	{
 		date: '2020-06-25',
 		title: 'Knowledge Futures Group Annual Report, 2020',
 		link: 'https://notes.knowledgefutures.org/pub/7z3dmyse/release/1',
@@ -16,6 +40,36 @@ export default [
 		title: 'KFG Announces Four New Programs',
 		link: 'https://notes.knowledgefutures.org/pub/7z3dmyse/release/1',
 		programs: [],
+	},
+	{
+		date: '2020-05-19',
+		title: 'One Platform, Infinite Uses. How We Build PubPub For Novel Publishing Experiments',
+		link: 'https://opf.pubpub.org/pub/rdjsj8wd/release/5',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-05-21',
+		title: 'Workshop: How We Use PubPub as a Google Docs Alternative',
+		link: 'https://opf.pubpub.org/pub/s91ni61f/release/4',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-05-27',
+		title: 'Amy Brand fireside chat about scholarly infrastructure and structural change',
+		link: 'https://www.youtube.com/watch?v=rxMnYig7WJc',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-05-28',
+		title: 'Workshop: PubPub Demo and Community Spotlight',
+		link: 'https://opf.pubpub.org/pub/khrggwfa/release/2',
+		programs: ['Community Publishing'],
+	},
+	{
+		date: '2020-05-29',
+		title: 'Audio/Visual Preprints and the Mechanisms for Global Rapid Knowledge Exchange',
+		link: 'https://opf.pubpub.org/pub/fu3woruy/release/1',
+		programs: ['Community Publishing'],
 	},
 	{
 		date: '2020-05-08',

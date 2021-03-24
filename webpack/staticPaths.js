@@ -9,5 +9,6 @@ module.exports = [
 	'/programs/community-publishing',
 	'/programs/measuring-knowledge',
 	'/advisory-council',
+	'/kickoff',
 	'/404.html'
 ];
