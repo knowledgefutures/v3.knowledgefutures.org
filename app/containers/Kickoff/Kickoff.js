@@ -62,6 +62,7 @@ const Kickoff = function() {
 					discoverable, and extensible format.
 				</li>
 			</ul>
+
 			<h2>Sample Communities</h2>
 			<p>Below are a sample of the 2,000+ communities we support.</p>
 			<ul>
@@ -78,8 +79,8 @@ const Kickoff = function() {
 				<li>Open review: <a href="https://mitpressonpubpub.mitpress.mit.edu/data-feminism">Data Feminism</a></li>
 				<li>Museum: <a href="https://universitymuseums.pubpub.org/">University Museums, Iowa State University</a> </li>
 				<li>Independent Press: <a href="https://www.mediastudies.pres">mediastudies.press</a></li>
-				
 			</ul>
+
 			<h2>Goals for the Year</h2>
 			<ul>
 				<li>
@@ -101,6 +102,7 @@ const Kickoff = function() {
 					and expertise.
 				</li>
 			</ul>
+
 			<h2>Contact</h2>
 			<ul>
 				<li>
@@ -112,7 +114,7 @@ const Kickoff = function() {
 				<li>
 					<a href="https://twitter.com/pubpub">@pubpub</a>
 				</li>
-				<img alt="A recent snapshot of the KFG Team" src="/images/recentTeam.png" />
+				<img alt="A recent snapshot of the KFG Team" src="/images/recentTeam.jpg" />
 			</ul>
 		</div>
 	);
