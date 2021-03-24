@@ -37,7 +37,7 @@ const Kickoff = function() {
 				<li>We build digital platforms and protocols, but spend a lot of time trying to understand why non-profit public digital infrastructure is so rare. A complex question, but we've found 3 important cycles:</li>
 				<li>Cycle 1: Relative availability of capital for non-profit tech compared to for-profit tech. The volume of activity is just skewed away from organizations that would create public digital infrastructure.</li>
 				<li>Cycle 2: Due to comparative underfunding, many projects die out in a way that leads to corporate capture and cooption of the mission.</li>
-				<li>Cycle 3: Public-oriented groups react to underfunding and corporate capture by hyper-specializing. This leads to a fragmented ecosystem that is poorly equippped to address broad, complex challenges faced by society.</li>
+				<li>Cycle 3: Public-oriented groups react to underfunding and corporate capture by hyper-specializing. This leads to a fragmented ecosystem that is poorly equipped to address broad, complex challenges faced by society.</li>
 				<li>Our next year is dedicated to learning how public digital infrastructure can break out of these cycles. </li>
 				<li>A recent insight of ours is to focus on empowering philanthropic grantees to succeed in their programmatic work (whereas they may otherwise be stymied by commercial infrastructure or forced to spend all their resources on bespoke tech development).</li>
 				<li>Co-developing with diverse communities allows us to create infrastructure that is affordable and broadly applicable - offering new on-ramps to communities that have otherwise been marginalized and excluded. </li>
