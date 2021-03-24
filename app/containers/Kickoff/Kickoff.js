@@ -9,7 +9,17 @@ const Kickoff = function() {
 			<Helmet>
 				<title>Kickoff Notes · Knowledge Futures Group</title>
 			</Helmet>
-			<h1>Kickoff Notes</h1>
+			<div className="side-logo line-up">
+				<img src="/icon.png" alt="kfg logo" />
+			</div>
+			<section>
+				<div className="side-logo line-up">
+					<img src="/icon.png" alt="kfg logo" />
+				</div>
+
+				<h1>Kickoff Notes</h1>
+			</section>
+			
 			<h2>Relevant Writing</h2>
 			<ul>
 				<li><a href="https://infrastructure.siegelendowment.org/white-paper/">Seigel Family Endowment: Infrastructure Influences Everything</a></li>
@@ -114,7 +124,7 @@ const Kickoff = function() {
 				<li>
 					<a href="https://twitter.com/pubpub">@pubpub</a>
 				</li>
-				<img alt="A recent snapshot of the KFG Team" src="/images/recentTeam.jpg" />
+				<img className="team" alt="A recent snapshot of the KFG Team" src="/images/recentTeam.jpg" />
 			</ul>
 		</div>
 	);

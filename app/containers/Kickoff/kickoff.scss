@@ -8,7 +8,10 @@ $accent: #dc7c22;
 
 #kickoff {
 	font-size: 18px;
-	img {
+	.line-up {
+		top: 10px;
+	}
+	img.team {
 		margin-top: 50px;
 		width: 100%;
 	}
