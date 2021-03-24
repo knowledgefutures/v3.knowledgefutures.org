@@ -44,9 +44,9 @@ const Kickoff = function() {
 				<li>Selection of which communities we co-develop with is critical to ensure we don't recreate existing system inequities.</li>
 				<li>The story boils down to:
 					<ol>
-						<li>Mission-driven communities are too frequently limited in their potential because they are beholden to infrastructure that is driven by misaligned incentives.</li>
-						<li>The KFG is focused on empowering those communities with affordable, mission-aligned infrastructure and integration into larger ecosystems</li>
-						<li>The selection of communities we partner with is critical to ensure we build equitable, accessible, sustainable infrastructure.</li>
+						<li>Mission driven communities are too frequently limited in their success by the misaligned digital infrastructure they rely on.</li>
+						<li>The KFG is focused on empowering those communities with co-developed, affordable, mission-aligned infrastructure and integration into larger ecosystems.</li>
+						<li>The selection of communities we partner with is critical to ensuring we build equitable, accessible, sustainable infrastructure.</li>
 					</ol>
 				</li>
 			</ul>
