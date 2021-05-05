@@ -62,7 +62,7 @@ const Team = (props) => {
 		},
 		{
 			name: 'Sarah Kearns',
-			title: ['Content Fellow'],
+			title: ['Acquisitions Editor'],
 			image: '/people/sarahKearns.jpg',
 		},
 		{
