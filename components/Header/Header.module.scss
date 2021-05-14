@@ -20,8 +20,11 @@
 		margin-left: 1em;
 		text-decoration: none;
 		// TODO: Add hover and active effects
+		&:hover {
+			border-bottom: 2px solid #555;
+		}
 		&.active {
-			color: blue;
+			border-bottom: 2px solid #000;
 		}
 	}
 }
