@@ -1,0 +1,104 @@
+[
+	{
+		"name": "Catherine Ahearn",
+		"title": ["Head of Content"],
+		"image": "/people/catherine.jpg"
+	},
+	{
+		"name": "Amy Brand",
+		"title": ["Board Chair"],
+		"external": ["MIT Press, Director"],
+		"image": "/people/amy.jpg"
+	},
+	{
+		"name": "Quincy Childs",
+		"title": ["Marketing Fellow"],
+		"image": "/people/quincy.jpg"
+	},
+	{
+		"name": "Terry Ehling",
+		"title": ["Board Member"],
+		"external": ["MIT Press, Director for Strategic Initiatives "],
+		"image": "/people/terry.jpg"
+	},
+	{
+		"name": "Joel Gustafson",
+		"title": ["Software Engineer"],
+		"external": ["Protocol Labs, Independent Researcher"],
+		"image": "/people/joel.jpg"
+	},
+	{
+		"name": "Danny Hillis",
+		"title": ["Underlayer"],
+		"image": "/people/danny.jpg"
+	},
+	{
+		"name": "Deepak Jagdish",
+		"title": ["Design Lead"],
+		"image": "/people/deepak.jpg"
+	},
+	{
+		"name": "Peter Kaufman",
+		"title": ["Strategic Development"],
+		"external": ["MIT Open Learning, Strategic Initiatives"],
+		"image": "/people/peter.jpg"
+	},
+	{
+		"name": "Sarah Kearns",
+		"title": ["Acquisitions Editor"],
+		"image": "/people/sarahKearns.jpg"
+	},
+	{
+		"name": "Sarah Kember",
+		"title": [],
+		"external": ["Goldsmiths Press, Director"],
+		"image": "/people/sarahKember.jpg"
+	},
+	{
+		"name": "SJ Klein",
+		"title": ["Underlayer", "Board Member"],
+		"image": "/people/sj.jpg"
+	},
+	{
+		"name": "Jessica Polka",
+		"title": [],
+		"external": ["ASAPBio, Executive Director"],
+		"image": "/people/jessica.jpg"
+	},
+	{
+		"name": "Ian Reynolds",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/ian.jpg"
+	},
+	{
+		"name": "Thomas Renkert",
+		"title": [""],
+		"external": ["Heidelberg University"],
+		"image": "/people/thomas.jpg"
+	},
+	{
+		"name": "Travis Rich",
+		"title": ["Executive Director", "Board Member"],
+		"image": "/people/travis.jpg"
+	},
+	{
+		"name": "Gabe Stein",
+		"title": ["Head of Operations", "Board Member"],
+		"image": "/people/gabe.jpg"
+	},
+	{
+		"name": "Dawit Tegbaru",
+		"title": ["Editorial Manager"],
+		"image": "/people/dawit.jpg"
+	},
+	{
+		"name": "Allison Vanouse",
+		"title": ["Editorial Fellow"],
+		"image": "/people/allisonV.jpg"
+	},
+	{
+		"name": "Zach Verdin",
+		"title": ["Head of Strategic Programs"],
+		"image": "/people/zach.jpg"
+	}
+]

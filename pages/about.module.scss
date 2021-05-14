@@ -1,0 +1,18 @@
+@import "pages/variables.scss";
+.about {
+	
+	.panels {
+		display: flex;
+		@include for-mobile {
+			display: block;
+		}
+	}
+	.side {
+		min-width: 250px;
+		flex: 1 1 auto;
+		margin-top: 16px;
+		margin-left: 50px;
+		padding: 2em 0em;
+		border-top: 1px solid #ccc;
+	}
+}

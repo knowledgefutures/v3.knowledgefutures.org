@@ -7,7 +7,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		z-index: 1;
 		position: relative;
 	}
 	.title {
@@ -16,15 +15,7 @@
 		}
 	}
 	.nav a {
-		color: inherit;
 		margin-left: 1em;
-		text-decoration: none;
-		// TODO: Add hover and active effects
-		&:hover {
-			border-bottom: 2px solid #555;
-		}
-		&.active {
-			border-bottom: 2px solid #000;
-		}
+		@include nav-link	
 	}
 }

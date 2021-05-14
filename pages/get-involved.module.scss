@@ -1,0 +1,9 @@
+.getInvolved {
+	.buttonGroup {
+		display: flex;
+		margin: 2em 0em;
+		& > * {
+			margin-right: 1em;
+		}
+	}
+}

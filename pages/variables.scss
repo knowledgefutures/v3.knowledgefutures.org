@@ -4,10 +4,21 @@ $max-content-width: 1024px;
 $min-content-width: 480px;
 $gutter-padding: 24px;
 
-$background-color: #F6F6F6;
+$background-color: #f6f6f6;
 
 @mixin for-mobile {
 	@media (max-width: 768px) {
 		@content;
+	}
+}
+
+@mixin nav-link {
+	color: inherit;
+	text-decoration: none;
+	&:hover {
+		border-bottom: 2px solid #555;
+	}
+	&.active {
+		border-bottom: 2px solid #000;
 	}
 }

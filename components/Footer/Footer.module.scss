@@ -1,27 +1,47 @@
+@import "pages/variables.scss";
 .footer {
-	padding: 2.5em 1em;
-	text-align: center;
-	.link {
-		color: inherit;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		text-decoration: none;
-		opacity: 0.8;
-		&:hover {
-			opacity: 1;
-			&:before {
-				content: '✨';
-				padding-right: 1em;
-			}
-			&:after {
-				content: '✨';
-				padding-left: 1em;
+	padding-top: 4em;
+	margin: 4em 0em;
+	border-top: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	.logo {
+		display: block;
+		position: relative;
+		height: 56px;
+	}
+	.details {
+		p {
+			margin: 0;
+			max-width: 350px;
+			font-size: 14px;
+			&:first-of-type {
+				margin: 2em 0px 1em;
 			}
 		}
 	}
-	.logo {
-		height: 17px;
-		margin: 0em 5px;
+	.social {
+		margin-top: 1em;
+		a {
+			margin-right: 1em;
+			img {
+				height: 24px;
+				opacity: 0.7;
+			}
+		}
+	}
+	.links {
+		display: flex;
+		ul {
+			list-style: none;
+			margin: 0em 0em 0em 5em;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 2em;
+		}
+		a {
+			@include nav-link;
+		}
 	}
 }
