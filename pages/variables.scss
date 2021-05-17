@@ -15,6 +15,7 @@ $background-color: #f6f6f6;
 @mixin nav-link {
 	color: inherit;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover {
 		border-bottom: 2px solid #555;
 	}

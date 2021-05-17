@@ -2,103 +2,122 @@
 	{
 		"name": "Catherine Ahearn",
 		"title": ["Head of Content"],
-		"image": "/people/catherine.jpg"
+		"image": "/people/catherine.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Amy Brand",
 		"title": ["Board Chair"],
 		"external": ["MIT Press, Director"],
-		"image": "/people/amy.jpg"
+		"image": "/people/amy.jpg",
+		"groups": ["Board"]
 	},
 	{
 		"name": "Quincy Childs",
 		"title": ["Marketing Fellow"],
-		"image": "/people/quincy.jpg"
+		"image": "/people/quincy.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Terry Ehling",
 		"title": ["Board Member"],
 		"external": ["MIT Press, Director for Strategic Initiatives "],
-		"image": "/people/terry.jpg"
+		"image": "/people/terry.jpg",
+		"groups": ["Board"]
 	},
 	{
 		"name": "Joel Gustafson",
 		"title": ["Software Engineer"],
 		"external": ["Protocol Labs, Independent Researcher"],
-		"image": "/people/joel.jpg"
+		"image": "/people/joel.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Danny Hillis",
 		"title": ["Underlayer"],
-		"image": "/people/danny.jpg"
+		"image": "/people/danny.jpg",
+		"groups": ["Advisors"]
 	},
 	{
 		"name": "Deepak Jagdish",
 		"title": ["Design Lead"],
-		"image": "/people/deepak.jpg"
+		"image": "/people/deepak.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Peter Kaufman",
 		"title": ["Strategic Development"],
 		"external": ["MIT Open Learning, Strategic Initiatives"],
-		"image": "/people/peter.jpg"
+		"image": "/people/peter.jpg",
+		"groups": ["Advisors"]
 	},
 	{
 		"name": "Sarah Kearns",
 		"title": ["Acquisitions Editor"],
-		"image": "/people/sarahKearns.jpg"
+		"image": "/people/sarahKearns.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Sarah Kember",
 		"title": [],
 		"external": ["Goldsmiths Press, Director"],
-		"image": "/people/sarahKember.jpg"
+		"image": "/people/sarahKember.jpg",
+		"groups": ["Advisors"]
 	},
 	{
 		"name": "SJ Klein",
 		"title": ["Underlayer", "Board Member"],
-		"image": "/people/sj.jpg"
+		"image": "/people/sj.jpg",
+		"groups": ["Staff", "Board"]
 	},
 	{
 		"name": "Jessica Polka",
 		"title": [],
 		"external": ["ASAPBio, Executive Director"],
-		"image": "/people/jessica.jpg"
+		"image": "/people/jessica.jpg",
+		"groups": ["Advisors"]
 	},
 	{
 		"name": "Ian Reynolds",
 		"title": ["Senior Software Engineer"],
-		"image": "/people/ian.jpg"
+		"image": "/people/ian.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Thomas Renkert",
 		"title": [""],
 		"external": ["Heidelberg University"],
-		"image": "/people/thomas.jpg"
+		"image": "/people/thomas.jpg",
+		"groups": ["Advisors"]
 	},
 	{
 		"name": "Travis Rich",
 		"title": ["Executive Director", "Board Member"],
-		"image": "/people/travis.jpg"
+		"image": "/people/travis.jpg",
+		"groups": ["Staff", "Board"]
 	},
 	{
 		"name": "Gabe Stein",
 		"title": ["Head of Operations", "Board Member"],
-		"image": "/people/gabe.jpg"
+		"image": "/people/gabe.jpg",
+		"groups": ["Staff", "Board"]
 	},
 	{
 		"name": "Dawit Tegbaru",
 		"title": ["Editorial Manager"],
-		"image": "/people/dawit.jpg"
+		"image": "/people/dawit.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Allison Vanouse",
 		"title": ["Editorial Fellow"],
-		"image": "/people/allisonV.jpg"
+		"image": "/people/allisonV.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Zach Verdin",
 		"title": ["Head of Strategic Programs"],
-		"image": "/people/zach.jpg"
+		"image": "/people/zach.jpg",
+		"groups": ["Staff"]
 	}
 ]

@@ -5,6 +5,9 @@
 	border-top: 1px solid #ccc;
 	display: flex;
 	justify-content: space-between;
+	@include for-mobile {
+		display: block;
+	}
 	.logo {
 		display: block;
 		position: relative;
@@ -15,18 +18,22 @@
 			margin: 0;
 			max-width: 350px;
 			font-size: 14px;
-			&:first-of-type {
-				margin: 2em 0px 1em;
-			}
+		}
+		& > p {
+			margin: 2em 0px 1em;
 		}
 	}
+	.addressBlock {
+		display: flex;
+		align-items: center;
+	}
 	.social {
-		margin-top: 1em;
+		margin-left: 2em;
 		a {
 			margin-right: 1em;
 			img {
-				height: 24px;
-				opacity: 0.7;
+				height: 22px;
+				opacity: 0.6;
 			}
 		}
 	}
@@ -36,6 +43,9 @@
 			list-style: none;
 			margin: 0em 0em 0em 5em;
 			padding: 0;
+			@include for-mobile {
+				margin: 5em 5em 0em 0em;
+				}
 		}
 		li {
 			margin-bottom: 2em;

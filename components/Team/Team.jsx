@@ -3,15 +3,33 @@ import styles from "./Team.module.scss";
 import teamjson from "./team.json";
 
 const Team = () => {
-	const [active, setActive] = useState("all");
+	const [active, setActive] = useState("All");
+	const activeMatch = (string) => {
+		return active.indexOf(string) === 0 ? styles.active : "";
+	};
+	const categories = ["All", "Staff", "Board", "Advisors"];
+	const activePeople = teamjson.filter((person)=> {
+		return active === "All" || person.groups.includes(active);
+	});
 
 	return (
 		<div className={styles.team}>
-			<div className={styles.switcher}>
-				All · Staff · Board · Advisors
-			</div>
+			{/* <div className={styles.switcher}>
+				{categories.map((category) => {
+					return (
+						<span
+							className={activeMatch(category)}
+							onClick={() => {
+								setActive(category);
+							}}
+						>
+							{category}
+						</span>
+					);
+				})}
+			</div> */}
 			<div className={styles.people}>
-				{teamjson.map((person) => {
+				{activePeople.map((person) => {
 					const { name, image, title, external } = person;
 					return (
 						<div className={styles.person} key={name}>

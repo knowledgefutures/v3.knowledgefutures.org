@@ -25,10 +25,7 @@ export default function Home() {
 			</section>
 			<section>
 				<h2>
-					Knowledge Futures Group is a 501c3 nonprofit dedicated to building open source
-					technology and gathering communities of practice to collaboratively design and
-					build the infrastructure needed for diverse, equitable, and sustainable
-					knowledge futures.
+				Knowledge Futures Group is a 501c3 nonprofit building open source technology and collaborating with communities of practice to design and build the infrastructure needed for diverse, equitable, and sustainable knowledge futures.
 				</h2>
 				<Button href="/work" text="See all our work" />
 			</section>

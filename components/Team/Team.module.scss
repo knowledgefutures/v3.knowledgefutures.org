@@ -1,9 +1,22 @@
+@import "pages/variables.scss";
+
 .team {
 	position: relative;
 	.switcher {
 		position: absolute;
-		right: 0;
+		right: -8px;
 		top: -35px;
+		span {
+			@include nav-link;
+			padding: 3px;
+			margin: 0px 5px;
+			user-select: none;
+			&:not(:first-of-type)::before {
+				content: "·";
+				position: relative;
+				right: 8px;
+			}
+		}
 	}
 	.people {
 		padding-top: 25px;
@@ -37,5 +50,4 @@
 			}
 		}
 	}
-	
 }

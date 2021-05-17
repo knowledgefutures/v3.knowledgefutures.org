@@ -17,10 +17,12 @@ const Footer = function () {
 						Knowledge Futures, Inc. is a 501(c)(3) nonprofit organization registered in
 						Massachusetts.
 					</p>
-					<p>245 Main St, Floor 2</p>
-					<p>Cambridge, MA 02142</p>
-				</div>
-				<div className={styles.social}>
+					<div className={styles.addressBlock}>
+						<div>
+						<p>245 Main St, Floor 2</p>
+						<p>Cambridge, MA 02142</p>
+						</div>
+						<div className={styles.social}>
 					<a href="https://twitter.com/kfutures">
 						<img src="/images/twitter.png" />
 					</a>
@@ -31,6 +33,9 @@ const Footer = function () {
 						<img src="/images/twitter.png" />
 					</a>
 				</div>
+					</div>
+				</div>
+				
 			</div>
 			<div className={styles.links}>
 				<ul>
