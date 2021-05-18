@@ -8,7 +8,7 @@ const Team = () => {
 		return active.indexOf(string) === 0 ? styles.active : "";
 	};
 	const categories = ["All", "Staff", "Board", "Advisors"];
-	const activePeople = teamjson.filter((person)=> {
+	const activePeople = teamjson.filter((person) => {
 		return active === "All" || person.groups.includes(active);
 	});
 
@@ -36,11 +36,19 @@ const Team = () => {
 							<img src={image} alt={name} />
 							<div className={styles.name}>{name}</div>
 							{title.map((item) => {
-								return <div className={styles.title}>{item}</div>;
+								return (
+									<div className={styles.title} key={item}>
+										{item}
+									</div>
+								);
 							})}
 							{external &&
 								external.map((item) => {
-									return <div className={styles.external}>{item}</div>;
+									return (
+										<div className={styles.external} key={item}>
+											{item}
+										</div>
+									);
 								})}
 						</div>
 					);

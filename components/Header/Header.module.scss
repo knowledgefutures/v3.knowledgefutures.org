@@ -3,7 +3,7 @@
 .header {
 	position: relative;
 	.content {
-		padding: 2em 0em 4em;
+		padding: 2em 0em 0em;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -15,7 +15,7 @@
 		}
 	}
 	.nav a {
-		margin-left: 1em;
-		@include nav-link	
+		margin-left: 2em;
+		@include nav-link;
 	}
 }

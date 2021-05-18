@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<title>Knowledge Futures Group</title>
 				<link rel="shortcut icon" href="/favicon.png" />
+				<link rel="stylesheet" href="https://use.typekit.net/hyi2otq.css" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<Header />

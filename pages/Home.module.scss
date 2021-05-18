@@ -1,0 +1,28 @@
+@import "pages/variables.scss";
+
+.home {
+	h1 {
+		margin: 100px 0px;
+		max-width: 750px;
+		font-weight: 48px;
+		font-family: upgrade-lights, sans-serif;
+		font-weight: 500;
+		span {
+			font-family: upgrade, sans-serif;
+			font-weight: 400;
+		}
+	}
+}
+.hype {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	@include for-mobile {
+		grid-template-columns: 1fr;
+		grid-template: 1fr 1fr 1fr 1fr / 1fr;
+	}
+	.project {
+		font-family: upgrade, sans-serif;
+		font-weight: 400;
+	}
+}
