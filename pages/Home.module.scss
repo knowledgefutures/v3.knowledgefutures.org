@@ -21,8 +21,21 @@
 		grid-template-columns: 1fr;
 		grid-template: 1fr 1fr 1fr 1fr / 1fr;
 	}
+	.block {
+		background: #bdbdbd;
+		border-radius: 4px;
+		width: 200px;
+		height: 200px;
+		margin-bottom: 50px;
+	}
 	.project {
 		font-family: upgrade, sans-serif;
 		font-weight: 400;
+	}
+	&:after {
+		content: "";
+		height: 1px;
+		width: 50%;
+		background: #bdbdbd;
 	}
 }
