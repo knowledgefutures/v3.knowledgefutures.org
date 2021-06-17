@@ -7,8 +7,7 @@ export default function Home() {
 		<div className={styles.home}>
 			<section>
 				<h1>
-					<span>Knowledge Futures Group</span> is building the foundation for collective understanding
-					of our world.
+					<span>Knowledge Futures Group</span> builds infrastructure for a more effective, equitable, and sustainable knowledge economy.
 				</h1>
 				<div className={styles.hype}>
 					<div>
@@ -32,7 +31,7 @@ export default function Home() {
 			<section>
 				<div>
 					Knowledge Futures Group is a 501c3 nonprofit building open source technology and
-					collaborating with communities of practice to design and build the
+					collaborating with communities of practice to design and build the public digital
 					infrastructure needed for diverse, equitable, and sustainable knowledge futures.
 				</div>
 				<Button href="/work" text="See all our work" />

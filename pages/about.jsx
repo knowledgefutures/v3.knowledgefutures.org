@@ -47,27 +47,33 @@ export default function About() {
 				<h2>How we work</h2>
 				<div className={styles.panels}>
 					<div>
+					<p>
+							The Knowledge Futures Group, founded as a partnership between the MIT
+							Press and the MIT Media Lab, is a nonprofit organization powered by
+							academic, industry, and advocacy groups. Together we build and support
+							products to make knowledge open and accessible to all.
+						</p>
 						<p>
-							Accessibility: We believe that just because knowledge is available
+							<b>Accessibility</b>: We believe that just because knowledge is available
 							doesn’t mean it’s truly accessible. We put ourselves in others’
 							positions to understand the barriers that prevent knowledge from being
 							truly accessible to diverse groups around the world.
 						</p>
 
 						<p>
-							Conscientiousness: We value honesty and good-faith efforts to fulfill
+							<b>Conscientiousness</b>: We value honesty and good-faith efforts to fulfill
 							our duties and obligations as highly as success in its own right.
 						</p>
 
 						<p>
-							Curiosity: We approach challenges with an honest, experimental,
+							<b>Curiosity</b>: We approach challenges with an honest, experimental,
 							problem-solving mindset. We bring an intellectual curiosity that
 							explores problem spaces with openness and intrigue in ways that lead to
 							important new ideas.
 						</p>
 
 						<p>
-							Egalitarianism: We acknowledges that all people deserve equality and
+							<b>Egalitarianism</b>: We acknowledges that all people deserve equality and
 							fairness regardless of the individual circumstances of their life. We
 							recognize that teams, especially distributed ones, are made of people
 							who bring different perspectives, opportunities, and cultures that add
@@ -75,14 +81,14 @@ export default function About() {
 						</p>
 
 						<p>
-							Systemic outlook: We prioritize solutions that tackle problems in
+							<b>Systemic outlook</b>: We prioritize solutions that tackle problems in
 							systemic ways rather than iterating solely at the margins. We think
 							systematically when we approach problems, rather than solely thinking
 							locally.
 						</p>
 
 						<p>
-							Sustainability: We value solutions that are sustainable and durable for
+							<b>Sustainability</b>: We value solutions that are sustainable and durable for
 							the long-term, even if they’re more difficult, over ones that are more
 							expedient but less sustainable.
 						</p>

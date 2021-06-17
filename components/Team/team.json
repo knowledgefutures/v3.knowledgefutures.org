@@ -39,17 +39,16 @@
 		"groups": ["Advisors"]
 	},
 	{
+		"name": "Ben Howe",
+		"title": ["Software Engineer"],
+		"image": "/people/benHowe.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Deepak Jagdish",
 		"title": ["Design Lead"],
 		"image": "/people/deepak.jpg",
 		"groups": ["Staff"]
-	},
-	{
-		"name": "Peter Kaufman",
-		"title": ["Strategic Development"],
-		"external": ["MIT Open Learning, Strategic Initiatives"],
-		"image": "/people/peter.jpg",
-		"groups": ["Advisors"]
 	},
 	{
 		"name": "Sarah Kearns",
@@ -58,37 +57,16 @@
 		"groups": ["Staff"]
 	},
 	{
-		"name": "Sarah Kember",
-		"title": [],
-		"external": ["Goldsmiths Press, Director"],
-		"image": "/people/sarahKember.jpg",
-		"groups": ["Advisors"]
-	},
-	{
 		"name": "SJ Klein",
 		"title": ["Underlayer", "Board Member"],
 		"image": "/people/sj.jpg",
 		"groups": ["Staff", "Board"]
 	},
 	{
-		"name": "Jessica Polka",
-		"title": [],
-		"external": ["ASAPBio, Executive Director"],
-		"image": "/people/jessica.jpg",
-		"groups": ["Advisors"]
-	},
-	{
 		"name": "Ian Reynolds",
 		"title": ["Senior Software Engineer"],
 		"image": "/people/ian.jpg",
 		"groups": ["Staff"]
-	},
-	{
-		"name": "Thomas Renkert",
-		"title": [""],
-		"external": ["Heidelberg University"],
-		"image": "/people/thomas.jpg",
-		"groups": ["Advisors"]
 	},
 	{
 		"name": "Travis Rich",
@@ -101,6 +79,12 @@
 		"title": ["Head of Operations", "Board Member"],
 		"image": "/people/gabe.jpg",
 		"groups": ["Staff", "Board"]
+	},
+	{
+		"name": "Qwelian Tanner",
+		"title": ["Software Engineer"],
+		"image": "/people/qwelian.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Dawit Tegbaru",

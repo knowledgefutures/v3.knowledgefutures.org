@@ -29,7 +29,14 @@ const Team = () => {
 				})}
 			</div> */}
 			<div className={styles.people}>
-				{activePeople.map((person) => {
+				{activePeople.sort((foo, bar) => {
+					if (foo.name < bar.name) {
+						return -1;
+					}
+					if (foo.name > bar.name) {
+						return 1;
+					}
+				}).map((person) => {
 					const { name, image, title, external } = person;
 					return (
 						<div className={styles.person} key={name}>
