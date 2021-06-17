@@ -6,11 +6,13 @@ const Footer = function () {
 	return (
 		<div className={styles.footer}>
 			<div>
-				<img
-					className={styles.logo}
-					src="/logoFull.svg"
-					alt="Knowledge Futures Group Logo"
-				/>
+				<a href="/">
+					<img
+						className={styles.logo}
+						src="/logoFull.svg"
+						alt="Knowledge Futures Group Logo"
+					/>
+				</a>
 
 				<div className={styles.details}>
 					<p>
@@ -19,23 +21,22 @@ const Footer = function () {
 					</p>
 					<div className={styles.addressBlock}>
 						<div>
-						<p>245 Main St, Floor 2</p>
-						<p>Cambridge, MA 02142</p>
+							<p>245 Main St, Floor 2</p>
+							<p>Cambridge, MA 02142</p>
 						</div>
 						<div className={styles.social}>
-					<a href="https://twitter.com/kfutures">
-						<img src="/images/twitter.png" />
-					</a>
-					<a href="/">
-						<img src="/images/twitter.png" />
-					</a>
-					<a href="/">
-						<img src="/images/twitter.png" />
-					</a>
-				</div>
+							<a href="https://twitter.com/kfutures">
+								<img src="/images/twitter.png" />
+							</a>
+							<a href="/">
+								<img src="/images/twitter.png" />
+							</a>
+							<a href="/">
+								<img src="/images/twitter.png" />
+							</a>
+						</div>
 					</div>
 				</div>
-				
 			</div>
 			<div className={styles.links}>
 				<ul>

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Button, Team } from "components";
+import { Button, Team, Partners } from "components";
 
 import styles from "./about.module.scss";
 
@@ -37,25 +37,28 @@ export default function About() {
 							knowledge economy is possible. We work with partners to design for
 							interoperability and to catalyze a distributed ecosystem of development.
 						</p>
+						{/* Supporting orgs */}
+						<Partners />
 					</div>
 					<div className={styles.side}>
 						<h4>Annual Reports</h4>
 						<ul>
 							<li>
-								2020: {" "}
+								2020:{" "}
 								<a className="hoverline" href="/reports/annualReport2020.pdf">
 									PDF
 								</a>{" "}
 								·{" "}
-								<a className="hoverline" href="https://notes.knowledgefutures.org/pub/2020report">
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/2020report"
+								>
 									Web
 								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				{/* Supporting orgs */}
-				<div>List our supporting partners and their logos here.</div>
 			</section>
 
 			<section>

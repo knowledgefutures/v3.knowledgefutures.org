@@ -16,7 +16,7 @@ export default function GetInvolved() {
 				dedicated to stewarding healthy and equitable knowledge futures.
 			</p>
 
-			<section className={styles.flex}>
+			<section>
 				<div>
 					<h2>Careers</h2>
 					<p>
@@ -33,29 +33,36 @@ export default function GetInvolved() {
 			</section>
 
 			<section>
-				<h2>Open Source Contributors</h2>
-				<p>
-					All of our development and roadmapping is open source and we invite your
-					contribution. Visit our Github Organization pages to begin contributing.
-				</p>
-				<div className={styles.buttonGroup}>
-					<Button href="https://github.com/pubpub" text="PubPub on Github" />
-					<Button href="https://github.com/underlay" text="Underlay on Github" />
+				<div>
+					<h2>Open Source Contributors</h2>
+					<p>
+						All of our development and roadmapping is open source and we invite your
+						contribution. Visit our Github Organization pages to begin contributing.
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button href="https://github.com/pubpub" text="PubPub on Github" />
+						<Button href="https://github.com/underlay" text="Underlay on Github" />
+					</div>
 				</div>
 			</section>
 
 			<section>
-				<h2>Events</h2>
-				<p>
-					We hold regular events focused on the co-design of our products and campaigns.{" "}
-				</p>
-				<div className={styles.buttonGroup}>
-					<Button href="/" text="Community Publishing Events" />
+				<div>
+					<h2>Events</h2>
+					<p>
+						We hold regular events focused on the co-design of our products and
+						campaigns.{" "}
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button
+							href="https://communitypublishing.pubpub.org/events"
+							text="Community Publishing Events"
+						/>
+					</div>
 				</div>
 			</section>
 
-			<section className={styles.flex}>
-				<div className={styles.rightPad} />
+			<section>
 				<div>
 					<h2>Partners and Funders</h2>
 					<p>
@@ -66,22 +73,25 @@ export default function GetInvolved() {
 					<div className={styles.buttonGroup}>
 						<Button
 							href="mailto:partners@knowledgefutures.org"
-							text="Contact Partnership Team"
+							text="Contact the Partnership Team"
 						/>
 					</div>
 				</div>
+				<div className={styles.rightPad} />
 			</section>
 
 			<section>
-				<h2>Stay up to Date</h2>
-				<p>
-					We’ll keep you in the loop as we have updates and announcements. We welcome you
-					to join the mailing lists we maintain.
-				</p>
-				<div className={styles.buttonGroup}>
-					<Button href="/" text="KFG Newsletter" />
-					<Button href="/" text="PubPub Newsletter" />
-					<Button href="/" text="PubPub Developer Newsletter" />
+				<div>
+					<h2>Stay up to Date</h2>
+					<p>
+						We’ll keep you in the loop as we have updates and announcements. We welcome
+						you to join the mailing lists we maintain.
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button href="/" text="KFG Newsletter" />
+						<Button href="/" text="PubPub Newsletter" />
+						<Button href="/" text="PubPub Developer Newsletter" />
+					</div>
 				</div>
 			</section>
 		</div>

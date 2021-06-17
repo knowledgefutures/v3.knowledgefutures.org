@@ -8,6 +8,10 @@
 		@include for-mobile {
 			display: block;
 		}
+		b {
+			font-family: upgrade, sans-serif;
+			font-weight: 400;
+		}
 	}
 	.side {
 		min-width: 250px;
