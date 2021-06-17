@@ -15,18 +15,23 @@ export default function GetInvolved() {
 				Knowledge Futures Group is a distributed community of people around the globe
 				dedicated to stewarding healthy and equitable knowledge futures.
 			</p>
-			<section>
-				<h2>Careers</h2>
-				<p>
-					We’re building a team of self-motivated, intellectually curious, and kind people
-					that like to operate with a problem-solving mindset. We’re dedicated to each
-					individual’s personal growth and take every team member and their ideas
-					seriously.
-				</p>
-				<div className={styles.buttonGroup}>
-					<Button href="jobs" text="open-positions" />
+
+			<section className={styles.flex}>
+				<div>
+					<h2>Careers</h2>
+					<p>
+						We’re building a team of self-motivated, intellectually curious, and kind
+						people that like to operate with a problem-solving mindset. We’re dedicated
+						to each individual’s personal growth and take every team member and their
+						ideas seriously.
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button href="/jobs" text="Open Positions" />
+					</div>
 				</div>
+				<div className={styles.leftPad} />
 			</section>
+
 			<section>
 				<h2>Open Source Contributors</h2>
 				<p>
@@ -38,6 +43,7 @@ export default function GetInvolved() {
 					<Button href="https://github.com/underlay" text="Underlay on Github" />
 				</div>
 			</section>
+
 			<section>
 				<h2>Events</h2>
 				<p>
@@ -47,20 +53,25 @@ export default function GetInvolved() {
 					<Button href="/" text="Community Publishing Events" />
 				</div>
 			</section>
-			<section>
-				<h2>Partners and Funders</h2>
-				<p>
-					Join Knowledge Futures Group in co-designing the processes and tools that will
-					enhance our capacity for collective understanding and lead to more equitable,
-					effective, and sustainable futures.
-				</p>
-				<div className={styles.buttonGroup}>
-					<Button
-						href="mailto:partners@knowledgefutures.org"
-						text="Contact Partnership Team"
-					/>
+
+			<section className={styles.flex}>
+				<div className={styles.rightPad} />
+				<div>
+					<h2>Partners and Funders</h2>
+					<p>
+						Join Knowledge Futures Group in co-designing the processes and tools that
+						will enhance our capacity for collective understanding and lead to more
+						equitable, effective, and sustainable futures.
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button
+							href="mailto:partners@knowledgefutures.org"
+							text="Contact Partnership Team"
+						/>
+					</div>
 				</div>
 			</section>
+
 			<section>
 				<h2>Stay up to Date</h2>
 				<p>

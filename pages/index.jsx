@@ -67,31 +67,65 @@ export default function Home() {
 				</div>
 			</section>
 			<section>
-				<div>
+				<h2>
 					Knowledge Futures Group is a 501c3 nonprofit building open source technology and
 					collaborating with communities of practice to design and build the public
-					digital infrastructure needed for diverse, equitable, and sustainable knowledge
-					futures.
-				</div>
+					digital infrastructure needed for effective, equitable, and sustainable
+					knowledge futures.
+				</h2>
 				<Button href="/work" text="See all our work" />
 			</section>
-			<section>
+			<section className={styles.impact}>
 				<h2>Our Impact</h2>
-				<div>
-					<div>2,500+ publishing communities</div>
-					<div>30,000+ pubs</div>
-					<div>25,000+ users</div>
+				<div className={styles.impactContent}>
+					<div className={styles.numbers}>
+						<div className={styles.number}>
+							<span>25,000+</span> users building
+						</div>
+						<div className={styles.number}>
+							<span>30,000+</span> pubs across
+						</div>
+						<div className={styles.number}>
+							<span>2,500+</span> publishing communities
+						</div>
+					</div>
+					<div className={styles.news}>
+						<div>Recent Highlights</div>
+						<ul>
+							<li>
+								<a className="hoverline" href="">
+									Clarivate, ProQuest, and our Resistance to Commercializing
+									Knowledge
+								</a>
+							</li>
+							<li>
+								<a className="hoverline" href="">
+									MIT Press launches MIT Open Publishing Services
+								</a>
+							</li>
+							<li>
+								<a className="hoverline" href="">
+									Three PubPub Communities Ackowledged by 2021 Prose Awards
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2>Get Involved</h2>
-				<p>
-					Knowledge Futures Group builds and sustains technology for the production,
-					curation, and preservation of knowledge in service of the public good. We're
-					powered by partners and contributors that are dedicated to stewarding healthy
-					and equitable knowledge futures.
-				</p>
-				<Button href="get-involved" text="Join us" />
+				<div className={styles.involved}>
+					<div className={styles.text}>
+						<p>
+							Knowledge Futures Group builds and sustains technology for the
+							production, curation, and preservation of knowledge in service of the
+							public good. We're powered by partners and contributors that are
+							dedicated to stewarding healthy and equitable knowledge futures.
+						</p>
+						<Button href="get-involved" text="Join us" />
+					</div>
+					<div className={styles.image} />
+				</div>
 			</section>
 		</div>
 	);
