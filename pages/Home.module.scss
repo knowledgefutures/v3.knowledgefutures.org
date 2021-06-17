@@ -2,7 +2,7 @@
 
 .home {
 	h1 {
-		margin: 100px 0px;
+		margin: 50px 0px 100px;
 		max-width: 850px;
 		font-weight: 48px;
 		font-family: upgrade-lights, sans-serif;
@@ -16,18 +16,64 @@
 .hype {
 	display: grid;
 	grid-template: 1fr / 1fr 1fr 1fr 1fr;
-	gap: 20px;
+	gap: 40px;
 	@include for-mobile {
 		grid-template-columns: 1fr;
 		grid-template: 1fr 1fr 1fr 1fr / 1fr;
 	}
-	.block {
-		background: #bdbdbd;
-		border-radius: 4px;
-		width: 200px;
-		height: 200px;
-		margin-bottom: 50px;
+	.hypeItem {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-decoration: none;
+		@include for-mobile {
+			flex-direction: row;
+		}
+		&:hover {
+			.logoAux {
+				transition: linear all 100ms;
+				width: 100%;
+				padding: 0px;
+			}
+			.logo {
+				display: none;
+			}
+			.logoHover {
+				display: block;
+			}
+		}
 	}
+	.block {
+		position: relative;
+		// border: 1px solid red;
+		width: 150px;
+		height: 125px;
+		margin-bottom: 35px;
+		flex: 0 0 auto;
+		@include for-mobile {
+			margin-right: 15px;
+			margin-bottom: 0px;
+		}
+		@mixin logo {
+			width: 100px;
+			position: absolute;
+			left: 25px;
+			top: 20px;
+		}
+		.logoAux {
+			width: 90%;
+			padding: 5%;
+		}
+		.logo {
+			@include logo;
+		}
+		.logoHover {
+			@include logo;
+			display: none;
+			
+		}
+	}
+
 	.project {
 		font-family: upgrade, sans-serif;
 		font-weight: 400;

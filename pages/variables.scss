@@ -30,10 +30,17 @@ $background-color: #f6f6f6;
 	font-weight: 500
 }
 
-@mixin section-headings-font {
+@mixin page-heading-font {
 	font-size: 36px;
 	font-family: upgrade, sans-serif;
 	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+@mixin section-headings-font {
+	font-size: 36px;
+	font-family: upgrade-lights, sans-serif;
+	font-weight: 500;
 	letter-spacing: 0.5px;
 }
 

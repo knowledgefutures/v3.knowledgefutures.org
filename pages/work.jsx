@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import styles from "./work.module.scss";
 
 const projects = [
@@ -23,22 +25,25 @@ const projects = [
 		title: "Docmaps",
 		description:
 			"A community-endorsed protocol for representing publication processes in a machine-readable, discoverable, and extensible format.",
-		link: "",
+		link: "https://docmaps.knowledgefutures.org",
 	},
 	{
 		title: "Campaign for Comunity Publishing",
 		description:
 			"Events, workshops, and convening to support collective action towards more equitable, effective, and sustainable publishing models.",
-		link: "",
+		link: "https://communitypublishing.pubpub.org",
 	},
 ];
 export default function Work() {
 	return (
 		<div className={styles.work}>
+			<Head>
+				<title>Our Work · Knowledge Futures Group</title>
+			</Head>
 			<h1>Our Work</h1>
 			<p>
 				Knowledge Futures Group is structured around the belief that technology is not
-				sufficient for the complex, post-normal challenges of our time. Our approach to
+				sufficient for the complex, <a href="https://commonplace.knowledgefutures.org/pub/6qqfgms5">post-normal</a> challenges of our time. Our approach to
 				these problems is a bottom-up community-led development process that encompasses
 				convening and publication. Each activity strengthens the other, providing a more
 				holistic, equitable, considered approach to sustainable technology development.
@@ -53,7 +58,7 @@ export default function Work() {
 				end-to-end knowledge production processes their work exists within. Doing so is a
 				technical, social, and cultural action - and our work reflects that.
 			</p>
-			<div className={styles.projects}>
+			<section className={styles.projects}>
 				{projects.map((project) => {
 					return (
 						<a href={project.link} className={styles.project} key={project.title}>
@@ -62,7 +67,7 @@ export default function Work() {
 						</a>
 					);
 				})}
-			</div>
+			</section>
 		</div>
 	);
 }

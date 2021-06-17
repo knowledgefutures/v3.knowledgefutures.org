@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { Button, Team } from "components";
 
 import styles from "./about.module.scss";
@@ -5,6 +7,9 @@ import styles from "./about.module.scss";
 export default function About() {
 	return (
 		<div className={styles.about}>
+			<Head>
+				<title>About · Knowledge Futures Group</title>
+			</Head>
 			<section>
 				<h2>Our story</h2>
 
@@ -36,7 +41,16 @@ export default function About() {
 					<div className={styles.side}>
 						<h4>Annual Reports</h4>
 						<ul>
-							<li>2019-2020: PDF · Web</li>
+							<li>
+								2020: {" "}
+								<a className="hoverline" href="/reports/annualReport2020.pdf">
+									PDF
+								</a>{" "}
+								·{" "}
+								<a className="hoverline" href="https://notes.knowledgefutures.org/pub/2020report">
+									Web
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -99,8 +113,22 @@ export default function About() {
 					<div className={styles.side}>
 						<h4>Statements & Principles</h4>
 						<ul>
-							<li><a href="https://notes.knowledgefutures.org/pub/cqih29xa">Handbook</a></li>
-							<li><a href="https://notes.knowledgefutures.org/pub/principles">Diversity and Inclusion</a></li>
+							<li>
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/cqih29xa"
+								>
+									Handbook
+								</a>
+							</li>
+							<li>
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/principles"
+								>
+									Diversity and Inclusion
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>

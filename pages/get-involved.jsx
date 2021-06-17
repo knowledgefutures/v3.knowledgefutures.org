@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { Button } from "components";
 
 import styles from "./get-involved.module.scss";
@@ -5,11 +7,14 @@ import styles from "./get-involved.module.scss";
 export default function GetInvolved() {
 	return (
 		<div className={styles.getInvolved}>
+			<Head>
+				<title>Get Involved · Knowledge Futures Group</title>
+			</Head>
 			<h1>Get Involved</h1>
-			<h2>
+			<p>
 				Knowledge Futures Group is a distributed community of people around the globe
 				dedicated to stewarding healthy and equitable knowledge futures.
-			</h2>
+			</p>
 			<section>
 				<h2>Careers</h2>
 				<p>

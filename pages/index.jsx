@@ -1,38 +1,77 @@
 import { Button } from "components";
 
-import styles from "./Home.module.scss"
+import styles from "./Home.module.scss";
 
+const projects = [
+	{
+		key: "pubpub",
+		title: "PubPub",
+		description:
+			"We’re empowering communities to control their publication workflow end-to-end with ",
+		link: "https://www.pubpub.org",
+	},
+	{
+		key: "commonplace",
+		title: "Commonplace",
+		description:
+			"We’re spotlighting voices and ideas behind the push to make public knowledge a public good with ",
+		link: "https://commonplace.knowledgefutures.org",
+	},
+	{
+		key: "underlay",
+		title: "Underlay",
+		description: "We’re connecting the world’s knowledge with the ",
+		link: "https://www.underlay.org",
+	},
+	{
+		key: "cp",
+		title: "Community Publishing",
+		description:
+			"We’re supporting collective action towards better publishing with our campaign for ",
+		link: "https://communitypublishing.pubpub.org",
+	},
+];
 export default function Home() {
 	return (
 		<div className={styles.home}>
 			<section>
 				<h1>
-					<span>Knowledge Futures Group</span> builds infrastructure for a more effective, equitable, and sustainable knowledge economy.
+					<span>Knowledge Futures Group</span> builds infrastructure for a more effective,
+					equitable, and sustainable knowledge economy.
 				</h1>
 				<div className={styles.hype}>
-					<div>
-						<div className={styles.block}></div>
-						We’re empowering communities to control their publication workflow
-						end-to-end with <span className={styles.project}>PubPub</span>.
-					</div>
-					<div>
-					<div className={styles.block}></div>
-						We’re spotlighting voices and ideas behind the push to make public knowledge
-						a public good with <span className={styles.project}>Commonplace</span>.
-					</div>
-					<div><div className={styles.block}></div>We’re connecting the world’s knowledge with the <span className={styles.project}>Underlay</span>.</div>
-					<div>
-					<div className={styles.block}></div>
-						We’re supporting collective action towards more equitable, effective, and
-						sustainable publishing models with our Campaign for <span className={styles.project}>Community Publishing</span>.
-					</div>
+					{projects.map((project) => {
+						return (
+							<a key={project.key} className={styles.hypeItem} href={project.link}>
+								<div className={styles.block}>
+									<img
+										className={styles.logoAux}
+										src={`/images/projects/${project.key}-aux.svg`}
+									/>
+									<img
+										className={styles.logo}
+										src={`/images/projects/${project.key}.svg`}
+									/>
+									<img
+										className={styles.logoHover}
+										src={`/images/projects/${project.key}-hover.svg`}
+									/>
+								</div>
+								<span>
+									{project.description}
+									<span className={styles.project}>{project.title}</span>.
+								</span>
+							</a>
+						);
+					})}
 				</div>
 			</section>
 			<section>
 				<div>
 					Knowledge Futures Group is a 501c3 nonprofit building open source technology and
-					collaborating with communities of practice to design and build the public digital
-					infrastructure needed for diverse, equitable, and sustainable knowledge futures.
+					collaborating with communities of practice to design and build the public
+					digital infrastructure needed for diverse, equitable, and sustainable knowledge
+					futures.
 				</div>
 				<Button href="/work" text="See all our work" />
 			</section>

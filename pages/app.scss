@@ -26,10 +26,17 @@ body {
 	}
 }
 
+h1 {
+	@include page-heading-font;
+	margin-top: 0px;
+}
 h2 {
 	@include section-headings-font;
+	margin-top: 0px;
 }
-
+a {
+	color: inherit;
+}
 section {
 	margin-bottom: 4em;
 }
