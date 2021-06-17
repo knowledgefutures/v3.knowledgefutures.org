@@ -35,7 +35,9 @@ export default function About() {
 					</div>
 					<div className={styles.side}>
 						<h4>Annual Reports</h4>
-						<div>2019-2020: PDF · Web</div>
+						<ul>
+							<li>2019-2020: PDF · Web</li>
+						</ul>
 					</div>
 				</div>
 				{/* Supporting orgs */}
@@ -95,11 +97,10 @@ export default function About() {
 					</div>
 
 					<div className={styles.side}>
-						<h4>Handbook & Policies</h4>
+						<h4>Statements & Principles</h4>
 						<ul>
-							<li>Handbook</li>
-							<li>DEI Policy</li>
-							<li>etc</li>
+							<li><a href="https://notes.knowledgefutures.org/pub/cqih29xa">Handbook</a></li>
+							<li><a href="https://notes.knowledgefutures.org/pub/principles">Diversity and Inclusion</a></li>
 						</ul>
 					</div>
 				</div>

@@ -38,6 +38,11 @@ export default function Home() {
 			</section>
 			<section>
 				<h2>Our Impact</h2>
+				<div>
+					<div>2,500+ publishing communities</div>
+					<div>30,000+ pubs</div>
+					<div>25,000+ users</div>
+				</div>
 			</section>
 			<section>
 				<h2>Get Involved</h2>
