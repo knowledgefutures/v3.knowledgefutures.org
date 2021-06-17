@@ -5,17 +5,18 @@ import styles from "./get-involved.module.scss";
 export default function GetInvolved() {
 	return (
 		<div className={styles.getInvolved}>
-			<h1>
+			<h1>Get Involved</h1>
+			<h2>
 				Knowledge Futures Group is a distributed community of people around the globe
 				dedicated to stewarding healthy and equitable knowledge futures.
-			</h1>
+			</h2>
 			<section>
 				<h2>Careers</h2>
 				<p>
 					We’re building a team of self-motivated, intellectually curious, and kind people
 					that like to operate with a problem-solving mindset. We’re dedicated to each
 					individual’s personal growth and take every team member and their ideas
-					seriously.{" "}
+					seriously.
 				</p>
 				<div className={styles.buttonGroup}>
 					<Button href="jobs" text="open-positions" />

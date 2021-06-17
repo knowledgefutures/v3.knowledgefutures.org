@@ -1,6 +1,8 @@
 @import "pages/variables.scss";
 .about {
-	
+	.fullPanelP {
+		margin-bottom: 0em;
+	}
 	.panels {
 		display: flex;
 		@include for-mobile {
@@ -12,7 +14,11 @@
 		flex: 1 1 auto;
 		margin-top: 16px;
 		margin-left: 50px;
-		padding: 2em 0em;
+		padding: 1em 0em;
 		border-top: 1px solid #ccc;
+		@include for-mobile {
+			margin-left: 0px;
+			margin-top: 40px;
+		}
 	}
 }
