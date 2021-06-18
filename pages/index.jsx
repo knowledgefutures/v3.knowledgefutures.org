@@ -80,7 +80,7 @@ export default function Home() {
 				<div className={styles.impactContent}>
 					<div className={styles.numbers}>
 						<div className={styles.number}>
-							<span>25,000+</span> users building
+							<span>25,000+</span> users contributing to
 						</div>
 						<div className={styles.number}>
 							<span>30,000+</span> pubs across
