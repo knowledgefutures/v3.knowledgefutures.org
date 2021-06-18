@@ -1,4 +1,4 @@
-import styles from "./partners.module.scss";
+import styles from "./Partners.module.scss";
 
 const Partners = () => {
 	const partners = [
