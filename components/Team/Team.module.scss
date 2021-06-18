@@ -23,6 +23,7 @@
 		display: grid;
 		grid-gap: 50px;
 		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		font-size: 18px;
 		.person {
 			text-align: center;
 			display: flex;
@@ -40,12 +41,12 @@
 				font-weight: 300;
 			}
 			.title {
-				font-size: 14px;
-				line-height: 16px;
+				font-size: 16px;
+				line-height: 18px;
 			}
 			.external {
-				font-size: 14px;
-				line-height: 16px;
+				font-size: 16px;
+				line-height: 18px;
 				opacity: 0.5;
 			}
 		}

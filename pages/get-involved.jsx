@@ -32,7 +32,7 @@ export default function GetInvolved() {
 				<div className={styles.leftPad} />
 			</section>
 
-			<section>
+			<section id="code">
 				<div>
 					<h2>Open Source Contributors</h2>
 					<p>
@@ -80,7 +80,7 @@ export default function GetInvolved() {
 				<div className={styles.rightPad} />
 			</section>
 
-			<section>
+			<section id="newsletters">
 				<div>
 					<h2>Stay up to Date</h2>
 					<p>

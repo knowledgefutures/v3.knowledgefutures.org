@@ -28,12 +28,12 @@ const Footer = function () {
 							<a href="https://twitter.com/kfutures">
 								<img src="/images/twitter.png" />
 							</a>
-							<a href="/">
-								<img src="/images/twitter.png" />
+							<a href="/get-involved#code">
+								<img src="/images/github.png" />
 							</a>
-							<a href="/">
+							{/* <a href="/">
 								<img src="/images/twitter.png" />
-							</a>
+							</a> */}
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@ const Footer = function () {
 						<a href="/about#team">Team</a>
 					</li>
 					<li>
-						<a href="/news">Newsroom</a>
+						<a href="/get-involved#newsletters">Newsletters</a>
 					</li>
 					<li>
 						<a href="mailto:hello@knowledgefutures.org">Contact</a>

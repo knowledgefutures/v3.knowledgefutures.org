@@ -16,7 +16,7 @@
 	.side {
 		min-width: 250px;
 		flex: 1 1 auto;
-		margin-top: 16px;
+		margin-top: 30px;
 		margin-left: 50px;
 		padding: 1em 0em;
 		border-top: 1px solid #ccc;
@@ -25,6 +25,7 @@
 			margin-top: 40px;
 		}
 		h4 {
+			margin-top: 0px;
 			font-family: upgrade, sans-serif;
 			font-weight: 400;
 		}
