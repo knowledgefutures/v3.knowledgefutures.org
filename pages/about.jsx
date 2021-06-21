@@ -21,9 +21,9 @@ export default function About() {
 				<div className={styles.panels}>
 					<div>
 						<p>
-							Founded as a partnership between the MIT Press and the MIT Media Lab,
-							Knowledge Futures Group was created to provide sustainable tools and
-							technologies relied on by libraries, presses, museums, activist
+							Founded in 2018 as a partnership between the MIT Press and the MIT Media
+							Lab, Knowledge Futures Group was created to provide sustainable tools
+							and technologies relied on by libraries, presses, museums, activist
 							organizations, researchers, and others whose knowledge work seeks to
 							serve collective understanding and the public. What began as work on
 							publishing tools by a set of grad students grew to realize the systemic
@@ -32,10 +32,12 @@ export default function About() {
 							dynamics.
 						</p>
 						<p>
-							Today, we are committed to building a full-stack of technology protocols
-							and products that demonstrate an effective, equitable, and sustainable
-							knowledge economy is possible. We work with partners to design for
-							interoperability and to catalyze a distributed ecosystem of development.
+							In September 2019 we formally organized as an independent 501c3
+							nonprofit. Today, we are committed to building a full-stack of
+							technology protocols and products that demonstrate an effective,
+							equitable, and sustainable knowledge economy is possible. We work with
+							partners to design for interoperability and to catalyze a distributed
+							ecosystem of development.
 						</p>
 						{/* Supporting orgs */}
 						<Partners />
@@ -144,7 +146,8 @@ export default function About() {
 					and communities. We do not accept funding that would affect our ability to
 					pursue work free of external interference, and we protect the independence of
 					our staff, communities, and partners in their intellectual activities and
-					relationships.
+					relationships. We build our products in concert with the people who use them,
+					implementing a bottom-up, community-led approach.
 				</p>
 			</section>
 			<section>

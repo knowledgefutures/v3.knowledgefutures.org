@@ -85,12 +85,12 @@ export default function GetInvolved() {
 					<h2>Stay up to Date</h2>
 					<p>
 						We’ll keep you in the loop as we have updates and announcements. We welcome
-						you to join the mailing lists we maintain.
+						you to join the monthly mailing lists we maintain.
 					</p>
 					<div className={styles.buttonGroup}>
-						<Button href="/" text="KFG Newsletter" />
-						<Button href="/" text="PubPub Newsletter" />
-						<Button href="/" text="PubPub Developer Newsletter" />
+						<Button href="https://notes.knowledgefutures.org/newsletters" text="PubPub Community and Product Newsletter" />
+						<Button href="https://knowledgefutures.us5.list-manage.com/subscribe?u=9b9b78707f3dd62d0d47ec03d&id=99e720771c" text="Community Publishing Project Updates" />
+						<Button href="https://commonplace.knowledgefutures.org/5t3a" text="5 Things to Think About" />
 					</div>
 				</div>
 			</section>
