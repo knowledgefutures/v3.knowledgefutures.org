@@ -93,18 +93,18 @@ export default function Home() {
 						<div>Recent Highlights</div>
 						<ul>
 							<li>
-								<a className="hoverline" href="">
+								<a className="hoverline" href="https://commonplace.knowledgefutures.org/pub/kp81ylos">
 									Clarivate, ProQuest, and our Resistance to Commercializing
 									Knowledge
 								</a>
 							</li>
 							<li>
-								<a className="hoverline" href="">
-									MIT Press launches MIT Open Publishing Services
+								<a className="hoverline" href="https://mitpress.mit.edu/blog/mit-press-launches-mit-open-publishing-services">
+									The MIT Press launches MIT Open Publishing Services
 								</a>
 							</li>
 							<li>
-								<a className="hoverline" href="">
+								<a className="hoverline" href="https://notes.knowledgefutures.org/pub/u9lfii22">
 									Three PubPub Communities Ackowledged by 2021 Prose Awards
 								</a>
 							</li>
