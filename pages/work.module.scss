@@ -1,0 +1,33 @@
+@import "pages/variables.scss";
+
+.projects {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px;
+	@include for-mobile {
+		display: block;
+	}
+}
+.project {
+	border-left: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 10px 1em;
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	@include for-mobile {
+		margin-top: 50px;
+	}
+	&:hover {
+		border-left: 1px solid #888;
+		background: #f0f0f0;
+	}
+	.title {
+		font-family: upgrade, sans-serif;
+		font-weight: 400;
+	}
+	.description {
+		margin-top: 1em;
+	}
+}

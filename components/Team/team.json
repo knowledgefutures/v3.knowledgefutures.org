@@ -1,0 +1,125 @@
+[
+	{
+		"name": "Catherine Ahearn",
+		"title": ["Head of Content"],
+		"image": "/people/catherine.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Amy Brand",
+		"title": ["Board Chair"],
+		"external": ["MIT Press, Director"],
+		"image": "/people/amy.jpg",
+		"groups": ["Board"]
+	},
+	{
+		"name": "Quincy Childs",
+		"title": ["Fellow"],
+		"image": "/people/quincy.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Terry Ehling",
+		"title": ["Board Member"],
+		"external": ["MIT Press, Director for Strategic Initiatives "],
+		"image": "/people/terry.jpg",
+		"groups": ["Board"]
+	},
+	{
+		"name": "Joel Gustafson",
+		"title": ["Software Engineer"],
+		"external": ["Protocol Labs, Independent Researcher"],
+		"image": "/people/joel.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Danny Hillis",
+		"title": ["Underlayer"],
+		"image": "/people/danny.jpg",
+		"groups": ["Advisors"]
+	},
+	{
+		"name": "Ben Howe",
+		"title": ["Software Engineer"],
+		"image": "/people/benHowe.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Deepak Jagdish",
+		"title": ["Design Lead"],
+		"image": "/people/deepak.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Sarah Kearns",
+		"title": ["Acquisitions Editor"],
+		"image": "/people/sarahKearns.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Jessica Polka",
+		"title": [],
+		"external": ["ASAPBio, Executive Director"],
+		"image": "/people/jessica.jpg"
+	},
+	{
+		"name": "Sarah Kember",
+		"title": [],
+		"external": ["Goldsmiths Press, Director"],
+		"image": "/people/sarahKember.jpg"
+	},
+	{
+		"name": "SJ Klein",
+		"title": ["Underlayer", "Board Member"],
+		"image": "/people/sj.jpg",
+		"groups": ["Staff", "Board"]
+	},
+	{
+		"name": "Peter Kaufman",
+		"title": ["Strategic Development"],
+		"external": ["MIT Open Learning, Strategic Initiatives"],
+		"image": "/people/peter.jpg"
+	},
+	{
+		"name": "Ian Reynolds",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/ian.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Travis Rich",
+		"title": ["Executive Director", "Board Member"],
+		"image": "/people/travis.jpg",
+		"groups": ["Staff", "Board"]
+	},
+	{
+		"name": "Gabe Stein",
+		"title": ["Head of Operations", "Board Member"],
+		"image": "/people/gabe.jpg",
+		"groups": ["Staff", "Board"]
+	},
+	{
+		"name": "Qwelian Tanner",
+		"title": ["Software Engineer"],
+		"image": "/people/qwelian.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Dawit Tegbaru",
+		"title": ["Editorial Manager"],
+		"image": "/people/dawit.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Allison Vanouse",
+		"title": ["Editorial Fellow"],
+		"image": "/people/allisonV.jpg",
+		"groups": ["Staff"]
+	},
+	{
+		"name": "Zach Verdin",
+		"title": ["Head of Strategic Programs"],
+		"image": "/people/zach.jpg",
+		"groups": ["Staff"]
+	}
+]

@@ -1,0 +1,26 @@
+@import "pages/variables.scss";
+
+.header {
+	position: relative;
+	margin-bottom: 50px;
+	.content {
+		padding: 2em 0em 0em;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+	.title {
+		img {
+			height:32px;
+			display: block;
+		}
+	}
+	.nav a {
+		margin-left: 2em;
+		@include nav-link;
+		@include for-mobile {
+			font-size: 16px;
+		}
+	}
+}

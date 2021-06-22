@@ -1,0 +1,157 @@
+@import "pages/variables.scss";
+
+.home {
+	h1 {
+		margin: 50px 0px 100px;
+		max-width: 875px;
+		font-weight: 48px;
+		font-family: upgrade-lights, sans-serif;
+		font-weight: 500;
+		span {
+			font-family: upgrade, sans-serif;
+			font-weight: 400;
+		}
+	}
+}
+.hype {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr 1fr 1fr;
+	gap: 40px;
+	margin-bottom: 110px;
+	@include for-mobile {
+		grid-template-columns: 1fr;
+		grid-template: 1fr 1fr 1fr 1fr / 1fr;
+	}
+	.hypeItem {
+		font-size: 18px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-decoration: none;
+		@include for-mobile {
+			flex-direction: row;
+		}
+		&:hover {
+			.logoAux {
+				transition: linear all 100ms;
+				width: 100%;
+				padding: 0px;
+				transform: rotate(5deg);
+			}
+			.logo {
+				display: none;
+			}
+			.logoHover {
+				display: block;
+			}
+			.project { text-decoration: underline;}
+		}
+	}
+	.block {
+		position: relative;
+		// border: 1px solid red;
+		width: 150px;
+		height: 125px;
+		margin-bottom: 35px;
+		flex: 0 0 auto;
+		@include for-mobile {
+			margin-right: 15px;
+			margin-bottom: 0px;
+		}
+		@mixin logo {
+			width: 100px;
+			position: absolute;
+			left: 25px;
+			top: 20px;
+		}
+		.logoAux {
+			width: 90%;
+			padding: 5%;
+		}
+		.logo {
+			@include logo;
+		}
+		.logoHover {
+			@include logo;
+			display: none;
+		}
+	}
+
+	.project {
+		font-family: upgrade, sans-serif;
+		font-weight: 400;
+	}
+	&:after {
+		content: "";
+		height: 1px;
+		width: 50%;
+		position: relative;
+		top: 50px;
+		background: #bdbdbd;
+	}
+}
+
+.impact {
+	position: relative;
+	color: white;
+	padding: 75px 0px;
+	// background-image: url("/images/logo.svg");
+	// background-color: black;
+	&:before {
+		content: "";
+		background: url("/logo-bg.svg") repeat #333;
+		background-size: 20px 24px;
+		// background-color: blue;
+		width: 100vw;
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: calc(50% - 50vw);
+		z-index: -1;
+	}
+	.numbers {
+		color: #fff;
+		letter-spacing: 0.1em;
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+		@include for-mobile {
+			flex-direction: column;
+		}
+		flex: 0 0 auto;
+		margin: 50px 0px;
+		span {
+			font-family: upgrade, sans-serif;
+			font-weight: 400;
+			font-size: 58px;
+			display: block;
+		}
+	}
+	.news {
+		margin-top: 50px;
+	}
+}
+.involved {
+	display: flex;
+	align-items: center;
+	.text {
+		max-width: 500px;
+		flex: 0 0 auto;
+	}
+	.image {
+		margin-left: 50px;
+		background-image: url("/images/involved.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 300px;
+		border-radius: 2px;
+	}
+	@include for-mobile {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		.image {
+			margin-left: 0px;
+			margin-bottom: 25px;
+		}
+	}
+}

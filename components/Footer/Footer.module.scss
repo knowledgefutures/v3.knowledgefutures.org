@@ -1,0 +1,60 @@
+@import "pages/variables.scss";
+.footer {
+	padding-top: 4em;
+	margin: 4em 0em;
+	border-top: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	@include for-mobile {
+		display: block;
+	}
+	.logo {
+		display: block;
+		position: relative;
+		height: 56px;
+	}
+	.details {
+		p {
+			margin: 0;
+			max-width: 320px;
+			font-size: 14px;
+		}
+		& > p {
+			margin: 2em 0px 1em;
+		}
+	}
+	.addressBlock {
+		display: flex;
+		align-items: center;
+	}
+	.social {
+		margin-left: 2em;
+		a {
+			margin-right: 1em;
+			opacity: 0.6;
+			img {
+				height: 22px;
+			}
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+	.links {
+		display: flex;
+		ul {
+			list-style: none;
+			margin: 0em 0em 0em 5em;
+			padding: 0;
+			@include for-mobile {
+				margin: 5em 5em 0em 0em;
+			}
+		}
+		li {
+			margin-bottom: 2em;
+		}
+		a {
+			@include nav-link;
+		}
+	}
+}
