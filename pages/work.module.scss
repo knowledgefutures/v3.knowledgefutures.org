@@ -1,10 +1,5 @@
 @import "pages/variables.scss";
 
-.work {
-	p {
-		font-size: 22px;
-	}
-}
 .projects {
 	margin-top: 50px;
 	display: grid;
@@ -31,10 +26,8 @@
 	.title {
 		font-family: upgrade, sans-serif;
 		font-weight: 400;
-		font-size: 22px;
 	}
 	.description {
 		margin-top: 1em;
-		font-size: 20px;
 	}
 }

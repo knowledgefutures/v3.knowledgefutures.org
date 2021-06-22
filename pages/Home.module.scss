@@ -36,6 +36,7 @@
 				transition: linear all 100ms;
 				width: 100%;
 				padding: 0px;
+				transform: rotate(5deg);
 			}
 			.logo {
 				display: none;
@@ -43,6 +44,7 @@
 			.logoHover {
 				display: block;
 			}
+			.project { text-decoration: underline;}
 		}
 	}
 	.block {
@@ -117,26 +119,21 @@
 			flex-direction: column;
 		}
 		flex: 0 0 auto;
-		font-size: 22px;
 		margin: 50px 0px;
 		span {
 			font-family: upgrade, sans-serif;
 			font-weight: 400;
-			font-size: 64px;
+			font-size: 58px;
 			display: block;
 		}
 	}
 	.news {
 		margin-top: 50px;
-		font-size: 22px;
 	}
 }
 .involved {
 	display: flex;
 	align-items: center;
-	p {
-		font-size: 22px;
-	}
 	.text {
 		max-width: 500px;
 		flex: 0 0 auto;
