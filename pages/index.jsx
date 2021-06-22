@@ -73,7 +73,7 @@ export default function Home() {
 					digital infrastructure needed for effective, equitable, and sustainable
 					knowledge futures.
 				</h2>
-				<Button href="/work" text="See all our work" />
+				<Button href="/about" text="Our Story" />
 			</section>
 			<section className={styles.impact}>
 				<h2>Our Impact</h2>
