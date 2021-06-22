@@ -1,0 +1,14 @@
+@import "pages/variables.scss";
+
+.notFound {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0px;
+	img {
+		width: 200px;
+		max-width: 90%;
+		margin-top: 25px;
+		opacity: 0.75;
+	}
+}
