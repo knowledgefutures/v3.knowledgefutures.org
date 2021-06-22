@@ -10,7 +10,7 @@ const Header = () => {
 
 	const links = [
 		["Our Work", "/work"],
-		["Get Involved", "/get-involved"],
+		["Get Involved", "/join"],
 		["About", "/about"],
 	];
 

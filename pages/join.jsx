@@ -2,11 +2,11 @@ import Head from "next/head";
 
 import { Button } from "components";
 
-import styles from "./get-involved.module.scss";
+import styles from "./join.module.scss";
 
-export default function GetInvolved() {
+export default function Join() {
 	return (
-		<div className={styles.getInvolved}>
+		<div className={styles.join}>
 			<Head>
 				<title>Get Involved · Knowledge Futures Group</title>
 			</Head>
@@ -59,6 +59,7 @@ export default function GetInvolved() {
 						<Button
 							href="mailto:partners@knowledgefutures.org"
 							text="Contact the Partnership Team"
+							opensNewTab={true}
 						/>
 					</div>
 				</div>

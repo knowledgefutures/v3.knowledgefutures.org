@@ -19,7 +19,7 @@ export default function Jobs() {
 
 			<p>
 				Lastly, if you’re excited about working with us, but don’t see the exact role for
-				you, please <a href="mailto:hiring@knowledgefutures.org">get in touch</a>. We’re
+				you, please <a href="mailto:hiring@knowledgefutures.org" target="_blank" rel="noopener noreferrer">get in touch</a>. We’re
 				open to creating roles for the right people.{" "}
 			</p>
 			<hr />

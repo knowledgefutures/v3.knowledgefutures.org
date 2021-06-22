@@ -28,7 +28,7 @@ const Footer = function () {
 							<a href="https://twitter.com/kfutures">
 								<img src="/images/twitter.png" />
 							</a>
-							<a href="/get-involved#code">
+							<a href="/join#code">
 								<img src="/images/github.png" />
 							</a>
 							{/* <a href="/">
@@ -44,10 +44,10 @@ const Footer = function () {
 						<a href="/work">Our Work</a>
 					</li>
 					<li>
-						<a href="/get-involved">Get Involved</a>
+						<a href="/join">Get Involved</a>
 					</li>
 					<li>
-						<a href="/get-involved#code">Open Source</a>
+						<a href="/join#code">Open Source</a>
 					</li>
 					<li>
 						<a href="/jobs">Jobs</a>
@@ -61,10 +61,10 @@ const Footer = function () {
 						<a href="/about#team">Team</a>
 					</li>
 					<li>
-						<a href="/get-involved#newsletters">Newsletters</a>
+						<a href="/join#newsletters">Newsletters</a>
 					</li>
 					<li>
-						<a href="mailto:hello@knowledgefutures.org">Contact</a>
+						<a href="mailto:hello@knowledgefutures.org" target="_blank" rel="noopener noreferrer">Contact</a>
 					</li>
 				</ul>
 			</div>

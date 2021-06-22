@@ -122,7 +122,7 @@ export default function Home() {
 							public good. We're powered by partners and contributors that are
 							dedicated to stewarding healthy and equitable knowledge futures.
 						</p>
-						<Button href="get-involved" text="Join us" />
+						<Button href="join" text="Join us" />
 					</div>
 					<div className={styles.image} />
 				</div>

@@ -1,15 +1,21 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import styles from "./Button.module.scss";
 
 const propTypes = {
 	href: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
+	opensNewTab: PropTypes.bool.isRequired,
 };
 
-const Button = ({href, text}) => {
+const Button = ({ href, text, opensNewTab }) => {
 	return (
-		<a className={styles.button} href={href}>
+		<a
+			className={styles.button}
+			href={href}
+			target={opensNewTab ? "_blank" : null}
+			rel={opensNewTab ? "noopener noreferrer" : undefined}
+		>
 			{text}
 		</a>
 	);
