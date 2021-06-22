@@ -5,10 +5,10 @@ import styles from "./Button.module.scss";
 const propTypes = {
 	href: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
-	opensNewTab: PropTypes.bool.isRequired,
+	opensNewTab: PropTypes.bool,
 };
 
-const Button = ({ href, text, opensNewTab }) => {
+const Button = ({ href, text, opensNewTab = false }) => {
 	return (
 		<a
 			className={styles.button}
