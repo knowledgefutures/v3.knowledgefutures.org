@@ -14,7 +14,7 @@ export default function About() {
 				<h2>Our story</h2>
 
 				<p className={styles.fullPanelP}>
-					The Knowledge Futures Group is an independent nonprofit organization powered by
+					Knowledge Futures Group is an independent nonprofit organization powered by
 					academic, industry, and advocacy groups. Together we build and support products
 					and protocols to make knowledge open and accessible to all.
 				</p>
@@ -22,14 +22,14 @@ export default function About() {
 					<div>
 						<p>
 							Founded in 2018 as a partnership between the MIT Press and the MIT Media
-							Lab, Knowledge Futures Group was created to provide sustainable tools
-							and technologies relied on by libraries, presses, museums, activist
-							organizations, researchers, and others whose knowledge work seeks to
-							serve collective understanding and the public. What began as work on
-							publishing tools by a set of grad students grew to realize the systemic
-							challenges faced by public-oriented groups when the only available
-							infrastructure was designed with misaligned incentives and unjust power
-							dynamics.
+							Lab, Knowledge Futures Group was created to build sustainable tools and
+							technologies for libraries, presses, museums, activist organizations,
+							researchers, and others whose knowledge work seeks to serve collective
+							understanding and the public. What began as a handful of grad students
+							working on publishing tools grew to an organization focused on
+							addressing the systemic challenges faced by public-oriented groups
+							beholden to infrastructure that is designed with misaligned incentives
+							and unjust power dynamics.
 						</p>
 						<p>
 							In September 2019 we formally organized as an independent 501c3
