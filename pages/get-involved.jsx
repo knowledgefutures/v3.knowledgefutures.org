@@ -16,25 +16,9 @@ export default function GetInvolved() {
 				dedicated to stewarding healthy and equitable knowledge futures.
 			</p>
 
-			<section>
-				<div>
-					<h2>Careers</h2>
-					<p>
-						We’re building a team of self-motivated, intellectually curious, and kind
-						people that like to operate with a problem-solving mindset. We’re dedicated
-						to each individual’s personal growth and take every team member and their
-						ideas seriously.
-					</p>
-					<div className={styles.buttonGroup}>
-						<Button href="/jobs" text="Open Positions" />
-					</div>
-				</div>
-				<div className={styles.leftPad} />
-			</section>
-
 			<section id="code">
 				<div>
-					<h2>Open Source Contributors</h2>
+					<h2>Open Source</h2>
 					<p>
 						All of our development and roadmapping is open source and we invite your
 						contribution. Visit our Github Organization pages to begin contributing.
@@ -44,6 +28,7 @@ export default function GetInvolved() {
 						<Button href="https://github.com/underlay" text="Underlay on Github" />
 					</div>
 				</div>
+				<div className={styles.leftPad} />
 			</section>
 
 			<section>
@@ -77,7 +62,6 @@ export default function GetInvolved() {
 						/>
 					</div>
 				</div>
-				<div className={styles.rightPad} />
 			</section>
 
 			<section id="newsletters">
@@ -91,6 +75,22 @@ export default function GetInvolved() {
 						<Button href="https://notes.knowledgefutures.org/newsletters" text="PubPub Community and Product Newsletter" />
 						<Button href="https://knowledgefutures.us5.list-manage.com/subscribe?u=9b9b78707f3dd62d0d47ec03d&id=99e720771c" text="Community Publishing Project Updates" />
 						<Button href="https://commonplace.knowledgefutures.org/5t3a" text="5 Things to Think About" />
+					</div>
+				</div>
+				<div className={styles.rightPad} />
+			</section>
+
+			<section>
+				<div>
+					<h2>Careers</h2>
+					<p>
+						We’re building a team of self-motivated, intellectually curious, and kind
+						people that like to operate with a problem-solving mindset. We’re dedicated
+						to each individual’s personal growth and take every team member and their
+						ideas seriously.
+					</p>
+					<div className={styles.buttonGroup}>
+						<Button href="/jobs" text="Open Positions" />
 					</div>
 				</div>
 			</section>

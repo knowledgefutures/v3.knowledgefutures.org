@@ -57,10 +57,28 @@
 		"groups": ["Staff"]
 	},
 	{
+		"name": "Jessica Polka",
+		"title": [],
+		"external": ["ASAPBio, Executive Director"],
+		"image": "/people/jessica.jpg"
+	},
+	{
+		"name": "Sarah Kember",
+		"title": [],
+		"external": ["Goldsmiths Press, Director"],
+		"image": "/people/sarahKember.jpg"
+	},
+	{
 		"name": "SJ Klein",
 		"title": ["Underlayer", "Board Member"],
 		"image": "/people/sj.jpg",
 		"groups": ["Staff", "Board"]
+	},
+	{
+		"name": "Peter Kaufman",
+		"title": ["Strategic Development"],
+		"external": ["MIT Open Learning, Strategic Initiatives"],
+		"image": "/people/peter.jpg"
 	},
 	{
 		"name": "Ian Reynolds",
