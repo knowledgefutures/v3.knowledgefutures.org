@@ -13,10 +13,14 @@
 	.title {
 		img {
 			height:32px;
+			display: block;
 		}
 	}
 	.nav a {
 		margin-left: 2em;
 		@include nav-link;
+		@include for-mobile {
+			font-size: 16px;
+		}
 	}
 }

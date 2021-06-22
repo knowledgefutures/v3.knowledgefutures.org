@@ -16,6 +16,9 @@ body {
 	// min-width: $min-content-width;
 	// min-height: 100vh;
 	padding: 0 $gutter-padding;
+	@include for-mobile {
+		padding: 0 $gutter-padding-mobile;
+	}
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
