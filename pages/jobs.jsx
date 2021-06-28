@@ -23,7 +23,8 @@ export default function Jobs() {
 				open to creating roles for the right people.{" "}
 			</p>
 			<hr />
-			<JobList />
+			{/* <JobList /> */}
+			<h3>There are currently no open job listings.</h3>
 		</div>
 	);
 }
