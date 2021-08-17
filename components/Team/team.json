@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Amy Brand",
-		"title": ["Board Chair"],
+		"title": ["Board Member Emeritus"],
 		"external": ["MIT Press, Director"],
 		"image": "/people/amy.jpg",
 		"groups": ["Board"]
@@ -17,13 +17,6 @@
 		"title": ["Fellow"],
 		"image": "/people/quincy.jpg",
 		"groups": ["Staff"]
-	},
-	{
-		"name": "Terry Ehling",
-		"title": ["Board Member"],
-		"external": ["MIT Press, Director for Strategic Initiatives "],
-		"image": "/people/terry.jpg",
-		"groups": ["Board"]
 	},
 	{
 		"name": "Joel Gustafson",
@@ -55,6 +48,18 @@
 		"title": ["Acquisitions Editor"],
 		"image": "/people/sarahKearns.jpg",
 		"groups": ["Staff"]
+	},
+	{
+		"name": "Boyana Konforti",
+		"title": ["Board Member"],
+		"image": "/people/boyanaKonforti.jpg",
+		"groups": ["Board"]
+	},
+	{
+		"name": "Michael Stebbins",
+		"title": ["Board Member"],
+		"image": "/people/mikeStebbins.jpg",
+		"groups": ["Board"]
 	},
 	{
 		"name": "Jessica Polka",
