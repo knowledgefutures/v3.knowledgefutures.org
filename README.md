@@ -38,7 +38,7 @@ Static files such as images, robots.txt, manifest.json, etc are stored in the /p
 
 # RSS Builds
 
-RSS is regenerated hourly on the :15 via an IFTTT and a Netlify deploy hook.
+RSS is regenerated hourly on the :15 via an IFTTT and a Netlify build hook.
 
 # Code of Conduct
 

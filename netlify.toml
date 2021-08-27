@@ -11,4 +11,4 @@
       [[plugins.inputs.feeds]]
       name = "kfnotes"
       url = "https://notes.knowledgefutures.org/rss.xml?collections=kf-news"
-      ttl = 100
+      ttl = 3000
