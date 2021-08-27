@@ -36,6 +36,10 @@ npm start
 
 Static files such as images, robots.txt, manifest.json, etc are stored in the /public folder. The contents of this folder are copied to the /dist folder during the production build. The contents, not the folder itself, are copied, so that robots.txt, etc will be at the top-level of the deployed application.
 
+# RSS Builds
+
+RSS is regenerated hourly on the :15 via an IFTTT and a Netlify deploy hook.
+
 # Code of Conduct
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/knowledgefutures/general/blob/master/CODE_OF_CONDUCT.md)
