@@ -38,7 +38,7 @@ Static files such as images, robots.txt, manifest.json, etc are stored in the /p
 
 # RSS Builds
 
-RSS is regenerated hourly on the :15 via an IFTTT and a Netlify build hook.
+RSS is regenerated hourly on the :15 via an IFTTT and a Netlify build hook. To clear the cache and trigger a manual rebuild, visit the Netlify UI, Deploys, and click Trigger Deploy -> Clear cache and deploy site.
 
 # Code of Conduct
 
