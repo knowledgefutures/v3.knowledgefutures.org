@@ -2,8 +2,9 @@ import React from "react";
 import { Menu, MenuItem } from "components";
 import styles from "./NewsList.module.scss";
 
-import news from "./news";
+import kfnotes from "./kfnotes";
 
+const news = kfnotes.rss.channel.item;
 
 const NewsList = function () {
 	return (
