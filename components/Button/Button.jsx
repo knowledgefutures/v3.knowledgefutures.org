@@ -8,10 +8,10 @@ const propTypes = {
 	opensNewTab: PropTypes.bool,
 };
 
-const Button = ({ href, text, opensNewTab = false }) => {
+const Button = ({ href, text, opensNewTab = false, light = true }) => {
 	return (
 		<a
-			className={styles.button}
+			className={light ? styles.button : styles.buttonDark}
 			href={href}
 			target={opensNewTab ? "_blank" : null}
 			rel={opensNewTab ? "noopener noreferrer" : undefined}

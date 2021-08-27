@@ -1,4 +1,4 @@
-.button {
+%button-shared {
 	padding: 1em 1.5em;
 	border: 1px solid #aaa;
 	color: inherit;
@@ -6,10 +6,23 @@
 	border-radius: 3px;
 	font-weight: 600;
 	display: inline-block;
+}
+.button {
+	@extend %button-shared;
 	&:hover {
 		background: #eaeaea;
 	}
 	&:active {
 		background: #e0e0e0;
+	}
+}
+
+.buttonDark {
+	@extend %button-shared;
+	&:hover {
+		background: #272727;
+	}
+	&:active {
+		background: #161616;
 	}
 }

@@ -93,6 +93,7 @@ export default function Home() {
 					<div className={styles.news}>
 						<div>Recent Highlights</div>
 						<NewsList />
+						<Button href="https://notes.knowledgefutures.org/kf-news" text="Read more" light={false} />
 					</div>
 				</div>
 			</section>
