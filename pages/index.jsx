@@ -86,25 +86,43 @@ export default function Home() {
 							<span>30,000+</span> pubs across
 						</div>
 						<div className={styles.number}>
-							<span>2,500+</span> publishing communities
+							<span>3,000+</span> publishing communities
 						</div>
 					</div>
 					<div className={styles.news}>
 						<div>Recent Highlights</div>
 						<ul>
 							<li>
-								<a className="hoverline" href="https://commonplace.knowledgefutures.org/pub/kp81ylos">
-									Clarivate, ProQuest, and our Resistance to Commercializing
-									Knowledge
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/3sujny74"
+								>
+									C4DISC and PubPub Release Antiracism Toolkit for Organizations
 								</a>
 							</li>
 							<li>
-								<a className="hoverline" href="https://mitpress.mit.edu/blog/mit-press-launches-mit-open-publishing-services">
-									The MIT Press launches MIT Open Publishing Services
+								<a
+									className="hoverline"
+									href="https://commonplace.knowledgefutures.org/business-of-knowing"
+								>
+									The Business of Knowing: Bringing about [infra]structural change
+									to knowledge communication.
 								</a>
 							</li>
 							<li>
-								<a className="hoverline" href="https://notes.knowledgefutures.org/pub/u9lfii22">
+								<a
+									className="hoverline"
+									href="https://docmaps.knowledgefutures.org/pub/bwem5bja"
+								>
+									Open science organizations collaborate on Docmaps — the
+									foundation for a distributed peer review ecosystem
+								</a>
+							</li>
+							<li>
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/u9lfii22"
+								>
 									Three PubPub Communities Ackowledged by 2021 Prose Awards
 								</a>
 							</li>
