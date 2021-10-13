@@ -4,6 +4,8 @@ Auto-deployed from `main` to: [https://www.knowledgefutures.org](https://www.kno
 
 ## To Install
 
+Assumes local node version in `.node-version`.
+
 ```
 npm install
 ```
