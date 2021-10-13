@@ -1,4 +1,5 @@
 import { Button } from "components";
+import NewsList from "components/NewsList/NewsList";
 
 import styles from "./Home.module.scss";
 
@@ -91,42 +92,8 @@ export default function Home() {
 					</div>
 					<div className={styles.news}>
 						<div>Recent Highlights</div>
-						<ul>
-							<li>
-								<a
-									className="hoverline"
-									href="https://notes.knowledgefutures.org/pub/3sujny74"
-								>
-									C4DISC and PubPub Release Antiracism Toolkit for Organizations
-								</a>
-							</li>
-							<li>
-								<a
-									className="hoverline"
-									href="https://commonplace.knowledgefutures.org/business-of-knowing"
-								>
-									The Business of Knowing: Bringing about [infra]structural change
-									to knowledge communication.
-								</a>
-							</li>
-							<li>
-								<a
-									className="hoverline"
-									href="https://docmaps.knowledgefutures.org/pub/bwem5bja"
-								>
-									Open science organizations collaborate on Docmaps — the
-									foundation for a distributed peer review ecosystem
-								</a>
-							</li>
-							<li>
-								<a
-									className="hoverline"
-									href="https://notes.knowledgefutures.org/pub/u9lfii22"
-								>
-									Three PubPub Communities Ackowledged by 2021 Prose Awards
-								</a>
-							</li>
-						</ul>
+						<NewsList />
+						<Button href="https://notes.knowledgefutures.org/kf-news" text="Read more" light={false} />
 					</div>
 				</div>
 			</section>
