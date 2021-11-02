@@ -86,6 +86,12 @@
 		"image": "/people/peter.jpg"
 	},
 	{
+		"name": "Eric McDaniel",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/eric.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Ian Reynolds",
 		"title": ["Senior Software Engineer"],
 		"image": "/people/ian.jpg",
