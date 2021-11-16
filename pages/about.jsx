@@ -46,6 +46,12 @@ export default function About() {
 						<h4>Annual Reports</h4>
 						<ul>
 							<li>
+								2021:{" "}
+								<a className="hoverline" href="/reports/annualReport2021.pdf">
+									PDF
+								</a>
+							</li>
+							<li>
 								2020:{" "}
 								<a className="hoverline" href="/reports/annualReport2020.pdf">
 									PDF
