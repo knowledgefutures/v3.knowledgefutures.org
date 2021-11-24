@@ -49,6 +49,13 @@ export default function About() {
 								2021:{" "}
 								<a className="hoverline" href="/reports/annualReport2021.pdf">
 									PDF
+								</a>{" "}
+								·{" "}
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/pub/kfg-annual-report-2021"
+								>
+									Web
 								</a>
 							</li>
 							<li>
