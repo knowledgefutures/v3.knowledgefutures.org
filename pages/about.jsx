@@ -70,6 +70,14 @@ export default function About() {
 								>
 									Web
 								</a>
+								{" "}
+								·{" "}
+								<a
+									className="hoverline"
+									href="/reports/9902020.pdf"
+								>
+									Form 990
+								</a>
 							</li>
 						</ul>
 					</div>
