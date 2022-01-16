@@ -128,6 +128,14 @@
 		"groups": ["Staff"]
 	},
 	{
+		"name": "Thomas Renkert",
+		"title": ["Contributor"],
+		"image": "/people/thomas.jpg",
+		"external": ["Heidelberg University"],
+		"groups": ["Staff"]
+		
+	},
+	{
 		"name": "Zach Verdin",
 		"title": ["Head of Strategic Programs"],
 		"image": "/people/zach.jpg",
