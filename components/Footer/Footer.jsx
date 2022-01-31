@@ -44,7 +44,7 @@ const Footer = function () {
 						<a href="/work">Our Work</a>
 					</li>
 					<li>
-						<a href="/join">Get Involved</a>
+						<a href="/membership">Become a Member</a>
 					</li>
 					<li>
 						<a href="/join#code">Open Source</a>

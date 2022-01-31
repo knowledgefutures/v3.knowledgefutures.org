@@ -133,14 +133,12 @@
 		"image": "/people/thomas.jpg",
 		"external": ["Heidelberg University"],
 		"groups": ["Staff"]
-		
 	},
 	{
 		"name": "Sarah Schwettman",
 		"title": ["Contributor"],
 		"image": "/people/sarahSchwettmann.jpg",
 		"groups": ["Staff"]
-		
 	},
 	{
 		"name": "Zach Verdin",

@@ -24,13 +24,13 @@ const projects = [
 		description: "We’re connecting the world’s knowledge with the ",
 		link: "https://www.underlay.org",
 	},
-	{
-		key: "cp",
-		title: "Community Publishing",
-		description:
-			"We’re supporting collective action towards better publishing with our campaign for ",
-		link: "https://communitypublishing.pubpub.org",
-	},
+	// {
+	// 	key: "cp",
+	// 	title: "Community Publishing",
+	// 	description:
+	// 		"We’re supporting collective action towards better publishing with our campaign for ",
+	// 	link: "https://communitypublishing.pubpub.org",
+	// },
 ];
 export default function Home() {
 	return (

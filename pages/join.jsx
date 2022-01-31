@@ -73,9 +73,18 @@ export default function Join() {
 						you to join the monthly mailing lists we maintain.
 					</p>
 					<div className={styles.buttonGroup}>
-						<Button href="https://notes.knowledgefutures.org/newsletters" text="PubPub Community and Product Newsletter" />
-						<Button href="https://knowledgefutures.us5.list-manage.com/subscribe?u=9b9b78707f3dd62d0d47ec03d&id=99e720771c" text="Community Publishing Project Updates" />
-						<Button href="https://commonplace.knowledgefutures.org/5t3a" text="5 Things to Think About" />
+						<Button
+							href="https://notes.knowledgefutures.org/newsletters"
+							text="PubPub Community and Product Newsletter"
+						/>
+						<Button
+							href="https://knowledgefutures.us5.list-manage.com/subscribe?u=9b9b78707f3dd62d0d47ec03d&id=99e720771c"
+							text="Community Publishing Project Updates"
+						/>
+						<Button
+							href="https://commonplace.knowledgefutures.org/5t3a"
+							text="5 Things to Think About"
+						/>
 					</div>
 				</div>
 				<div className={styles.rightPad} />
