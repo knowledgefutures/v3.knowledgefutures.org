@@ -171,6 +171,13 @@ export default function Membership() {
 				})}
 			</div>
 
+			<div className={styles.finePrint}>
+				Want to join, but can't quite afford to? Please reach out and tell us about your
+				work and needs. All memberships include 10 free DOIs per year minted on either
+				PubPub or Underlay. Once the limit is reached, we pass on the Crossref fee of $1 per
+				DOI registered to the member. For members with their own Crossref membership, there
+				is no additional fee for creating or depositing DOIs.
+			</div>
 			<div className={styles.banner}>
 				Membership is a vote for a future where knowledge is produced, curated, and shared
 				in service of the public good.
