@@ -25,7 +25,7 @@ export default function Membership() {
 			price: "60",
 			buttonText: "Join",
 			buttonLink: "https://buy.stripe.com/6oEeVF8Hh5XrenC7sw",
-			inviteCount: "1",
+			inviteCount: "1 invite",
 			discountPercentage: "5",
 			supportAmount: "Dedicated",
 			adjective: "Supporting",
@@ -40,7 +40,7 @@ export default function Membership() {
 			price: contributorPrices[budgetValue - 1],
 			buttonText: "Join",
 			buttonLink: contributorLinks[budgetValue - 1],
-			inviteCount: "5",
+			inviteCount: "5 invites",
 			discountPercentage: "10",
 			supportAmount: "3 hrs dedicated",
 			adjective: "Contributing",
@@ -56,7 +56,7 @@ export default function Membership() {
 			buttonText: "Contact Us",
 			buttonLink:
 				"mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership",
-			inviteCount: "10",
+			inviteCount: "10 invites",
 			discountPercentage: "15",
 			supportAmount: "Regular",
 			adjective: "Network",
@@ -135,11 +135,13 @@ export default function Membership() {
 										<li>
 											Invitations to <a>member events</a>
 										</li>
-										<li>{tier.inviteCount} invite to member Slack group</li>
+										<li>{tier.inviteCount} to member Slack group</li>
 										<li>Custom domains for your PubPub communities</li>
 										<li>
 											{tier.discountPercentage}% discount on PubPub{" "}
-											<a>Community Services</a>
+											<a href="https://www.pubpub.org/community-services">
+												Community Services
+											</a>
 										</li>
 										<li>
 											Email support for PubPub, Underlay, and future products
@@ -151,6 +153,7 @@ export default function Membership() {
 											Regular strategy calls to help grow your network's use
 											of public knowledge infrastructure
 										</li>
+										<li>Dedicated shared Slack channel</li>
 										<li>
 											Support and strategy calls for individuals and groups
 											within your network
