@@ -54,7 +54,8 @@ export default function Membership() {
 			useSlider: false,
 			price: "25,000",
 			buttonText: "Contact Us",
-			buttonLink: "",
+			buttonLink:
+				"mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership",
 			inviteCount: "10",
 			discountPercentage: "15",
 			supportAmount: "Regular",
@@ -128,6 +129,7 @@ export default function Membership() {
 										className={styles.button}
 										text={tier.buttonText}
 										href={tier.buttonLink}
+										opensNewTab={true}
 									/>
 									<ul>
 										<li>

@@ -9,7 +9,7 @@ const propTypes = {
 	className: PropTypes.string,
 };
 
-const Button = ({ href, text, opensNewTab = false, light = true, className="" }) => {
+const Button = ({ href, text, opensNewTab = false, light = true, className = "" }) => {
 	return (
 		<a
 			className={`${light ? styles.button : styles.buttonDark} ${className}`}

@@ -21,7 +21,7 @@ const projects = [
 	{
 		key: "underlay",
 		title: "Underlay",
-		description: "We’re connecting the world’s knowledge with the ",
+		description: "We're connecting the world's knowledge with the ",
 		link: "https://www.underlay.org",
 	},
 	// {
