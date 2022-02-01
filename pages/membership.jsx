@@ -29,6 +29,7 @@ export default function Membership() {
 			discountPercentage: "5",
 			supportAmount: "Dedicated",
 			adjective: "Supporting",
+			adjectiveLink: "#supporting-members",
 		},
 		{
 			name: "Contributor",
@@ -43,6 +44,7 @@ export default function Membership() {
 			discountPercentage: "10",
 			supportAmount: "3 hrs dedicated",
 			adjective: "Contributing",
+			adjectiveLink: "#contributing-members",
 		},
 		{
 			name: "Network",
@@ -57,6 +59,7 @@ export default function Membership() {
 			discountPercentage: "15",
 			supportAmount: "Regular",
 			adjective: "Network",
+			adjectiveLink: "#network-members",
 		},
 	];
 	return (
@@ -77,7 +80,7 @@ export default function Membership() {
 			<div className={styles.tiers}>
 				{tiers.map((tier) => {
 					return (
-						<div index={tier.name} className={styles.tier}>
+						<div key={tier.name} className={styles.tier}>
 							<div className={styles.card}>
 								<div className={styles.cardContent}>
 									<div className={styles.name}>{tier.name}</div>
@@ -154,7 +157,7 @@ export default function Membership() {
 								</div>
 							</div>
 							<div className={styles.seeAllLink}>
-								<a className="hoverline" href="">
+								<a className="hoverline" href={tier.adjectiveLink}>
 									See all {tier.adjective} members
 								</a>
 							</div>
@@ -173,7 +176,9 @@ export default function Membership() {
 				We gratefully ackowledge and thank all of our members. Without their support, the
 				public knowledge infrastructure we build would not be possible.
 			</p>
-			<div className={styles.memberHeader}>Network Members</div>
+			<div className={styles.memberHeader} id="network-members">
+				Network Members
+			</div>
 			<ul className={styles.memberUl}>
 				{network
 					.sort((foo, bar) => {
@@ -194,7 +199,9 @@ export default function Membership() {
 					})}
 			</ul>
 
-			<div className={styles.memberHeader}>Contributing Members</div>
+			<div className={styles.memberHeader} id="contributing-members">
+				Contributing Members
+			</div>
 			<ul className={styles.memberUl}>
 				{contributing
 					.sort((foo, bar) => {
@@ -215,7 +222,9 @@ export default function Membership() {
 					})}
 			</ul>
 
-			<div className={styles.memberHeader}>Supporting Members</div>
+			<div className={styles.memberHeader} id="supporting-members">
+				Supporting Members
+			</div>
 			<ul className={styles.memberUl}>
 				{supporting
 					.sort((foo, bar) => {
