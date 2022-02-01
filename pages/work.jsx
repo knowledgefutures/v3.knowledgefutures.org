@@ -27,12 +27,12 @@ const projects = [
 			"A community-endorsed protocol for representing publication processes in a machine-readable, discoverable, and extensible format.",
 		link: "https://docmaps.knowledgefutures.org",
 	},
-	{
-		title: "Campaign for Community Publishing",
-		description:
-			"Events, workshops, and convening to support collective action towards more equitable, effective, and sustainable publishing models.",
-		link: "https://communitypublishing.pubpub.org",
-	},
+	// {
+	// 	title: "Campaign for Community Publishing",
+	// 	description:
+	// 		"Events, workshops, and convening to support collective action towards more equitable, effective, and sustainable publishing models.",
+	// 	link: "https://communitypublishing.pubpub.org",
+	// },
 ];
 export default function Work() {
 	return (

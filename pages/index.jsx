@@ -21,16 +21,16 @@ const projects = [
 	{
 		key: "underlay",
 		title: "Underlay",
-		description: "We’re connecting the world’s knowledge with the ",
+		description: "We're connecting the world's knowledge with the ",
 		link: "https://www.underlay.org",
 	},
-	{
-		key: "cp",
-		title: "Community Publishing",
-		description:
-			"We’re supporting collective action towards better publishing with our campaign for ",
-		link: "https://communitypublishing.pubpub.org",
-	},
+	// {
+	// 	key: "cp",
+	// 	title: "Community Publishing",
+	// 	description:
+	// 		"We’re supporting collective action towards better publishing with our campaign for ",
+	// 	link: "https://communitypublishing.pubpub.org",
+	// },
 ];
 export default function Home() {
 	return (
@@ -93,7 +93,11 @@ export default function Home() {
 					<div className={styles.news}>
 						<div>Recent Highlights</div>
 						<NewsList />
-						<Button href="https://notes.knowledgefutures.org/kf-news" text="Read more" light={false} />
+						<Button
+							href="https://notes.knowledgefutures.org/kf-news"
+							text="Read more"
+							light={false}
+						/>
 					</div>
 				</div>
 			</section>
@@ -104,10 +108,10 @@ export default function Home() {
 						<p>
 							Knowledge Futures Group builds and sustains technology for the
 							production, curation, and preservation of knowledge in service of the
-							public good. We're powered by partners and contributors that are
-							dedicated to stewarding healthy and equitable knowledge futures.
+							public good. We're powered by members that are dedicated to stewarding
+							healthy and equitable knowledge futures.
 						</p>
-						<Button href="join" text="Join us" />
+						<Button href="/membership" text="Become a Member" />
 					</div>
 					<div className={styles.image} />
 				</div>

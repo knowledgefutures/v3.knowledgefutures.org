@@ -15,12 +15,12 @@
 }
 .hype {
 	display: grid;
-	grid-template: 1fr / 1fr 1fr 1fr 1fr;
+	grid-template: 1fr / 1fr 1fr 1fr;
 	gap: 40px;
 	margin-bottom: 110px;
 	@include for-mobile {
 		grid-template-columns: 1fr;
-		grid-template: 1fr 1fr 1fr 1fr / 1fr;
+		grid-template: 1fr 1fr 1fr / 1fr;
 	}
 	.hypeItem {
 		font-size: 18px;
@@ -44,7 +44,9 @@
 			.logoHover {
 				display: block;
 			}
-			.project { text-decoration: underline;}
+			.project {
+				text-decoration: underline;
+			}
 		}
 	}
 	.block {
