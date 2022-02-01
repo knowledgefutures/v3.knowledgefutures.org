@@ -44,6 +44,11 @@ const Partners = () => {
 			img: "/partners/mcgovern.png",
 			link: "https://www.mcgovern.org/",
 		},
+		{
+			title: "John S. and James L. Knight Foundation",
+			img: "/partners/knight.png",
+			link: "https://knightfoundation.org",
+		},
 	];
 
 	return (
