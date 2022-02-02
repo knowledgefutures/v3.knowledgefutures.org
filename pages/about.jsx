@@ -69,13 +69,9 @@ export default function About() {
 									href="https://notes.knowledgefutures.org/pub/2020report"
 								>
 									Web
-								</a>
-								{" "}
+								</a>{" "}
 								·{" "}
-								<a
-									className="hoverline"
-									href="/reports/9902020.pdf"
-								>
+								<a className="hoverline" href="/reports/9902020.pdf">
 									Form 990
 								</a>
 							</li>
@@ -137,7 +133,7 @@ export default function About() {
 					</div>
 
 					<div className={styles.side}>
-						<h4>Statements & Principles</h4>
+						<h4>Principles & Policies</h4>
 						<ul>
 							<li>
 								<a
@@ -153,6 +149,14 @@ export default function About() {
 									href="https://notes.knowledgefutures.org/pub/principles"
 								>
 									Diversity and Inclusion
+								</a>
+							</li>
+							<li>
+								<a
+									className="hoverline"
+									href="https://notes.knowledgefutures.org/anti-racism-structural-justice"
+								>
+									Structural Justice
 								</a>
 							</li>
 						</ul>
