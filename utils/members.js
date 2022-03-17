@@ -7,5 +7,6 @@ export const contributing = [
 	"Iowa State University Library",
 	"Vanderbilt University Jean & Alexander Heard Libraries",
 	"KU Leuven Libraries",
+	"Criminology Open",
 ];
 export const supporting = ["Appalachian State University Belk Library and Information Commons"];
