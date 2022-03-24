@@ -20,7 +20,7 @@ export default function Membership() {
 			name: "Supporter",
 			description:
 				"For budget constrained groups that want to support Knowledge Futures and join the community.",
-			pricePrefix: "",
+			// pricePrefix: "",
 			useSlider: false,
 			price: "60",
 			buttonText: "Join",
@@ -35,7 +35,7 @@ export default function Membership() {
 			name: "Contributor",
 			description:
 				"For groups that want to grow their community using Knowledge Futures infrastructure.",
-			pricePrefix: "",
+			// pricePrefix: "",
 			useSlider: true,
 			price: contributorPrices[budgetValue - 1],
 			buttonText: "Join",
@@ -50,9 +50,9 @@ export default function Membership() {
 			name: "Network",
 			description:
 				"For groups that want to leverage Knowledge Futures infrastructure across their network.",
-			pricePrefix: "starting at",
+			// pricePrefix: "Scaled for your organization",
 			useSlider: false,
-			price: "25,000",
+			price: "",
 			buttonText: "Contact Us",
 			buttonLink:
 				"mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership",
@@ -119,10 +119,18 @@ export default function Membership() {
 											</div>
 										</div>
 									)}
-									<div className={styles.pricePrefix}>{tier.pricePrefix}</div>
+
+									<div className={styles.pricePrefix}>
+										{/* {tier.pricePrefix} */}
+									</div>
 									<div className={styles.price}>
-										${tier.price}
-										<span>/year</span>
+										{tier.price && (
+											<React.Fragment>
+												${tier.price}
+												<span>/year</span>
+											</React.Fragment>
+										)}
+										{!tier.price && "Custom"}
 									</div>
 
 									<Button
