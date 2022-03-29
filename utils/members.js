@@ -1,12 +1,30 @@
-export const network = ["The MIT Press"];
+export const network = [
+	"Arcadia Science",
+	"The MIT Press",
+];
 export const contributing = [
 	"American Astronomical Society",
-	"Media Studies Press",
-	"San Antonio Review",
-	"MIT Libraries",
-	"Iowa State University Library",
-	"Vanderbilt University Jean & Alexander Heard Libraries",
-	"KU Leuven Libraries",
+	"Appalachian State University Belk Library and Information Commons",
+	"Berlin Exchange",
+	"Children's Hospital of Philadelphia",
 	"Criminology Open",
+	"Iowa State University Library",
+	"KU Leuven Libraries",
+	"Media Studies Press",
+	"MIT Libraries",
+	"San Antonio Review",
+	"The Global Health Network, Centre for Tropical Medicine and Global Health",
+	"Tilburg University",
+	"Vanderbilt University Jean & Alexander Heard Libraries",
 ];
-export const supporting = ["Appalachian State University Belk Library and Information Commons"];
+export const supporting = [
+	'Duke Kunshan University, SciEcon CIC',
+	"Coalition for Diversity and Inclusion in Scholarly Communications",
+	"Internet of Production",
+	"Invisible Culture",
+	"Matthew E. Thrasher",
+	"Centre for Applied Strength and Conditioning Science",
+	"New Things Under the Sun",
+	"The Open University",
+];
+
