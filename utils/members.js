@@ -1,7 +1,4 @@
-export const network = [
-	"Arcadia Science",
-	"The MIT Press",
-];
+export const network = ["Arcadia Science", "The MIT Press"];
 export const contributing = [
 	"American Astronomical Society",
 	"Appalachian State University Belk Library and Information Commons",
@@ -18,7 +15,7 @@ export const contributing = [
 	"Vanderbilt University Jean & Alexander Heard Libraries",
 ];
 export const supporting = [
-	'Duke Kunshan University, SciEcon CIC',
+	"Duke Kunshan University, SciEcon CIC",
 	"Coalition for Diversity and Inclusion in Scholarly Communications",
 	"Internet of Production",
 	"Invisible Culture",
@@ -26,5 +23,5 @@ export const supporting = [
 	"Centre for Applied Strength and Conditioning Science",
 	"New Things Under the Sun",
 	"The Open University",
+	"The University of Vermont Libraries",
 ];
-
