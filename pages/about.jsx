@@ -56,6 +56,14 @@ export default function About() {
 									href="https://notes.knowledgefutures.org/pub/kfg-annual-report-2021"
 								>
 									Web
+								</a>{" "}
+								·{" "}
+								<a className="hoverline" href="/reports/9902021.pdf">
+									Form 990
+								</a>{" "}
+								·{" "}
+								<a className="hoverline" href="/reports/financials2021.pdf">
+									Financials
 								</a>
 							</li>
 							<li>
@@ -73,6 +81,10 @@ export default function About() {
 								·{" "}
 								<a className="hoverline" href="/reports/9902020.pdf">
 									Form 990
+								</a>{" "}
+								·{" "}
+								<a className="hoverline" href="/reports/financials2020.pdf">
+									Financials
 								</a>
 							</li>
 						</ul>
