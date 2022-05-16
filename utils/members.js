@@ -22,6 +22,7 @@ export const supporting = [
 	"Matthew E. Thrasher",
 	"Centre for Applied Strength and Conditioning Science",
 	"New Things Under the Sun",
+	"Society for the Anthropology of Work",
 	"The Open University",
 	"The University of Vermont Libraries",
 ];
