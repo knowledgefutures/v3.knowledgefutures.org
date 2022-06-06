@@ -116,6 +116,12 @@
 		"groups": ["Staff"]
 	},
 	{
+		"name": "Reem Hassan",
+		"title": ["Operations Manager"],
+		"image": "/people/reem.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Dawit Tegbaru",
 		"title": ["Director of Community Publishing Services"],
 		"image": "/people/dawit.jpg",
