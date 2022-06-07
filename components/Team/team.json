@@ -110,6 +110,12 @@
 		"groups": ["Staff", "Board"]
 	},
 	{
+		"name": "Pine Wu",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/pine.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Qwelian Tanner",
 		"title": ["Software Engineer"],
 		"image": "/people/qwelian.jpg",
