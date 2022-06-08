@@ -9,6 +9,7 @@ export const contributing = [
 	"KU Leuven Libraries",
 	"Media Studies Press",
 	"MIT Libraries",
+	"punctum books",
 	"San Antonio Review",
 	"The Global Health Network, Centre for Tropical Medicine and Global Health",
 	"Tilburg University",
@@ -23,6 +24,7 @@ export const supporting = [
 	"Centre for Applied Strength and Conditioning Science",
 	"New Things Under the Sun",
 	"Society for the Anthropology of Work",
+	"Sustainable Futures Lab",
 	"The Open University",
 	"The University of Vermont Libraries",
 ];
