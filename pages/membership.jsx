@@ -143,7 +143,7 @@ export default function Membership() {
 										<li>
 											Invitations to <a>member events</a>
 										</li>
-										<li>{tier.inviteCount} to member Slack group</li>
+										<li>{tier.inviteCount} to member email list</li>
 										<li>Custom domains for your PubPub communities</li>
 										<li>
 											{tier.discountPercentage}% discount on PubPub{" "}
