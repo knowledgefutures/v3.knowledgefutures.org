@@ -1,4 +1,4 @@
-# Knowledge Futures Group site
+# Knowledge Futures website
 
 Auto-deployed from `main` to: [https://www.knowledgefutures.org](https://www.knowledgefutures.org)
 
