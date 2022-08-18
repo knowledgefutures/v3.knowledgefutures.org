@@ -4,6 +4,7 @@ $gutter-padding: 24px;
 $gutter-padding-mobile: 12px;
 
 $background-color: #f6f6f6;
+$banner-color: #d9d9d9;
 
 @mixin for-mobile {
 	@media (max-width: 768px) {
@@ -25,10 +26,16 @@ $background-color: #f6f6f6;
 	}
 }
 
+@mixin small-font {
+	font-size: 16px;
+	font-family: upgrade-lights, sans-serif;
+	font-weight: 300;
+}
+
 @mixin base-font {
 	font-size: 20px;
 	font-family: upgrade-lights, sans-serif;
-	font-weight: 500
+	font-weight: 500;
 }
 
 @mixin page-heading-font {

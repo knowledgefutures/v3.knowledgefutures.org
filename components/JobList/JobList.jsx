@@ -7,7 +7,7 @@ const JobList = function () {
 	return (
 		<Menu>
 			{jobs.map((job) => {
-				const { link, title, commitment, location } = job;
+				const { link, title, commitment, location, term } = job;
 				return (
 					<MenuItem
 						key={title}
@@ -15,7 +15,7 @@ const JobList = function () {
 						content={
 							<React.Fragment>
 								<h4>{title}</h4>
-								{commitment} • {location}
+								{location} • {commitment} • {term}
 							</React.Fragment>
 						}
 					/>

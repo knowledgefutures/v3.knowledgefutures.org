@@ -12,7 +12,7 @@
 	}
 	.title {
 		img {
-			height:32px;
+			height: 32px;
 			display: block;
 		}
 	}
@@ -22,5 +22,22 @@
 		@include for-mobile {
 			font-size: 16px;
 		}
+	}
+	.banner {
+		margin: 0.5em auto;
+		a {
+			text-align: center;
+			display: block;
+			padding: 0.5em;
+			margin: 0 5em;
+			text-decoration: none;
+			color: #555;
+			display: block;
+			background-color: $banner-color;
+			@include for-mobile {
+				margin: 0;
+			}
+		}
+		@include small-font;
 	}
 }
