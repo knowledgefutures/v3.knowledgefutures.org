@@ -144,6 +144,10 @@ export default function Membership() {
 											Invitations to <a>member events</a>
 										</li>
 										<li>{tier.inviteCount} to member email list</li>
+										<li>
+											Participation in member{" "}
+											<a href="/wg">Working Groups</a>
+										</li>
 										<li>Custom domains for your PubPub communities</li>
 										<li>
 											{tier.discountPercentage}% discount on PubPub{" "}
@@ -267,6 +271,17 @@ export default function Membership() {
 						);
 					})}
 			</ul>
+			<h1>Working Groups</h1>
+			<p>
+				Knowledge Futures Working Groups are facilitated conversations and targeted projects
+				between the KF Team and Members that have common areas of expertise, interest, or
+				inquiry.
+			</p>
+			<Button
+				// className={styles.button}
+				text="Learn about Working Groups"
+				href="/wg"
+			/>
 		</div>
 	);
 }
