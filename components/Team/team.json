@@ -116,6 +116,12 @@
 		"groups": ["Staff"]
 	},
 	{
+		"name": "Katherine Fata",
+		"title": ["Community Services Intern"],
+		"image": "/people/kfata.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Qwelian Tanner",
 		"title": ["Software Engineer"],
 		"image": "/people/qwelian.jpg",
