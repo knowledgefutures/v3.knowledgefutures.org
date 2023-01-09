@@ -30,10 +30,10 @@ const Team = () => {
 			</div> */}
 			<div className={styles.people}>
 				{activePeople.sort((foo, bar) => {
-					if (foo.name < bar.name) {
+					if (foo.name.toLowerCase() < bar.name.toLowerCase()) {
 						return -1;
 					}
-					if (foo.name > bar.name) {
+					if (foo.name.toLowerCase() > bar.name.toLowerCase()) {
 						return 1;
 					}
 				}).map((person) => {

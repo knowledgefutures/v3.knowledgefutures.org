@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Catherine Ahearn",
-		"title": ["Head of Content"],
+		"title": ["Head of Communities"],
 		"image": "/people/catherine.jpg",
 		"groups": ["Staff"]
 	},
@@ -80,10 +80,22 @@
 		"groups": ["Staff", "Board"]
 	},
 	{
+		"name": "Emily Esten",
+		"title": ["Project Lead, Docmaps"],
+		"image": "/people/emily.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Peter Kaufman",
 		"title": ["Strategic Development"],
 		"external": ["MIT Open Learning, Strategic Initiatives"],
 		"image": "/people/peter.jpg"
+	},
+	{
+		"name": "early evening",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/eve.jpg",
+		"groups": ["Staff"]
 	},
 	{
 		"name": "Eric McDaniel",
@@ -160,7 +172,7 @@
 	},
 	{
 		"name": "Zach Verdin",
-		"title": ["Head of Strategic Programs"],
+		"title": ["Head of Growth & Innovation"],
 		"image": "/people/zach.jpg",
 		"groups": ["Staff"]
 	}
