@@ -69,16 +69,32 @@ export default function Membership() {
 				<title>Membership · Knowledge Futures Group</title>
 			</Head>
 			<h1>Become a Member</h1>
+			<h2>One-liner about the value prop of membership</h2>
 			<p>
-				Members are critical to sustaining our mission to build public knowledge
-				infrastructure. Becoming a Knowledge Futures Member allows individuals and
-				organizations of all sizes to support open infrastructure; receive support for
-				PubPub, Underlay, and other products; meet and share ideas with other innovative
-				knowledge communities; and join a community passionate about the future of knowledge
-				infrastructure and its development.
+				<i>Longer paragraph describing membership...</i> Members are critical to sustaining
+				our mission to build public knowledge infrastructure. Becoming a Knowledge Futures
+				Member allows individuals and organizations of all sizes to support open
+				infrastructure; receive support for PubPub, Underlay, and other products; meet and
+				share ideas with other innovative knowledge communities; and join a community
+				passionate about the future of knowledge infrastructure and its development.
 			</p>
+			<p>Member benefits include</p>
+			<ul className={styles.benefits}>
+				<li>Invitations to member events</li>
+				<li>Custom domains for your PubPub communities</li>
+				<li>Access to community services</li>
+				<li>Email support for PubPub, Underlay, and future products</li>
+				<li>Regular support, consultation, and training</li>
+				<li>Support and strategy calls for individuals and groups within your network</li>
+			</ul>
+			<Button
+				// className={styles.button}
+				text={"Contact us about Membership"}
+				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership"
+				opensNewTab={true}
+			/>
 
-			<div className={styles.tiers}>
+			{/* <div className={styles.tiers}>
 				{tiers.map((tier) => {
 					return (
 						<div key={tier.name} className={styles.tier}>
@@ -121,7 +137,7 @@ export default function Membership() {
 									)}
 
 									<div className={styles.pricePrefix}>
-										{/* {tier.pricePrefix} */}
+										// {tier.pricePrefix}
 									</div>
 									<div className={styles.price}>
 										{tier.price && (
@@ -189,6 +205,7 @@ export default function Membership() {
 					and tell us about your work and needs.
 				</p>
 			</div>
+			 */}
 			<div className={styles.banner}>
 				Membership is a vote for a future where knowledge is produced, curated, and shared
 				in service of the public good.
@@ -199,16 +216,16 @@ export default function Membership() {
 				We gratefully ackowledge and thank all of our members. Without their support, the
 				public knowledge infrastructure we build would not be possible.
 			</p>
-			<div className={styles.memberHeader} id="network-members">
+			{/* <div className={styles.memberHeader} id="network-members">
 				Network Members
-			</div>
+			</div> */}
 			<ul className={styles.memberUl}>
-				{network
+				{[...network, ...contributing, ...supporting]
 					.sort((foo, bar) => {
-						if (foo < bar) {
+						if (foo.toLowerCase() < bar.toLowerCase()) {
 							return -1;
 						}
-						if (foo > bar) {
+						if (foo.toLowerCase() > bar.toLowerCase()) {
 							return 1;
 						}
 						return 0;
@@ -222,7 +239,7 @@ export default function Membership() {
 					})}
 			</ul>
 
-			<div className={styles.memberHeader} id="contributing-members">
+			{/* <div className={styles.memberHeader} id="contributing-members">
 				Contributing Members
 			</div>
 			<ul className={styles.memberUl}>
@@ -266,7 +283,7 @@ export default function Membership() {
 							</li>
 						);
 					})}
-			</ul>
+			</ul> */}
 		</div>
 	);
 }

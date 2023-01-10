@@ -188,7 +188,14 @@
 	// .memberUl {
 
 	// }
-
+	.benefits {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-column-gap: 30px;
+		grid-row-gap: 20px;
+		margin-bottom: 80px;
+	}
 	.memberHeader {
 		font-weight: 18;
 		font-weight: 400;

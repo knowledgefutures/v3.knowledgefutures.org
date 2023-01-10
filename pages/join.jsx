@@ -31,7 +31,7 @@ export default function Join() {
 				<div className={styles.leftPad} />
 			</section>
 
-			<section>
+			{/* <section>
 				<div>
 					<h2>Events</h2>
 					<p>
@@ -45,7 +45,7 @@ export default function Join() {
 						/>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section>
 				<div>
