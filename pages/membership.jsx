@@ -69,16 +69,36 @@ export default function Membership() {
 				<title>Membership · Knowledge Futures Group</title>
 			</Head>
 			<h1>Become a Member</h1>
-			<h2>One-liner about the value prop of membership</h2>
+			{/* <h2>One-liner about the value prop of membership</h2> */}
+			<h2>
+				Membership helps communities be more effective in their work and advances publicly
+				available digital infrastructure.
+			</h2>
+
 			<p>
-				<i>Longer paragraph describing membership...</i> Members are critical to sustaining
-				our mission to build public knowledge infrastructure. Becoming a Knowledge Futures
-				Member allows individuals and organizations of all sizes to support open
-				infrastructure; receive support for PubPub, Underlay, and other products; meet and
-				share ideas with other innovative knowledge communities; and join a community
-				passionate about the future of knowledge infrastructure and its development.
+				Membership is a collaboration with Knowledge Futures to identify and implement
+				infrastructure strategies that enable communities to be more effective in their work
+				and also provide value beyond their specific work in the form of publicly available
+				infrastructure. This approach provides the path to 1) address the specific goals of
+				our members, 2) advance publicly available digital infrastructure, and 3) built a
+				network capable of overcoming collective action challenges through the use of common
+				tooling.
 			</p>
-			<p>Member benefits include</p>
+			<p>
+				Becoming a Knowledge Futures Member allows communities of all sizes to advance their
+				mission, support open infrastructure, meet and share ideas with other innovative
+				knowledge communities, and join a community passionate about the future of knowledge
+				infrastructure and its development.
+			</p>
+			<Button
+				className={styles.contactButton}
+				text={"Contact us about Membership"}
+				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership"
+				opensNewTab={true}
+			/>
+			<p>
+				In addition to the collaboration towards shared goals, membership benefits include:
+			</p>
 			<ul className={styles.benefits}>
 				<li>Invitations to member events</li>
 				<li>Custom domains for your PubPub communities</li>
@@ -87,12 +107,6 @@ export default function Membership() {
 				<li>Regular support, consultation, and training</li>
 				<li>Support and strategy calls for individuals and groups within your network</li>
 			</ul>
-			<Button
-				// className={styles.button}
-				text={"Contact us about Membership"}
-				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership"
-				opensNewTab={true}
-			/>
 
 			{/* <div className={styles.tiers}>
 				{tiers.map((tier) => {
