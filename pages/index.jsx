@@ -32,14 +32,43 @@ const projects = [
 	// 	link: "https://communitypublishing.pubpub.org",
 	// },
 ];
+const members = [
+	{ href: "https://mitpress.mit.edu/", image: "/members/mitp.png" },
+	{ href: "https://www.chop.edu/", image: "/members/chop.png" },
+	{ href: "https://aas.org/", image: "/members/aas.png" },
+	{ href: "https://www.gatesfoundation.org/", image: "/members/gates.png" },
+	{ href: "https://www.lib.ncsu.edu/", image: "/members/ncs.svg" },
+	{ href: "https://www.arcadiascience.com/", image: "/members/arcadia.svg" },
+	
+	
+	{ href: "https://punctumbooks.com/", image: "/members/punctum.png" },
+	{ href: "https://citap.unc.edu/", image: "/members/citap.png" },
+	{ href: "https://c4disc.org/", image: "/members/c4disc.png" },
+	{ href: "https://libraries.mit.edu/", image: "/members/mitl.png" },
+	{ href: "https://www.tilburguniversity.edu/", image: "/members/tilburg.svg" },
+	{ href: "https://copim.ac.uk/", image: "/members/copim.png" },
+];
 export default function Home() {
 	return (
 		<div className={styles.home}>
-			<section>
-				<h1>
-					<span>Knowledge Futures Group</span> builds infrastructure for a more effective,
-					equitable, and sustainable knowledge economy.
-				</h1>
+			<section className={styles.atf}>
+				<h1>Infrastructure for public knowledge</h1>
+				<p className={styles.subTitle}>
+					<span>Knowledge Futures</span> builds public digital infrastructure that enables
+					documents, data, and conversations to be used more effectively.
+				</p>
+				<Button className={styles.ctaButton} href="/membership" text={"Work with us"} />
+				<p className={styles.testimonialText}>
+					Our work is done alongside our 50+ members, including:
+				</p>
+				<div className={styles.logos}>
+					{members.map((member)=>{
+						return <a  key={member.image} href={member.href}><img src={member.image} /></a>
+					})}
+				</div>
+			</section>
+			<section className={styles.work}>
+				<h2>Our Work</h2>
 				<div className={styles.hype}>
 					{projects.map((project) => {
 						return (
@@ -66,15 +95,14 @@ export default function Home() {
 						);
 					})}
 				</div>
-			</section>
-			<section>
 				<h2>
-					Knowledge Futures Group is a 501c3 nonprofit building open source technology and
+					Knowledge Futures is a 501c3 nonprofit building open source technology and
 					collaborating with communities of practice to design and build the public
 					digital infrastructure needed for effective, equitable, and sustainable
 					knowledge futures.
 				</h2>
 				<Button href="/about" text="Our Story" />
+				
 			</section>
 			<section className={styles.impact}>
 				<h2>Our Impact</h2>
@@ -106,7 +134,7 @@ export default function Home() {
 				<div className={styles.involved}>
 					<div className={styles.text}>
 						<p>
-							Knowledge Futures Group builds and sustains technology for the
+							Knowledge Futures builds and sustains technology for the
 							production, curation, and preservation of knowledge in service of the
 							public good. We're powered by members that are dedicated to stewarding
 							healthy and equitable knowledge futures.
