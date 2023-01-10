@@ -78,16 +78,13 @@ export default function Membership() {
 			<p>
 				Membership is a collaboration with Knowledge Futures to identify and implement
 				infrastructure strategies that enable communities to be more effective in their work
-				and also provide value beyond their specific work in the form of publicly available
-				infrastructure. This approach provides the path to 1) address the specific goals of
-				our members, 2) advance publicly available digital infrastructure, and 3) built a
-				network capable of overcoming collective action challenges through the use of common
-				tooling.
+				while also providing value beyond their specific goals by contributing to publicly
+				available digital infrastructure.
 			</p>
 			<p>
 				Becoming a Knowledge Futures Member allows communities of all sizes to advance their
 				mission, support open infrastructure, meet and share ideas with other innovative
-				knowledge communities, and join a community passionate about the future of knowledge
+				knowledge communities, and join a network passionate about the future of knowledge
 				infrastructure and its development.
 			</p>
 			<Button
