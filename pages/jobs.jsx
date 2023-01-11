@@ -15,11 +15,10 @@ export default function Jobs() {
 				equitable, and sustainable knowledge economy. Help move knowledge forward with our
 				thoughtfully remote, 4-day workweek, values-driven team.
 			</p>
-			<hr />
+			<hr style={{ margin: "50px 0px" }} />
 			<h2>Open Listings</h2>
 			<JobList />
-			{/* <h3>There are currently no open job listings.</h3>*/}
-			<hr />
+			<hr style={{ margin: "50px 0px" }} />
 			<h2>Working With Us</h2>
 			<ul>
 				<li>

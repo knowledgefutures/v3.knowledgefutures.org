@@ -4,6 +4,9 @@ import { Menu, MenuItem } from "components";
 import jobs from "./jobs";
 
 const JobList = function () {
+	if (!jobs.length) {
+		return <p>There are currently no open job listings.</p>
+	}
 	return (
 		<Menu>
 			{jobs.map((job) => {
