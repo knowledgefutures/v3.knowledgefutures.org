@@ -15,71 +15,72 @@ export default function Membership() {
 		"https://buy.stripe.com/dR69Bl2iT85zbbqaEK",
 		"https://buy.stripe.com/7sI28Tf5FbhL5R6149",
 	];
-	const tiers = [
-		{
-			name: "Supporter",
-			description:
-				"For budget constrained groups that want to support Knowledge Futures and join the community.",
-			// pricePrefix: "",
-			useSlider: false,
-			price: "60",
-			buttonText: "Join",
-			buttonLink: "https://buy.stripe.com/6oEeVF8Hh5XrenC7sw",
-			inviteCount: "1 invite",
-			discountPercentage: "5",
-			supportAmount: "Dedicated",
-			adjective: "Supporting",
-			adjectiveLink: "#supporting-members",
-		},
-		{
-			name: "Contributor",
-			description:
-				"For groups that want to grow their community using Knowledge Futures infrastructure.",
-			// pricePrefix: "",
-			useSlider: true,
-			price: contributorPrices[budgetValue - 1],
-			buttonText: "Join",
-			buttonLink: contributorLinks[budgetValue - 1],
-			inviteCount: "5 invites",
-			discountPercentage: "10",
-			supportAmount: "3 hrs dedicated",
-			adjective: "Contributing",
-			adjectiveLink: "#contributing-members",
-		},
-		{
-			name: "Network",
-			description:
-				"For groups that want to leverage Knowledge Futures infrastructure across their network.",
-			// pricePrefix: "Scaled for your organization",
-			useSlider: false,
-			price: "",
-			buttonText: "Contact Us",
-			buttonLink:
-				"mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership",
-			inviteCount: "10 invites",
-			discountPercentage: "15",
-			supportAmount: "Regular",
-			adjective: "Network",
-			adjectiveLink: "#network-members",
-		},
-	];
+	// const tiers = [
+	// 	{
+	// 		name: "Supporter",
+	// 		description:
+	// 			"For budget constrained groups that want to support Knowledge Futures and join the community.",
+	// 		// pricePrefix: "",
+	// 		useSlider: false,
+	// 		price: "60",
+	// 		buttonText: "Join",
+	// 		buttonLink: "https://buy.stripe.com/6oEeVF8Hh5XrenC7sw",
+	// 		inviteCount: "1 invite",
+	// 		discountPercentage: "5",
+	// 		supportAmount: "Dedicated",
+	// 		adjective: "Supporting",
+	// 		adjectiveLink: "#supporting-members",
+	// 	},
+	// 	{
+	// 		name: "Contributor",
+	// 		description:
+	// 			"For groups that want to grow their community using Knowledge Futures infrastructure.",
+	// 		// pricePrefix: "",
+	// 		useSlider: true,
+	// 		price: contributorPrices[budgetValue - 1],
+	// 		buttonText: "Join",
+	// 		buttonLink: contributorLinks[budgetValue - 1],
+	// 		inviteCount: "5 invites",
+	// 		discountPercentage: "10",
+	// 		supportAmount: "3 hrs dedicated",
+	// 		adjective: "Contributing",
+	// 		adjectiveLink: "#contributing-members",
+	// 	},
+	// 	{
+	// 		name: "Network",
+	// 		description:
+	// 			"For groups that want to leverage Knowledge Futures infrastructure across their network.",
+	// 		// pricePrefix: "Scaled for your organization",
+	// 		useSlider: false,
+	// 		price: "",
+	// 		buttonText: "Contact Us",
+	// 		buttonLink:
+	// 			"mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership",
+	// 		inviteCount: "10 invites",
+	// 		discountPercentage: "15",
+	// 		supportAmount: "Regular",
+	// 		adjective: "Network",
+	// 		adjectiveLink: "#network-members",
+	// 	},
+	// ];
 	return (
 		<div className={styles.membership}>
 			<Head>
 				<title>Membership · Knowledge Futures Group</title>
 			</Head>
 			<h1>Become a Member</h1>
-			{/* <h2>One-liner about the value prop of membership</h2> */}
+			{/* <h2>
+				Membership helps communities be more effective in knowlege production and advances
+				publicly available digital infrastructure.
+			</h2> */}
 			<h2>
-				Membership helps communities be more effective in their work and advances publicly
-				available digital infrastructure.
+				Membership is a collaboration to support your mission built on infrastructure for
+				public knowledge.
 			</h2>
-
 			<p>
-				Membership is a collaboration with Knowledge Futures to identify and implement
-				infrastructure strategies that enable communities to be more effective in their work
-				while also providing value beyond their specific goals by contributing to publicly
-				available digital infrastructure.
+				We collaborate with members to identify and implement strategies that enable
+				communities to be more effective in their work while also providing value to the
+				broader network by contributing to publicly available digital infrastructure.
 			</p>
 			<p>
 				Becoming a Knowledge Futures Member allows communities of all sizes to advance their
@@ -90,7 +91,7 @@ export default function Membership() {
 			<Button
 				className={styles.contactButton}
 				text={"Contact us about Membership"}
-				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Network Membership"
+				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Membership"
 				opensNewTab={true}
 			/>
 			<p>
@@ -104,7 +105,6 @@ export default function Membership() {
 				<li>Regular support, consultation, and training</li>
 				<li>Support and strategy calls for individuals and groups within your network</li>
 			</ul>
-
 			{/* <div className={styles.tiers}>
 				{tiers.map((tier) => {
 					return (
@@ -221,7 +221,6 @@ export default function Membership() {
 				Membership is a vote for a future where knowledge is produced, curated, and shared
 				in service of the public good.
 			</div>
-
 			<h1>Current Members</h1>
 			<p>
 				We gratefully ackowledge and thank all of our members. Without their support, the
@@ -249,7 +248,6 @@ export default function Membership() {
 						);
 					})}
 			</ul>
-
 			{/* <div className={styles.memberHeader} id="contributing-members">
 				Contributing Members
 			</div>

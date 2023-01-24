@@ -139,9 +139,12 @@ export default function Home() {
 							public good. We're powered by members that are dedicated to stewarding
 							healthy and equitable knowledge futures.
 						</p>
+						
+					</div>
+					<div className={styles.memberButton2}>
 						<Button href="/membership" text="Become a Member" />
 					</div>
-					<div className={styles.image} />
+					{/* <div className={styles.image} /> */}
 				</div>
 			</section>
 		</div>

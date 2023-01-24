@@ -11,7 +11,7 @@ export default function About() {
 				<title>About · Knowledge Futures Group</title>
 			</Head>
 			<section>
-				<h2>Our story</h2>
+				<h1>Our story</h1>
 
 				<p className={styles.fullPanelP}>
 					Knowledge Futures Group is an independent nonprofit organization powered by
@@ -93,7 +93,7 @@ export default function About() {
 			</section>
 
 			<section>
-				<h2>How we work</h2>
+				<h1>How we work</h1>
 				<div className={styles.panels}>
 					<div>
 						<p>
@@ -150,7 +150,7 @@ export default function About() {
 							<li>
 								<a
 									className="hoverline"
-									href="https://notes.knowledgefutures.org/pub/cqih29xa"
+									href="https://notes.knowledgefutures.org/pub/cqih19xa"
 								>
 									Handbook
 								</a>
@@ -176,7 +176,7 @@ export default function About() {
 				</div>
 			</section>
 			<section>
-				<h2>Statement of Independence</h2>
+				<h1>Statement of Independence</h1>
 				<p>
 					Knowledge Futures, Inc is an independent, nonprofit 501(c)(3) organization. We
 					are committed to the independence and autonomy of Knowledge Future’s products
@@ -188,7 +188,7 @@ export default function About() {
 				</p>
 			</section>
 			<section>
-				<h2 id="team">Team</h2>
+				<h1 id="team">Team</h1>
 				<Team />
 			</section>
 		</div>
