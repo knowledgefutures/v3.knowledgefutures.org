@@ -52,15 +52,16 @@ export default function Work() {
 				development.
 			</p>
 			<p>
-				We live in a time when knowledge and our ability to understand the world around us
-				are increasingly being locked down, siloed, and restricted. We understand our role
-				to help unlock knowledge, to connect it, to make it more accessible. Fundamentally,
-				we believe that you can’t do that effectively — and don’t have the power to drive
-				change — if you are unable to control the infrastructure you rely on. As such, our
-				work focuses on empowering communities to take control of the end-to-end knowledge
-				production processes their work exists within. Doing so is a technical, social, and
-				cultural action — and our work reflects that.
+				We live in a time when our ability to understand the world around us is being
+				monopolized. The stakes of unlocking knowledge, enhancing connections, and improving
+				accessibility cannot be overstated. Fundamentally, we believe communities can't do
+				that effectively — and don't have the power to drive change — if they're unable to
+				collaboratively build the essential infrastructure relied on. As such, our work
+				focuses on empowering communities to take control of the end-to-end knowledge
+				production processes their work exists within, and help sustain public knowledge
+				infrastructure for a foreseeable future.
 			</p>
+
 			<section className={styles.projects}>
 				{projects.map((project) => {
 					return (
