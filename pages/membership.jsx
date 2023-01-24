@@ -74,8 +74,8 @@ export default function Membership() {
 				publicly available digital infrastructure.
 			</h2> */}
 			<h2>
-				Membership is a collaboration to support your mission built on infrastructure for
-				public knowledge.
+				Membership is a collaboration to support your mission by leveraging infrastructure
+				for public knowledge.
 			</h2>
 			<p>
 				We collaborate with members to identify and implement strategies that enable
