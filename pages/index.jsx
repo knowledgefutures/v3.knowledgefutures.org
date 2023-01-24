@@ -55,7 +55,7 @@ export default function Home() {
 				<h1>Infrastructure for public knowledge</h1>
 				<p className={styles.subTitle}>
 					<span>Knowledge Futures</span> builds public digital infrastructure that enables
-					communities to publish documents, data, and conversations more effectively.
+					communities to publish documents and data more effectively.
 				</p>
 				<Button className={styles.ctaButton} href="/membership" text={"Work with us"} />
 				<p className={styles.testimonialText}>

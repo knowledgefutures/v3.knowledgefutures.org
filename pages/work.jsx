@@ -42,13 +42,14 @@ export default function Work() {
 			</Head>
 			<h1>Our Work</h1>
 			<p>
-				Knowledge Futures Group is structured around the belief that technology is not
+				Knowledge Futures Group is organized around the belief that technology is not
 				sufficient for the complex,{" "}
 				<a href="https://commonplace.knowledgefutures.org/pub/6qqfgms5">post-normal</a>{" "}
-				challenges of our time. Our approach to these problems is a bottom-up community-led
-				development process that encompasses convening and publication. Each activity
-				strengthens the other, providing a more holistic, equitable, considered approach to
-				sustainable technology development.
+				challenges of our time. Our strategy for activating lasting change without
+				compromising public trust and innovation is fueled by bottom-up community-led
+				development process that encompasses convening and publication. Each pursuit is
+				conveived to provide a more equitable approach to sustainable technology
+				development.
 			</p>
 			<p>
 				We live in a time when knowledge and our ability to understand the world around us
