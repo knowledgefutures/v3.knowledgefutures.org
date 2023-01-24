@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 
 import { Button } from "components";
-import { supporting, contributing, network } from "utils/members";
+import { allMembers } from "utils/members";
 
 import styles from "./membership.module.scss";
 
@@ -230,7 +230,7 @@ export default function Membership() {
 				Network Members
 			</div> */}
 			<ul className={styles.memberUl}>
-				{[...network, ...contributing, ...supporting]
+				{allMembers
 					.sort((foo, bar) => {
 						if (foo.toLowerCase() < bar.toLowerCase()) {
 							return -1;
