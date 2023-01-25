@@ -1,15 +1,78 @@
 @import "pages/variables.scss";
 
 .home {
+	.atf {
+		margin-bottom: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	h1 {
-		margin: 50px 0px 100px;
+		margin: 50px 0px 10px;
 		max-width: 875px;
-		font-weight: 48px;
+		font-size: 54px;
+		text-align: center;
+		// font-family: upgrade-lights, sans-serif;
+		// font-weight: 500;
+		// span {
+		font-family: upgrade, sans-serif;
+		font-weight: 400;
+		// }
+	}
+	.subTitle {
+		margin: 10px 0px 50px;
+		max-width: 800px;
+		font-size: 25px;
+		text-align: center;
 		font-family: upgrade-lights, sans-serif;
 		font-weight: 500;
 		span {
 			font-family: upgrade, sans-serif;
 			font-weight: 400;
+		}
+	}
+	.ctaButton {
+		width: 100%;
+		max-width: 200px;
+		text-align: center;
+		margin-bottom: 90px;
+	}
+	.testimonialText {
+		font-size: 20px;
+		opacity: 0.75;
+		text-align: center;
+	}
+	.logos {
+		display: grid;
+		// flex-wrap: wrap;
+		// justify-content: space-between;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-column-gap: 5%;
+		grid-row-gap: 20px;
+		@include for-mobile {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+		}
+		padding-bottom: 100px;
+		// margin-bottom: 20px;
+		// border-bottom: 1px solid #ccc;
+	}
+	.logos a {
+		display: flex;
+		align-items: center;
+	}
+	.logos img {
+		// flex: 0 0 auto;
+		// height: 35px;
+		width: 100%;
+		color: black;
+		fill: black;
+		filter: grayscale(1);
+		opacity: 0.5;
+		&:hover {
+			filter: grayscale(0);
+			opacity: 1.0;
 		}
 	}
 }
@@ -92,7 +155,25 @@
 		background: #bdbdbd;
 	}
 }
-
+.work {
+	position: relative;
+	padding: 75px 0px;
+	margin-bottom: 0px;
+	&:before {
+		content: "";
+		border-top: 1px solid #e0e0e0;
+		// background: url("/logo-bg.svg") repeat #333;
+		background: #f0f0f0;
+		// background-size: 20px 24px;
+		// background-color: blue;
+		width: 100vw;
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: calc(50% - 50vw);
+		z-index: -1;
+	}
+}
 .impact {
 	position: relative;
 	color: white;
@@ -139,6 +220,12 @@
 	.text {
 		max-width: 500px;
 		flex: 0 0 auto;
+	}
+	.memberButton2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex: 1 1 auto;
 	}
 	.image {
 		margin-left: 50px;

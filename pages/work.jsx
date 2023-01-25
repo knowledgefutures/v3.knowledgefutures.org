@@ -38,28 +38,30 @@ export default function Work() {
 	return (
 		<div className={styles.work}>
 			<Head>
-				<title>Our Work · Knowledge Futures Group</title>
+				<title>Our Work · Knowledge Futures</title>
 			</Head>
 			<h1>Our Work</h1>
 			<p>
-				Knowledge Futures Group is structured around the belief that technology is not
+				Knowledge Futures is organized around the belief that technology is not
 				sufficient for the complex,{" "}
 				<a href="https://commonplace.knowledgefutures.org/pub/6qqfgms5">post-normal</a>{" "}
-				challenges of our time. Our approach to these problems is a bottom-up community-led
-				development process that encompasses convening and publication. Each activity
-				strengthens the other, providing a more holistic, equitable, considered approach to
-				sustainable technology development.
+				challenges of our time. Our strategy for activating lasting change without
+				compromising public trust and innovation is fueled by bottom-up community-led
+				development process that encompasses convening and publication. Each pursuit is
+				conveived to provide a more equitable approach to sustainable technology
+				development.
 			</p>
 			<p>
-				We live in a time when knowledge and our ability to understand the world around us
-				are increasingly being locked down, siloed, and restricted. We understand our role
-				to help unlock knowledge, to connect it, to make it more accessible. Fundamentally,
-				we believe that you can’t do that effectively — and don’t have the power to drive
-				change — if you are unable to control the infrastructure you rely on. As such, our
-				work focuses on empowering communities to take control of the end-to-end knowledge
-				production processes their work exists within. Doing so is a technical, social, and
-				cultural action — and our work reflects that.
+				We live in a time when our ability to understand the world around us is being
+				monopolized. The stakes of unlocking knowledge, enhancing connections, and improving
+				accessibility cannot be overstated. Fundamentally, we believe communities can't do
+				that effectively — and don't have the power to drive change — if they're unable to
+				collaboratively build the essential infrastructure relied on. As such, our work
+				focuses on empowering communities to take control of the end-to-end knowledge
+				production processes their work exists within, and help sustain public knowledge
+				infrastructure for a foreseeable future.
 			</p>
+
 			<section className={styles.projects}>
 				{projects.map((project) => {
 					return (

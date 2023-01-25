@@ -1,6 +1,9 @@
 @import "pages/variables.scss";
 
 .membership {
+	h2 {
+		max-width: 850px;
+	}
 	.tiers {
 		margin-top: 75px;
 		display: grid;
@@ -99,7 +102,6 @@
 			input {
 				display: block;
 				width: 100%;
-
 			}
 			.ticks {
 				display: grid;
@@ -188,10 +190,24 @@
 	// .memberUl {
 
 	// }
-
+	.benefits {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		// grid-template-rows: 1fr 1fr;
+		grid-column-gap: 30px;
+		grid-row-gap: 20px;
+		margin-bottom: 80px;
+		@include for-mobile {
+			grid-template-columns: 1fr;
+		}
+	}
 	.memberHeader {
 		font-weight: 18;
 		font-weight: 400;
 		font-family: upgrade, sans-serif;
+	}
+	.contactButton {
+		margin: 40px 0px;
+		cursor: pointer;
 	}
 }

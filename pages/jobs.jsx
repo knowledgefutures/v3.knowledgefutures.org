@@ -6,11 +6,11 @@ export default function Jobs() {
 	return (
 		<div>
 			<Head>
-				<title>Jobs · Knowledge Futures Group</title>
+				<title>Jobs · Knowledge Futures</title>
 			</Head>
 			<h1>Jobs</h1>
 			<p>
-				Knowledge Futures Group, founded as a partnership between the MIT Press and the MIT
+				Knowledge Futures, founded as a partnership between the MIT Press and the MIT
 				Media Lab, is a non-profit institution builds infrastructure for a more effective,
 				equitable, and sustainable knowledge economy. Help move knowledge forward with our
 				thoughtfully remote, 4-day workweek, values-driven team.
@@ -54,7 +54,7 @@ export default function Jobs() {
 				</li>
 				<li>
 					<strong>
-						Contribute to our larger mission at the Knowledge Futures Group:
+						Contribute to our larger mission at Knowledge Futures:
 					</strong>{" "}
 					we’re building a future where the infrastructure to create and access knowledge
 					is controlled by people who serve the public interest, starting with core

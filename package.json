@@ -1,7 +1,7 @@
 {
 	"name": "www.knowledgefutures.org",
 	"version": "0.0.3",
-	"description": "Knowledge Futures Group website",
+	"description": "Knowledge Futures website",
 	"author": "Travis Rich <travis@knowledgefutures.org>",
 	"repository": {
 		"type": "git",

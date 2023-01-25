@@ -8,11 +8,11 @@ export default function Join() {
 	return (
 		<div className={styles.join}>
 			<Head>
-				<title>Get Involved · Knowledge Futures Group</title>
+				<title>Get Involved · Knowledge Futures</title>
 			</Head>
 			<h1>Get Involved</h1>
 			<p>
-				Knowledge Futures Group is a distributed community of people around the globe
+				Knowledge Futures is a distributed community of people around the globe
 				dedicated to stewarding healthy and equitable knowledge futures.
 			</p>
 
@@ -31,7 +31,7 @@ export default function Join() {
 				<div className={styles.leftPad} />
 			</section>
 
-			<section>
+			{/* <section>
 				<div>
 					<h2>Events</h2>
 					<p>
@@ -45,13 +45,13 @@ export default function Join() {
 						/>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section>
 				<div>
 					<h2>Partners and Funders</h2>
 					<p>
-						Join Knowledge Futures Group in co-designing the processes and tools that
+						Join Knowledge Futures in co-designing the processes and tools that
 						will enhance our capacity for collective understanding and lead to more
 						equitable, effective, and sustainable futures.
 					</p>
