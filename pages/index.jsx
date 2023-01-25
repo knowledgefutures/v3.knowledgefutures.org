@@ -39,8 +39,7 @@ const members = [
 	{ href: "https://www.gatesfoundation.org/", image: "/members/gates.png" },
 	{ href: "https://www.lib.ncsu.edu/", image: "/members/ncs.svg" },
 	{ href: "https://www.arcadiascience.com/", image: "/members/arcadia.svg" },
-	
-	
+
 	{ href: "https://punctumbooks.com/", image: "/members/punctum.png" },
 	{ href: "https://citap.unc.edu/", image: "/members/citap.png" },
 	{ href: "https://c4disc.org/", image: "/members/c4disc.png" },
@@ -62,8 +61,12 @@ export default function Home() {
 					Our work is done alongside our 50+ members, including:
 				</p>
 				<div className={styles.logos}>
-					{members.map((member)=>{
-						return <a  key={member.image} href={member.href}><img src={member.image} /></a>
+					{members.map((member) => {
+						return (
+							<a key={member.image} href={member.href}>
+								<img src={member.image} />
+							</a>
+						);
 					})}
 				</div>
 			</section>
@@ -97,12 +100,11 @@ export default function Home() {
 				</div>
 				<h2>
 					Knowledge Futures is a 501c3 nonprofit building open source technology and
-					collaborating with communities of practice to design and build the public
+					collaborating with communities to design, build, and implement the public
 					digital infrastructure needed for effective, equitable, and sustainable
 					knowledge futures.
 				</h2>
 				<Button href="/about" text="Our Story" />
-				
 			</section>
 			<section className={styles.impact}>
 				<h2>Our Impact</h2>
@@ -134,12 +136,11 @@ export default function Home() {
 				<div className={styles.involved}>
 					<div className={styles.text}>
 						<p>
-							Knowledge Futures builds and sustains technology for the
-							production, curation, and preservation of knowledge in service of the
-							public good. We're powered by members that are dedicated to stewarding
-							healthy and equitable knowledge futures.
+							Knowledge Futures builds and sustains technology for the production,
+							curation, and preservation of knowledge in service of the public good.
+							We're powered by members that are dedicated to stewarding healthy and
+							equitable knowledge futures.
 						</p>
-						
 					</div>
 					<div className={styles.memberButton2}>
 						<Button href="/membership" text="Become a Member" />
