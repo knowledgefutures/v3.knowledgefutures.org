@@ -46,9 +46,9 @@ export default function Work() {
 				sufficient for the complex,{" "}
 				<a href="https://commonplace.knowledgefutures.org/pub/6qqfgms5">post-normal</a>{" "}
 				challenges of our time. Our strategy for activating lasting change without
-				compromising public trust and innovation is fueled by bottom-up community-led
+				compromising public trust and innovation is fueled by a bottom-up community-led
 				development process that encompasses convening and publication. Each pursuit is
-				conveived to provide a more equitable approach to sustainable technology
+				conceived to provide a more equitable approach to sustainable technology
 				development.
 			</p>
 			<p>
