@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<div className="app">
 			<Head>
-				<title>Knowledge Futures Group</title>
+				<title>Knowledge Futures</title>
 				<link rel="shortcut icon" href="/favicon.png" />
 				<link rel="stylesheet" href="https://use.typekit.net/hyi2otq.css" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />

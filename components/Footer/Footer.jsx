@@ -10,7 +10,7 @@ const Footer = function () {
 					<img
 						className={styles.logo}
 						src="/logoFull.svg"
-						alt="Knowledge Futures Group Logo"
+						alt="Knowledge Futures Logo"
 					/>
 				</a>
 

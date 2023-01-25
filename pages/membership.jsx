@@ -66,7 +66,7 @@ export default function Membership() {
 	return (
 		<div className={styles.membership}>
 			<Head>
-				<title>Membership · Knowledge Futures Group</title>
+				<title>Membership · Knowledge Futures</title>
 			</Head>
 			<h1>Become a Member</h1>
 			{/* <h2>

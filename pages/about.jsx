@@ -8,13 +8,13 @@ export default function About() {
 	return (
 		<div className={styles.about}>
 			<Head>
-				<title>About · Knowledge Futures Group</title>
+				<title>About · Knowledge Futures</title>
 			</Head>
 			<section>
 				<h1>Our story</h1>
 
 				<p className={styles.fullPanelP}>
-					Knowledge Futures Group is an independent nonprofit organization powered by
+					Knowledge Futures is an independent nonprofit organization powered by
 					academic, industry, and advocacy groups. Together we build and support products
 					and protocols to make knowledge open and accessible to all.
 				</p>
@@ -22,7 +22,7 @@ export default function About() {
 					<div>
 						<p>
 							Founded in 2018 as a partnership between the MIT Press and the MIT Media
-							Lab, Knowledge Futures Group was created to build sustainable tools and
+							Lab, Knowledge Futures was created to build sustainable tools and
 							technologies for libraries, presses, museums, activist organizations,
 							researchers, and others whose knowledge work seeks to serve collective
 							understanding and the public. What began as a handful of grad students
@@ -97,7 +97,7 @@ export default function About() {
 				<div className={styles.panels}>
 					<div>
 						<p>
-							Knowledge Futures Group is guided by a set of values that drive and
+							Knowledge Futures is guided by a set of values that drive and
 							focus the work we do. From hiring, to product development, to day-to-day
 							interpersonal relationships, these values serve as the ground truth for
 							how we work.

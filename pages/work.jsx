@@ -38,11 +38,11 @@ export default function Work() {
 	return (
 		<div className={styles.work}>
 			<Head>
-				<title>Our Work · Knowledge Futures Group</title>
+				<title>Our Work · Knowledge Futures</title>
 			</Head>
 			<h1>Our Work</h1>
 			<p>
-				Knowledge Futures Group is organized around the belief that technology is not
+				Knowledge Futures is organized around the belief that technology is not
 				sufficient for the complex,{" "}
 				<a href="https://commonplace.knowledgefutures.org/pub/6qqfgms5">post-normal</a>{" "}
 				challenges of our time. Our strategy for activating lasting change without
