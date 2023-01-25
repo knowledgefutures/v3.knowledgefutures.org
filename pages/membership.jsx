@@ -247,6 +247,7 @@ export default function Membership() {
 							</li>
 						);
 					})}
+					<li className={styles.member}>plus 12 individual contributors.</li>
 			</ul>
 			{/* <div className={styles.memberHeader} id="contributing-members">
 				Contributing Members

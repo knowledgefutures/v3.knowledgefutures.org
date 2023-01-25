@@ -110,6 +110,12 @@
 		"groups": ["Staff"]
 	},
 	{
+		"name": "Kalil Smith-Nuevelle",
+		"title": ["Senior Software Engineer"],
+		"image": "/people/kalil.jpg",
+		"groups": ["Staff"]
+	},
+	{
 		"name": "Travis Rich",
 		"title": ["Executive Director", "Board Member"],
 		"image": "/people/travis.jpg",

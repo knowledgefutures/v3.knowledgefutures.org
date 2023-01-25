@@ -4,6 +4,7 @@ export const allMembers = [
 	"Belk Library & Information Commons",
 	"Berlin University Alliance",
 	"Bill & Melinda Gates Foundation",
+	"Brown University Center for Digital Scholarship",
 	"Center of Complex Inventions",
 	"Centre for Applied Strength and Conditioning Science",
 	"CITAP",
@@ -37,7 +38,6 @@ export const allMembers = [
 	"University of Vermont Howe Library",
 	"Vanderbilt University Jean & Alexander Heard Libraries",
 	"Z. Smith Reynolds Library, Wake Forest University",
-	"plus 13 individual contributors.",
 ];
 // export const network = ["Arcadia Science", "The MIT Press"];
 // export const contributing = [
