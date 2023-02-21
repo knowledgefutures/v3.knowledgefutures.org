@@ -19,13 +19,6 @@
 		"groups": ["Staff"]
 	},
 	{
-		"name": "Joel Gustafson",
-		"title": ["Software Engineer"],
-		"external": ["Protocol Labs, Independent Researcher"],
-		"image": "/people/joel.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Danny Hillis",
 		"title": ["Underlayer"],
 		"image": "/people/danny.jpg",
