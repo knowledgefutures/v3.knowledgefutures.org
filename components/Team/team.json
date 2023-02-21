@@ -104,12 +104,6 @@
 		"groups": ["Staff"]
 	},
 	{
-		"name": "Ian Reynolds",
-		"title": ["Senior Software Engineer"],
-		"image": "/people/ian.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Kalil Smith-Nuevelle",
 		"title": ["Senior Software Engineer"],
 		"image": "/people/kalil.jpg",
