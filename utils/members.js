@@ -10,6 +10,7 @@ export const allMembers = [
 	"CITAP",
 	"Coalition for Diversity and Inclusion in Scholarly Communications",
 	"COPIM",
+	"The Cuvette",
 	"Criminology Open",
 	"Duke Kunshan University, SciEcon CIC",
 	"Eksistensen",
