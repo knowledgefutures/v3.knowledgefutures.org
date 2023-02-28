@@ -14,9 +14,9 @@ export default function About() {
 				<h1>Our story</h1>
 
 				<p className={styles.fullPanelP}>
-					Knowledge Futures is an independent nonprofit organization powered by
-					academic, industry, and advocacy groups. Together we build and support products
-					and protocols to make knowledge open and accessible to all.
+					Knowledge Futures is an independent nonprofit organization powered by academic,
+					industry, and advocacy groups. Together we build and support products and
+					protocols to make knowledge open and accessible to all.
 				</p>
 				<div className={styles.panels}>
 					<div>
@@ -97,8 +97,8 @@ export default function About() {
 				<div className={styles.panels}>
 					<div>
 						<p>
-							Knowledge Futures is guided by a set of values that drive and
-							focus the work we do. From hiring, to product development, to day-to-day
+							Knowledge Futures is guided by a set of values that drive and focus the
+							work we do. From hiring, to product development, to day-to-day
 							interpersonal relationships, these values serve as the ground truth for
 							how we work.
 						</p>
@@ -150,7 +150,7 @@ export default function About() {
 							<li>
 								<a
 									className="hoverline"
-									href="https://notes.knowledgefutures.org/pub/cqih19xa"
+									href="https://notes.knowledgefutures.org/pub/cqih29xa/"
 								>
 									Handbook
 								</a>
