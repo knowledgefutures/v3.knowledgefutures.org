@@ -13,12 +13,6 @@
 		"groups": ["Board"]
 	},
 	{
-		"name": "Quincy Childs",
-		"title": ["Fellow"],
-		"image": "/people/quincy.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Danny Hillis",
 		"title": ["Underlayer"],
 		"image": "/people/danny.jpg",
@@ -50,7 +44,7 @@
 	},
 	{
 		"name": "Michael Stebbins",
-		"title": ["Board Member"],
+		"title": ["Board Chair"],
 		"image": "/people/mikeStebbins.jpg",
 		"groups": ["Board"]
 	},
@@ -68,9 +62,9 @@
 	},
 	{
 		"name": "SJ Klein",
-		"title": ["Underlayer", "Board Member"],
+		"title": ["Underlayer", "Board Member Emeritus"],
 		"image": "/people/sj.jpg",
-		"groups": ["Staff", "Board"]
+		"groups": ["Board"]
 	},
 	{
 		"name": "Emily Esten",
@@ -79,13 +73,7 @@
 		"groups": ["Staff"]
 	},
 	{
-		"name": "Peter Kaufman",
-		"title": ["Strategic Development"],
-		"external": ["MIT Open Learning, Strategic Initiatives"],
-		"image": "/people/peter.jpg"
-	},
-	{
-		"name": "early evening",
+		"name": "eve",
 		"title": ["Senior Software Engineer"],
 		"image": "/people/eve.jpg",
 		"groups": ["Staff"]
@@ -115,12 +103,6 @@
 		"groups": ["Staff", "Board"]
 	},
 	{
-		"name": "Pine Wu",
-		"title": ["Senior Software Engineer"],
-		"image": "/people/pine.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Katherine Fata",
 		"title": ["Community Services Intern"],
 		"image": "/people/kfata.jpg",
@@ -145,12 +127,6 @@
 		"groups": ["Staff"]
 	},
 	{
-		"name": "Allison Vanouse",
-		"title": ["Production Editor"],
-		"image": "/people/allisonV.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Thomas Renkert",
 		"title": ["Contributor"],
 		"image": "/people/thomas.jpg",
@@ -168,5 +144,11 @@
 		"title": ["Head of Growth & Innovation"],
 		"image": "/people/zach.jpg",
 		"groups": ["Staff"]
+	},
+	{
+		"name": "Greg Eow",
+		"title": ["Board Member"],
+		"image": "/people/greg.jpeg",
+		"groups": ["Board"]
 	}
 ]
