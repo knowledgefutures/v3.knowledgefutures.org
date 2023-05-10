@@ -91,8 +91,8 @@ export default function Membership() {
 			<Button
 				className={styles.contactButton}
 				text={"Contact us about Membership"}
-				href="mailto:partnerships@knowledgefutures.org?subject=Interested in Membership"
-				opensNewTab={true}
+				href="/contact"
+				opensNewTab={false}
 			/>
 			<p>
 				In addition to the collaboration towards shared goals, membership benefits include:
