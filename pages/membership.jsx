@@ -101,7 +101,8 @@ export default function Membership() {
 				<li>Invitations to member events</li>
 				<li>Custom domains for your PubPub communities</li>
 				<li>Access to community services</li>
-				<li>Regular product support, consultation, and training</li>
+				<li>Email support for PubPub and future products</li>
+				<li>Regular support, consultation, and training</li>
 				<li>Support and strategy calls for individuals and groups within your network</li>
 			</ul>
 			{/* <div className={styles.tiers}>
