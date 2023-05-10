@@ -20,7 +20,7 @@ export const allMembers = [
 	"KU Leuven Libraries",
 	"Litzsinger Road Ecology Foundation",
 	"Maastricht University",
-	"Macalester Library",
+	"Macalester DeWitt Wallace Library",
 	"Media Studies Press",
 	"MIT Libraries",
 	"MIT Press",
