@@ -20,6 +20,7 @@ export const allMembers = [
 	"KU Leuven Libraries",
 	"Litzsinger Road Ecology Foundation",
 	"Maastricht University",
+	"Macalester Library",
 	"Media Studies Press",
 	"MIT Libraries",
 	"MIT Press",
@@ -36,7 +37,7 @@ export const allMembers = [
 	"The Global Health Network, Centre for Tropical Medicine and Global Health",
 	"The Open University",
 	"Tilburg University",
-	"University of Vermont Howe Library",
+	"University of Vermont Libraries",
 	"Vanderbilt University Jean & Alexander Heard Libraries",
 	"Z. Smith Reynolds Library, Wake Forest University",
 ];
