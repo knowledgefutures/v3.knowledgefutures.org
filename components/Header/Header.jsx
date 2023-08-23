@@ -16,12 +16,14 @@ const Header = () => {
 
 	return (
 		<nav className={styles.header}>
-			{/* <div className={styles.banner}>
-				<a href="/jobs">
-					We're hiring! Help move knowledge forward with our thoughtfully remote, 4-day
-					workweek, values-driven team.
-				</a>
-			</div> */}
+			{
+				<div className={styles.banner}>
+					<a href="/jobs">
+						We're hiring! Help move knowledge forward with our thoughtfully remote,
+						4-day workweek, values-driven team.
+					</a>
+				</div>
+			}
 			<div className={styles.content}>
 				<a className={styles.title} href="/">
 					<img src="/logo.svg" alt="Knowledge Futures logo" />
