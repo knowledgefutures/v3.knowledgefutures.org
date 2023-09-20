@@ -12,8 +12,8 @@ export default function Join() {
 			</Head>
 			<h1>Get Involved</h1>
 			<p>
-				Knowledge Futures is a distributed community of people around the globe
-				dedicated to stewarding healthy and equitable knowledge futures.
+				Knowledge Futures is a distributed community of people around the globe dedicated to
+				stewarding healthy and equitable knowledge futures.
 			</p>
 
 			<section id="code">
@@ -51,8 +51,8 @@ export default function Join() {
 				<div>
 					<h2>Partners and Funders</h2>
 					<p>
-						Join Knowledge Futures in co-designing the processes and tools that
-						will enhance our capacity for collective understanding and lead to more
+						Join Knowledge Futures in co-designing the processes and tools that will
+						enhance our capacity for collective understanding and lead to more
 						equitable, effective, and sustainable futures.
 					</p>
 					<div className={styles.buttonGroup}>
@@ -69,22 +69,12 @@ export default function Join() {
 				<div>
 					<h2>Stay up to Date</h2>
 					<p>
-						We’ll keep you in the loop as we have updates and announcements. We welcome
-						you to join the monthly mailing lists we maintain.
+						Subscribe to hear from Knowledge Futures about PubPub development updates,
+						news about our organization and partners, and writing and events related to
+						the building of and cultures around open knowledge communication.
 					</p>
 					<div className={styles.buttonGroup}>
-						<Button
-							href="https://notes.knowledgefutures.org/newsletters"
-							text="PubPub Community and Product Newsletter"
-						/>
-						<Button
-							href="https://knowledgefutures.us5.list-manage.com/subscribe?u=9b9b78707f3dd62d0d47ec03d&id=99e720771c"
-							text="Community Publishing Project Updates"
-						/>
-						<Button
-							href="https://commonplace.knowledgefutures.org/5t3a"
-							text="5 Things to Think About"
-						/>
+						<Button href="http://eepurl.com/gXZNhn" text="Join Newsletter" />
 					</div>
 				</div>
 				<div className={styles.rightPad} />
