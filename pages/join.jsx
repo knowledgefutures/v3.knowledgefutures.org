@@ -74,7 +74,7 @@ export default function Join() {
 						the building of and cultures around open knowledge communication.
 					</p>
 					<div className={styles.buttonGroup}>
-						<Button href="http://eepurl.com/gXZNhn" text="Join Newsletter" />
+						<Button href="http://eepurl.com/gXZNhn" text="Subscribe To Our Newsletter" />
 					</div>
 				</div>
 				<div className={styles.rightPad} />
