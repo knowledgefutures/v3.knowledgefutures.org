@@ -19,12 +19,6 @@
 		"groups": ["Advisors"]
 	},
 	{
-		"name": "Ben Howe",
-		"title": ["Software Engineer"],
-		"image": "/people/benHowe.jpg",
-		"groups": ["Staff"]
-	},
-	{
 		"name": "Deepak Jagdish",
 		"title": ["Design Lead"],
 		"image": "/people/deepak.jpg",
@@ -150,5 +144,11 @@
 		"title": ["Board Member"],
 		"image": "/people/greg.jpeg",
 		"groups": ["Board"]
+	},
+	{
+		"name": "Chelsea Johnston",
+		"title": ["Open Publishing Editor"],
+		"image": "/people/chelsea.jpg",
+		"groups": ["Staff"]
 	}
 ]
