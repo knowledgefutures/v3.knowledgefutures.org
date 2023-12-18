@@ -10,8 +10,7 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start",
-		"export": "next export"
+		"start": "next start"
 	},
 	"dependencies": {
 		"netlify-plugin-fetch-feeds": "^0.2.3",

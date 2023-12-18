@@ -1,14 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = "dist"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-[[plugins]]
-  package = "netlify-plugin-fetch-feeds"
-    [plugins.inputs]
-    dataDir = "components/NewsList/"
-      [[plugins.inputs.feeds]]
-      name = "kfnotes"
-      url = "https://notes.knowledgefutures.org/rss.xml?collections=kf-news"
-      ttl = 3000
